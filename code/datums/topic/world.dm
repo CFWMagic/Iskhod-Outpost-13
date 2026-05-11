@@ -276,3 +276,57 @@
 			to_chat(A, amessage)
 
 	return "Message Successful"
+
+// 2026.05.11 - CFW - Experimental Whitelist Method
+
+datum/world_topic/whitelist
+	keyword = "whitelist"
+	require_comms_key = TRUE
+	
+/datum/world_topic/whitelist/Run(list/input)
+		/*
+		We got a whitelist request from discord bot lets split the input.
+		expected:
+			1. wckey = ckey of person being whitelisted/blacklisted
+			2. wbool = whitelist boolean (1/0 or TRUE/FALSE) that dictates whether we are adding or removing someone from the whitelist
+			3. validatationkey = the key the bot has, it should match the gameservers commspassword in it's configuration. 2026.05.11 - CFW: Seems to be outdated? Keeping for posterity because I have fuckall idea what I'm doing.
+			4. sender = the person that operates whitelist.
+	*/
+
+	var/client/C
+	var/wckey = input["wckey"]
+	var/wbool = input["wbool"]
+	var/req_ckey = ckey(input["wckey"])
+
+	for(var/client/K in clients)
+		if(K.ckey == req_ckey)
+			C = K
+			break
+	if(!C)
+		return "No client with that name on server"
+
+	var/rank = input["rank"]
+	if(!rank)
+		rank = "Admin"
+
+	C.irc_admin = input["sender"]
+
+	if(wbool == "1")
+		BC_WhitelistKey(wckey, req_ckey)
+		return "Whitelist Successful"
+
+	if(wbool == "0")
+		BC_RemoveKeyDiscordBot(wckey)
+		return "Blacklist Successful"
+
+proc/BC_RemoveKeyDiscordBot(var/key)
+	key = ckey(key)
+
+	if(!LAZYISIN(whitelistedCkeys, key))
+		return 1
+
+	if(whitelistedCkeys)
+		whitelistedCkeys.Remove(key)
+	
+	BC_SaveWhitelist()
+	return 1
