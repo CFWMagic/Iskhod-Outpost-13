@@ -11,8 +11,8 @@
 	passivePerk = FALSE
 
 /datum/perk/laststand/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("Your nerves are shot, you'll need to recover before you can withstand greater pain again."))
@@ -20,18 +20,8 @@
 	cooldown_time = world.time + 15 MINUTES
 	user.visible_message("<b><font color='red'>[user] begins growling as their muscles tighten!</font><b>", "<b><font color='red'>You feel a comfortable warmth as your body steels itself against all pain.</font><b>", "<b><font color='red'>You hear something growling!</font><b>")
 	log_and_message_admins("used their [src] perk.")
-	user.stats.addTempStat(STAT_TGH, 50, 45 SECONDS, "laststand")
-	duration_remaining = 45 SECONDS
+	user.reagents.add_reagent("sabledone", 10)
 	return ..()
-
-/datum/perk/laststand/var/duration_remaining = 0
-
-/datum/perk/laststand/on_process()
-	if(..())
-		if(duration_remaining > 0)
-			holder.chem_effects[CE_PAINKILLER] = max(holder.chem_effects[CE_PAINKILLER], 200)
-			holder.apply_effect(-5, HALLOSS, 0)
-			duration_remaining -= 2 SECONDS // Approximation of life tick
 
 /datum/perk/bone
 	name = "Bone Plated"
@@ -58,11 +48,10 @@
 	icon_state = "suddenbrilliance"
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
 
 /datum/perk/suddenbrilliance/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("You are mentally exhausted, you'll need more rest before you can attempt greater thought."))
@@ -70,22 +59,18 @@
 	cooldown_time = world.time + 25 MINUTES
 	user.visible_message("[user] suddenly looks lost in thought, their focus elsewhere for a moment.", "You clear your mind and feel your thoughts focusing into a single stream of brilliance.", "You hear the calming silence, as if someone nearby is thinking deeply.")
 	log_and_message_admins("used their [src] perk.")
-	user.stats.addTempStat(STAT_MEC, 10, 1 MINUTES, "marquatol")
-	user.stats.addTempStat(STAT_BIO, 10, 1 MINUTES, "marquatol")
-	user.stats.addTempStat(STAT_COG, 10, 1 MINUTES, "marquatol")
+	user.reagents.add_reagent("marquatol", 10)
 	return ..()
 
 /datum/perk/inspired
 	name = "Inspired Intellect"
 	desc = "Even the most humble Mar'qua is capable of study and extrapolation, your natural intellect allows you to become gain inspiration more easily."
 	icon_state = "inspiredintellect"
-	copy_protected = TRUE
 
 /datum/perk/alien_nerves
 	name = "Adapted Nervous System"
 	desc = "A mar'qua's nervous system has long since adapted to the use of stimulants, chemicals, and different toxins. Unlike lesser races, you can handle a wide variety of chemicals before showing any side effects and you'll never become addicted."
 	icon_state = "adaptednervoussystem"
-	copy_protected = TRUE
 
 /datum/perk/alien_nerves/assign(mob/living/L)
 	..()
@@ -110,11 +95,10 @@
 	icon_state = "willtosurvive"
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
 
 /datum/perk/iwillsurvive/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("The human body can only take so much, you'll need more time before you've recovered enough to use this again."))
@@ -122,52 +106,40 @@
 	cooldown_time = world.time + 10 MINUTES
 	user.visible_message("[user] grits their teeth and begins breathing slowly.", "You grit your teeth and remind yourself you ain't got time to bleed!")
 	log_and_message_admins("used their [src] perk.")
-	user.heal_organ_damage(10, 8, 4, 2)
-	user.adjustOxyLoss(-10)
-	user.stats.addTempStat(STAT_TGH, 10, 30 SECONDS, "iwillsurvive")
-	duration_remaining = 30 SECONDS
+	user.reagents.add_reagent("adrenol", 5)
 	return ..()
 
-/datum/perk/iwillsurvive/var/duration_remaining = 0
-
-/datum/perk/iwillsurvive/on_process()
-	if(..())
-		if(duration_remaining > 0)
-			holder.chem_effects[CE_PAINKILLER] = max(holder.chem_effects[CE_PAINKILLER], 45)
-			holder.chem_effects[CE_BLOODRESTORE] = max(holder.chem_effects[CE_BLOODRESTORE], 1.1)
-			holder.chem_effects[CE_STABLE] = 1
-			duration_remaining -= 2 SECONDS
-
+//Allows for you to boost *same faction* that way npcs can use this as well
 /datum/perk/battlecry
 	name = "Inspiring Battlecry"
 	desc = "Life has taught you that beyond sheer force of will, what made your kind conquer the stars was also a sense of camaraderie and cooperation among your battle brothers and sisters. Your heroic warcry can inspire yourself and others to better performance in combat."
 	icon_state = "inspiringbattlecry"
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE //It would be extremely funny but I don't think we want the entire colony to be able to buff themselves infinitely
 
 /datum/perk/battlecry/activate()
-	var/mob/living/carbon/human/user = usr
+	var/mob/living/user = holder
 	var/list/people_around = list()
-	if(!istype(user))
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("You cannot muster the willpower to have a heroic moment just yet."))
 		return FALSE
 	cooldown_time = world.time + 30 MINUTES
 	log_and_message_admins("used their [src] perk.")
-	for(var/mob/living/carbon/human/H in view(user))
-		if(H != user && !isdeaf(H))
+	for(var/mob/living/H in view(user))
+		if(H != user && !isdeaf(H) && H.faction == user.faction)
 			people_around.Add(H)
 	if(people_around.len > 0)
-		for(var/mob/living/carbon/human/participant in people_around)
+		for(var/mob/living/participant in people_around)
 			to_chat(participant, SPAN_NOTICE("You feel inspired by a heroic shout!"))
 			give_boost(participant)
-	give_boost(usr)
-	usr.emote("urah")
+	give_boost(user)
+	if(ishuman(user))
+		user.emote("urah")
 	return ..()
 
-/datum/perk/battlecry/proc/give_boost(mob/living/carbon/human/participant)
+/datum/perk/battlecry/proc/give_boost(mob/living/carbon/participant)
 	var/effect_time = 2 MINUTES
 	var/amount = 10
 	var/list/stats_to_boost = list(STAT_ROB = 10, STAT_TGH = 10, STAT_VIG = 10)
@@ -182,7 +154,6 @@
 	name = "Tenacity"
 	desc = "Humans were always resilient, not letting anything or anyone to get in way of their goals. Due to this your body is way more adapted to anything thrown it's way letting you push onward for just a little bit longer than others."
 	icon_state = "tenacity"
-	copy_protected = TRUE
 
 /datum/perk/linguist_for_humans
 	name = "Diverse Culture"
@@ -191,7 +162,6 @@
 	active = FALSE
 	passivePerk = FALSE
 	var/anti_cheat = FALSE
-	copy_protected = TRUE
 
 /datum/perk/linguist_for_humans/activate()
 	..()
@@ -209,8 +179,10 @@
 	options["Lingua Romana"] = LANGUAGE_ROMANA
 	options["Yassari"] = LANGUAGE_YASSARI
 	options["Latin"] = LANGUAGE_LATIN
+	options["Kriosan"] = LANGUAGE_KRIOSAN
 	options["Akula"] = LANGUAGE_AKULA
 	options["Narad Pidgin"] = LANGUAGE_MERP
+	options["Crinos"] = LANGUAGE_SABLEKYNE
 	var/choice = input(M,"Which language do you know?","Linguist Choice") as null|anything in options
 	if(src && choice)
 		M.add_language(choice)
@@ -221,6 +193,16 @@
 /datum/perk/linguist_for_humans/remove()
 	..()
 
+//////////////////////////////////////Exalt perks
+/*
+Exalts have these two perks, found in perks/wage.dm
+/datum/perk/nepotism
+/datum/perk/debtor
+
+Exalts have this perk, found in perks/genetic.dm
+/datum/perk/splicer
+*/
+
 //////////////////////////////////////Kriosan perks
 /datum/perk/enhancedsenses
 	name = "Enhance Senses"
@@ -228,11 +210,10 @@
 	icon_state = "enhancesenses"
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
 
 /datum/perk/enhancedsenses/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("You haven't quite recovered yet, your senses need more time before you may use this again."))
@@ -240,26 +221,13 @@
 	cooldown_time = world.time + 15 MINUTES
 	user.visible_message("<b><font color='red'>[user] sneers lightly as their pupils dilate and tension builds in their body!</font><b>", "<b><font color='red'>You feel your senses focusing, sound becomes crystal clear and your reflexes as fluid as water.</font><b>")
 	log_and_message_admins("used their [src] perk.")
-	user.stats.addTempStat(STAT_TGH, 10, 45 SECONDS, "kriotol")
-	user.stats.addTempStat(STAT_VIG, 20, 45 SECONDS, "kriotol")
-	duration_remaining = 45 SECONDS
+	user.reagents.add_reagent("kriotol", 5)
 	return ..()
-
-/datum/perk/enhancedsenses/var/duration_remaining = 0
-
-/datum/perk/enhancedsenses/on_process()
-	if(..())
-		if(duration_remaining > 0)
-			holder.chem_effects[CE_DARKSIGHT] = max(holder.chem_effects[CE_DARKSIGHT], SEE_INVISIBLE_NOLIGHTING)
-			holder.chem_effects[CE_SPEEDBOOST] = max(holder.chem_effects[CE_SPEEDBOOST], 0.2)
-			holder.chem_effects[CE_PULSE] = max(holder.chem_effects[CE_PULSE], 1)
-			duration_remaining -= 2 SECONDS
 
 /datum/perk/exceptional_aim
 	name = "Instinctual Skill"
 	desc = "All kriosans understand the dynamics of shooting, to such a degree that guns are more extensions to one's hand than weapon. You take no penalty when firing any range weapon one handed."
 	icon_state = "instinctualskill"
-	copy_protected = TRUE
 
 ////////////////////////////////////////Akula perks
 /datum/perk/recklessfrenzy
@@ -269,11 +237,10 @@
 	icon_state = "recklessfrenzy"
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
 
 /datum/perk/recklessfrenzy/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("Your body has been taxed to its limits, you need more time to recover before using this ability again."))
@@ -282,15 +249,14 @@
 	user.visible_message("<b><font color='red'>[user] lets out deep guttural growl as their eyes glaze over!</font><b>", "<b><font size='3px'><font color='red'>You abandon all reason as your sink into a blood thirsty frenzy!</font><b>", "<b><font color='red'>You hear a terrifying roar!</font><b>")
 	playsound(usr.loc, 'sound/voice/akularoar.ogg', 50, 1)
 	log_and_message_admins("used their [src] perk.")
-	user.stats.addTempStat(STAT_TGH, 60, 45 SECONDS, "robustitol")
-	user.stats.addTempStat(STAT_ROB, 60, 45 SECONDS, "robustitol")
+	user.reagents.add_reagent("robustitol", 5)
 	return ..()
 
 /datum/perk/iron_flesh
 	name = "Iron Flesh"
 	desc = "Akula scales are not only tough and resistant to damage but exceptionally skilled at naturally forcing out embedded objects that somehow punch through. You'll never get a bullet nor object stuck inside when hit."
 	icon_state = "ironflesh"
-	copy_protected = TRUE
+
 
 ////////////////////////////////////////Naramad perks
 /datum/perk/adrenalineburst
@@ -299,11 +265,10 @@
 	icon_state = "adrenalineburst"
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
 
 /datum/perk/adrenalineburst/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("Your legs ache, you'll need more time to recover before using this again."))
@@ -312,31 +277,18 @@
 	user.visible_message("[user] begins breathing much quicker as they let out a merp!", "You feel your heart rate increasing rapidly as everything seems to speed up and you let out an excited merp!", "You hear a loud merp...")
 	playsound(usr.loc, 'sound/voice/merp.ogg', 50, 1)
 	log_and_message_admins("used their [src] perk.")
-	user.stats.addTempStat(STAT_TGH, 25, 45 SECONDS, "naratonin")
-	user.stats.addTempStat(STAT_ROB, 25, 45 SECONDS, "naratonin")
-	duration_remaining = 45 SECONDS
+	user.reagents.add_reagent("naratonin", 5)
 	return ..()
-
-/datum/perk/adrenalineburst/var/duration_remaining = 0
-
-/datum/perk/adrenalineburst/on_process()
-	if(..())
-		if(duration_remaining > 0)
-			holder.chem_effects[CE_SPEEDBOOST] = max(holder.chem_effects[CE_SPEEDBOOST], 0.6)
-			holder.chem_effects[CE_PULSE] = max(holder.chem_effects[CE_PULSE], 1)
-			duration_remaining -= 2 SECONDS
 
 /datum/perk/stay_hydrated
 	name = "Hydration Reliance"
 	desc = "Naramad have adapted biology heavily reliant on the intake of fluids, in particular clean clear water. Drinking purified water, even tap water, heals your body slowly, as if you drank tricordizine!"
 	icon_state = "hydrationreliance"
-	copy_protected = TRUE
 
 /datum/perk/born_warrior
 	name = "Born Warrior"
 	desc = "No matter their background all naramadi are capable bringing any object to bear as a weapon, be it bladed or blunt. Unlike other races your grip is iron and you'll never lose your weapon through embedding it in an enemy."
 	icon_state = "bornwarrior"
-	copy_protected = TRUE
 
 /////////////////////////////////////////Cindarite perks
 /datum/perk/purgetoxins
@@ -345,11 +297,10 @@
 	icon_state = "purgetoxins"
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
 
 /datum/perk/purgetoxins/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("Your body aches with the pain of its recent purge, you'll need more rest before using this effect again."))
@@ -357,18 +308,8 @@
 	cooldown_time = world.time + 15 MINUTES
 	user.visible_message("[user] shivers slightly as they begin to slow down.", "You start to feel quite chilly and tired as your body begins purging toxins within your blood.")
 	log_and_message_admins("used their [src] perk.")
-	duration_remaining = 45 SECONDS
+	user.reagents.add_reagent("cindpetamol", 5)
 	return ..()
-
-/datum/perk/purgetoxins/var/duration_remaining = 0
-
-/datum/perk/purgetoxins/on_process()
-	if(..())
-		if(duration_remaining > 0)
-			holder.chem_effects[CE_TOXIN] = max(holder.chem_effects[CE_TOXIN], -8)
-			holder.chem_effects[CE_SLOWDOWN] = max(holder.chem_effects[CE_SLOWDOWN], 1)
-			holder.chem_effects[CE_PULSE] = min(holder.chem_effects[CE_PULSE], -1)
-			duration_remaining -= 2 SECONDS
 
 /datum/perk/purgeinfections
 	name = "Uncanny Resiliance"
@@ -376,11 +317,10 @@
 	icon_state = "uncannyresiliance"
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
 
 /datum/perk/purgeinfections/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("Your chemical sacks have not refilled yet, you'll need more rest before using this effect again."))
@@ -388,22 +328,13 @@
 	cooldown_time = world.time + 30 MINUTES
 	user.visible_message("[user] shivers slightly before taking a deep breath.", "You shiver slightly and take a deep breath before willing your bodies chemical sacks to open and begin purging infections.")
 	log_and_message_admins("used their [src] perk.")
-	duration_remaining = 1 MINUTES
+	user.reagents.add_reagent("cindicillin", 5)
 	return ..()
-
-/datum/perk/purgeinfections/var/duration_remaining = 0
-
-/datum/perk/purgeinfections/on_process()
-	if(..())
-		if(duration_remaining > 0)
-			duration_remaining -= 2 SECONDS
-			holder.chem_effects[CE_ANTIBIOTIC] = max(holder.chem_effects[CE_ANTIBIOTIC], 1.1)
 
 /datum/perk/second_skin
 	name = "Second Skin"
 	desc = "Cindarites, be they bunker born or spacers, are used to wearing bulky enviromental suits. This life time of being acclimated to heavy clothing has become a second skin for many, allowing you to remove clothing instantly and never suffer slowdown from heavy armor."
 	icon_state = "secondskin"
-	copy_protected = TRUE
 
 ///////////////////////////////////////////Opifex perks
 /datum/perk/opifex_backup
@@ -412,11 +343,10 @@
 	icon_state = "smuggledtools"
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
 
 /datum/perk/opifex_backup/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("You've already retrieved your set of back up tools. You didn't lose them, did you?"))
@@ -434,11 +364,11 @@
 	icon_state = "smuggledmedicine"
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
+
 
 /datum/perk/opifex_backup_medical/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("You've already retrieved your set of backup medicine. You didn't lose them, did you?"))
@@ -458,11 +388,10 @@
 	icon_state = "smuggledarmaments"
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
 
 /datum/perk/opifex_backup_combat/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("You've already retrieved your set of backup weapons. You didn't lose them, did you?"))
@@ -480,11 +409,10 @@
 	icon_state = "smuggledcircuit"
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
 
 /datum/perk/opifex_turret/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("You've already retrieved your scrap circuit. You didn't lose it, did you?"))
@@ -502,11 +430,10 @@
 	icon_state = "smuggledpatchkit"
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
 
 /datum/perk/opifex_patchkit/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("You've already retrieved your patch kit. You didn't lose it, did you?"))
@@ -524,7 +451,6 @@
 	desc = "Through a combination of pheromones, appearance, and an innate understanding of spider behavior all spiders are friendly to you, they won't attack you even if you attack them. This change \
 	in your biology and pheromones however make you an enemy to roaches. As a side effect of dealing with spiders so often, you can't be slowed or stuck by webbing."
 	icon_state = "muscular" // https://game-icons.net
-	copy_protected = TRUE
 
 /datum/perk/spiderfriend/assign(mob/living/L)
 	..()
@@ -539,11 +465,10 @@
 	desc = "You can spin webs, spreading them around a location as a form of snaring barricade."
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
 
 /datum/perk/webmaker/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("You need a bit more time to build up your web reserves!"))
@@ -559,11 +484,10 @@
 	desc = "As a member of the Ru caste your ability to produce chemicals is well known, though it takes an hour to recover and much of your nutritional in-take you can produce clumped ichors that function as medical kits."
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
 
 /datum/perk/ichor/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("Your body hasn't finished recovering, you will need to wait a bit longer."))
@@ -585,7 +509,6 @@
 	name = "Chitin Armor"
 	desc = "Unlike other caste in the cht'mant hive you are built for combat, while not as naturally tough as other species you can tank a few more blows than your softer insectile brethren."
 	icon_state = "paper"
-	copy_protected = TRUE
 
 /datum/perk/chitinarmor/assign(mob/living/L)
 	..()
@@ -603,7 +526,6 @@
 	name = "Scuttlebug"
 	desc = "While your definitive purpose is not as clearly defined as other castes within the cht'mant hive your constant movement and labors have made you quite used to the hustle and bustle, letting you run faster than most races."
 	icon_state = "scuttlebug"
-	copy_protected = TRUE
 
 /datum/perk/repair_goo
 	name = "Produce Repair Goo"
@@ -611,11 +533,10 @@
 	icon_state = "repairgoo"
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
 
 /datum/perk/repair_goo/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("Your body hasn't finished recovering, you will need to wait a bit longer."))
@@ -639,12 +560,11 @@
 	icon_state = "modifyoddity"
 	active = FALSE
 	passivePerk = FALSE
-	copy_protected = TRUE
 
 /datum/perk/oddity_reroll/activate()
-	var/mob/living/carbon/human/user = usr
+	var/mob/living/user = holder
 	var/obj/item/oddity/O = user.get_active_hand()
-	if(!istype(user))
+	if(!isliving(user))
 		return ..()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("The natural forces around you cannot be manipulated just yet."))
@@ -665,13 +585,11 @@
 	desc = "As a Folken, you can use the light to heal wounds, standing in areas of bright light will increase your natural regeneration."
 	icon_state = "folkenphotohealing"
 	passivePerk = TRUE
-	copy_protected = TRUE
 
 /datum/perk/folken_healing/young
 	name = "Folken Photo-Healing"
 	desc = "As a Folken, you can use the light to heal wounds, standing in areas of bright light will increase your natural regeneration. Due to your comparitively young age, you heal much faster than older folken."
 	var/replaced = FALSE // Did it replace the normal folken healing?
-	copy_protected = TRUE
 
 /datum/perk/folken_healing/young/assign(mob/living/L)
 	..()
@@ -691,7 +609,6 @@
 	desc = "As a mycus, you heal as long as you are in the darkness, increasing your natural regeneration."
 	icon_state = "mycusregeneration"
 	passivePerk = TRUE
-	copy_protected = TRUE
 
 /datum/perk/mushroom_follower
 	name = "Spawn Shroomling"
@@ -702,11 +619,10 @@
 	passivePerk = FALSE
 	var/used = FALSE // Not deleting after use since the description is useful.
 	var/follower_type = /mob/living/carbon/superior/fungi/shroom
-	copy_protected = TRUE
 
 /datum/perk/mushroom_follower/activate()
-	var/mob/living/carbon/human/user = usr
-	if(!istype(user))
+	var/mob/living/user = holder
+	if(!isliving(user))
 		return ..()
 	if(used)
 		to_chat(user, SPAN_NOTICE("You've already created your companion, you didn't lose them did you?"))
@@ -728,12 +644,11 @@
 	passivePerk = FALSE
 	var/used = FALSE // Not deleting after use since the description is useful.
 	var/follower_type = /mob/living/carbon/superior/fungi/slime
-	copy_protected = TRUE
 
 /datum/perk/slime_follower/activate()
-	var/mob/living/carbon/human/user = usr
+	var/mob/living/user = holder
 
-	if(!istype(user))
+	if(!isliving(user))
 		return ..()
 	if(used)
 		to_chat(user, SPAN_NOTICE("You've already created your companion, you didn't lose them did you?"))
@@ -753,7 +668,6 @@
 	based products."
 	icon_state = "carnivore"
 	passivePerk = TRUE
-	copy_protected = TRUE
 
 /datum/perk/herbivore
 	name = "Herbivore"
@@ -761,7 +675,7 @@
 	based products."
 	icon_state = "herbivore"
 	passivePerk = TRUE
-	copy_protected = TRUE
+
 ///////////////////////////////////// Slime perks
 /datum/perk/racial/limb_regen
 	name = "Hypermytosis"
@@ -770,23 +684,17 @@
 	icon_state = "hypermytosis"
 	var/cooldown = 5 MINUTES
 	passivePerk = FALSE
-	var/nutrition_cost = 300
-	//This is the ONLY racial perk I am going to allow to be copied.
+	var/nutrition_cost = 450
 
 /datum/perk/racial/limb_regen/activate()
 	if(world.time < cooldown_time)
 		to_chat(usr, SPAN_NOTICE("You've already regenerated recently, wait some time before trying again."))
 		return FALSE
-
 	if(holder.nutrition > nutrition_cost)
 		cooldown_time = world.time + cooldown
 		holder.nutrition -= nutrition_cost
 		to_chat(usr, SPAN_NOTICE("You turn your attention inward, focusing on mending your form."))
-		var/mob/living/carbon/human/H = holder
-		for(var/name in BP_ALL_LIMBS)
-			if(!H.has_appendage(name))
-				H.restore_organ(name)
-
+		holder.reagents.add_reagent("mstim", 10)
 	else
 		to_chat(usr, SPAN_NOTICE("You lack the energy for such an expenditure."))
 
@@ -800,7 +708,6 @@
 	var/amount_to_boost = 45 // How much the stats are boosted
 	var/duration = 1 MINUTES // How long the stats are boosted for
 	var/blorp = 0 //I'm so sorry.
-	copy_protected = TRUE
 
 /datum/perk/racial/slime_stat_boost/activate()
 	if(world.time < cooldown_time)
@@ -820,7 +727,6 @@
 			holder.stats.addTempStat(STAT_TGH, amount_to_boost, duration, "Slime Biology")
 	else
 		to_chat(usr, SPAN_NOTICE("You lack the energy for such an expenditure."))
-
 /datum/perk/racial/slime_stat_boost/mental
 	name = "Malleable Mind"
 	desc = "Expend some of your spare calories to greatly improve your intellect."
@@ -839,7 +745,6 @@
 	var/cooldown = 10 MINUTES
 	passivePerk = FALSE
 	var/nutrition_cost = 200
-	copy_protected = TRUE
 
 /datum/perk/racial/speed_boost/activate()
 	if(world.time < cooldown_time)
@@ -854,14 +759,36 @@
 	holder.nutrition -= nutrition_cost
 	holder.reagents.add_reagent("slime_speed", 5)
 
+/* This is the old code for this perk, it does not work but it's left for postereity. Feel free to remove if you please - CDB
+/datum/perk/racial/limb_regen
+	name = "Gelatinous Regeneration"
+	desc = "Spend nutrition to regenerate lost limbs, albeit without fully fixing your injuries."
+	var/cooldown = 30 MINUTES
+	passivePerk = FALSE
+	var/nutrition_cost = 300
+
+/datum/perk/racial/limb_regen/activate()
+	if(world.time < cooldown_time)
+		to_chat(usr, SPAN_NOTICE("You can't regenerate again so soon!"))
+		return FALSE
+	cooldown_time = world.time + cooldown
+	holder.nutrition -= nutrition_cost
+	for(var/obj/item/organ/external/current_organ in holder.organs) //grab the current brute/burn of the limb, then re-apply half of it after rejuvenating OR subtract ten, whichever is lower
+		var/old_brute = current_organ.brute_dam
+		var/old_burn = current_organ.burn_dam
+		if(!(current_organ == BP_HEAD))
+			current_organ.replaced()
+		current_organ.rejuvenate()
+		current_organ.brute_dam = max(0, min((old_brute / 2), (old_brute - 10)))
+		current_organ.burn_dam = max(0, min((old_burn / 2), (old_burn - 10)))*/
+
 /datum/perk/racial/slime_metabolism
 	name = "Gelatinous Biology"
-	desc = "Your peculiar anatomy afford you a variety of benefits compared to most organics. What causes toxin damage will heal it instead of causing it, and vice-versa.\
-	Additionally you are somewhat resistant to NSA overload, and can slowly regenerate health so long as you have nutrition."
+	desc = "Your peculiar anatomy afford you a variety of benefits compared to most organics. Toxins will generally heal instead of hurt, whereas anti-toxins will hurt instead of heal.\
+	additionally you are somewhat resistant to NSA overload, and can slowly regenerate health so long as you have nutrition. "//This perk doesn't actually cause the slime-specific chem metabolism effects
 	icon_state = "gelatinousbiology"
 	passivePerk = TRUE
 	var/regen_rate = 0.3
-	copy_protected = TRUE
 
 /datum/perk/racial/slime_metabolism/on_process()
 	. = ..()
@@ -870,12 +797,14 @@
 
 /datum/perk/racial/slime_metabolism/assign(mob/living/L)
 	..()
+	holder.toxin_mod_perk -= 0.5
 	if(ishuman(holder))
 		var/mob/living/carbon/human/H = holder
 		H.metabolism_effects.nsa_bonus += 100
 		H.metabolism_effects.calculate_nsa()
 
 /datum/perk/racial/slime_metabolism/remove()
+	holder.toxin_mod_perk += 0.5
 	if(ishuman(holder))
 		var/mob/living/carbon/human/H = holder
 		H.metabolism_effects.nsa_bonus -= 100
