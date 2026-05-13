@@ -150,27 +150,22 @@
 /obj/item/reagent_containers/glass/beaker/vial/vape/berry
 	preloaded_reagents = list("nicotine" = 20, "berryjuice" = 10)
 	name = "berry vape vial"
-	label_text = "berry"
 
 /obj/item/reagent_containers/glass/beaker/vial/vape/lemon
 	preloaded_reagents = list("nicotine" = 20, "lemonjuice" = 10)
 	name = "lemon vape vial"
-	label_text = "lemon"
 
 /obj/item/reagent_containers/glass/beaker/vial/vape/banana
 	preloaded_reagents = list("nicotine" = 20, "banana" = 10)
 	name = "banana vape vial"
-	label_text = "banana"
 
 /obj/item/reagent_containers/glass/beaker/vial/vape/mint
 	preloaded_reagents = list("nicotine" = 20, "mint" = 10)
 	name = "mint vape vial"
-	label_text = "mint"
 
 /obj/item/reagent_containers/glass/beaker/vial/vape/nicotine
 	preloaded_reagents = list("nicotine" = 30)
 	name = "bland vape vial"
-	label_text = "nicotine"
 
 /obj/item/reagent_containers/glass/beaker/vial/random
 	var/list/random_reagent_list = list(list("water" = 15) = 1, list("cleaner" = 15) = 1)

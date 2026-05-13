@@ -81,7 +81,7 @@
 	stamp_flags = STAMP_ADMIN
 
 /obj/item/stamp/cc/nm
-	name = "nadezhda rangers official's stamp"
+	name = "iskhod rangers official's stamp"
 
 /obj/item/stamp/cc/bs
 	name = "blackshield official's stamp"
