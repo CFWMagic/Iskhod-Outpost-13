@@ -34,9 +34,9 @@ var/global/defer_powernet_rebuild = 0      // True if net rebuild will be called
 
 // Camera networks
 #define NETWORK_CRESCENT "Crescent"
-#define NETWORK_COLONY_SURFACE "Colony Surface"
-#define NETWORK_COLONY_UNDERGROUND "Colony Underground"
-#define NETWORK_COLONY_TRANSITION "Colony Transition"
+#define NETWORK_COLONY_SURFACE "Iskhod Outpost Surface"
+#define NETWORK_COLONY_UNDERGROUND "Iskhod Outpost Underground"
+#define NETWORK_COLONY_TRANSITION "Iskhod Outpost Transition"
 #define NETWORK_CHURCH "Absolute Network"
 #define NETWORK_PROP "Prospector Network"
 #define NETWORK_GATE "Gate Network"
@@ -44,7 +44,7 @@ var/global/defer_powernet_rebuild = 0      // True if net rebuild will be called
 #define NETWORK_COMMAND "Command"
 #define NETWORK_ENGINE "Engine"
 #define NETWORK_ENGINEERING "Engineering"
-#define NETWORK_CEV_ERIS "Iskhod Wall Colony"
+#define NETWORK_CEV_ERIS "Iskhod Outpost Fence"
 #define NETWORK_MEDICAL "Medical"
 #define NETWORK_MERCENARY "MercurialNet"
 #define NETWORK_MINE "Prospector Shuttle - The Rocinante"
