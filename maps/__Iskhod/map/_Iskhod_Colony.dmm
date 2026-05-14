@@ -55064,6 +55064,10 @@
 /obj/item/stamp/ce,
 /turf/simulated/floor/wood,
 /area/iskhod/command/gmaster)
+"oFg" = (
+/obj/structure/invislight,
+/turf/open/pool,
+/area/iskhod/crew_quarters/pool)
 "oFn" = (
 /obj/structure/disposalpipe/trunk,
 /obj/machinery/disposal,
@@ -57235,6 +57239,12 @@
 /obj/item/bedsheet/medical,
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/iskhod/medical/ward)
+"pjX" = (
+/obj/random/mecha/damaged/low_chance,
+/obj/random/mecha/damaged/low_chance,
+/obj/random/mecha,
+/turf/simulated/floor/tiled/dark/gray_platform,
+/area/iskhod/maintenance/undergroundfloor1north)
 "pka" = (
 /obj/structure/sign/atmos/atmos_n2{
 	pixel_y = -30;
@@ -67425,6 +67435,9 @@
 	dir = 1;
 	pixel_y = -25
 	},
+/obj/random/mecha/low_chance,
+/obj/random/mecha/low_chance,
+/obj/random/mecha/damaged/low_chance,
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/iskhod/rnd/robotics)
 "sap" = (
@@ -67600,6 +67613,9 @@
 /obj/machinery/light{
 	brightness_power = 1
 	},
+/obj/random/mecha/low_chance,
+/obj/random/mecha/low_chance,
+/obj/random/mecha/damaged/low_chance,
 /turf/simulated/floor/tiled/dark/violetcorener,
 /area/iskhod/rnd/robotics)
 "scd" = (
@@ -69988,6 +70004,9 @@
 /area/iskhod/maintenance/substation/medical)
 "sLs" = (
 /obj/machinery/mech_recharger,
+/obj/random/mecha/low_chance,
+/obj/random/mecha/damaged/low_chance,
+/obj/random/mecha/low_chance,
 /obj/random/mecha/low_chance,
 /obj/random/mecha/damaged/low_chance,
 /turf/simulated/floor/tiled/dark/violetcorener,
@@ -102604,7 +102623,7 @@ jDL
 jDL
 iDc
 iDc
-kIX
+pjX
 iRm
 pfA
 iDc
@@ -103697,7 +103716,7 @@ uGo
 ufy
 ufy
 ufy
-ufy
+oFg
 ufy
 ufy
 ufy
@@ -105919,7 +105938,7 @@ uGo
 ufy
 ufy
 ufy
-ufy
+oFg
 ufy
 ufy
 ufy
