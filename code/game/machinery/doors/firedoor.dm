@@ -384,6 +384,8 @@
 		if(data.len > 0)
 			var/turf/target_turf = data[FIREDOOR_TURF]
 			spawn(5) // we need this here else the air subsystem pauses whenever we do return_air
+				if(isnull(target_turf)==1)
+					debug_admins("FIREDOOR RUNTIME DEBUG START\ndata\[firedoor_turf\] = [data[FIREDOOR_TURF]]\nfiredoor_turf = [FIREDOOR_TURF]\ndata = [data]\ntile_info = [tile_info]\ncardinal_target = [cardinal_target].\nFIREDOOR RUNTIME DEBUG END."
 				data[FIREDOOR_ATMOS] = target_turf.return_air() // problem?
 				if(!data[FIREDOOR_ATMOS])
 					alerts |= FIREDOOR_ALERT_COLD
