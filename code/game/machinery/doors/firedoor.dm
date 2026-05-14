@@ -1,4 +1,3 @@
-
 #define FIREDOOR_MAX_TEMP 323 // °C
 #define FIREDOOR_MIN_TEMP 253
 #define FIREDOOR_MIN_PRESSURE 30
@@ -385,7 +384,7 @@
 			var/turf/target_turf = data[FIREDOOR_TURF]
 			spawn(5) // we need this here else the air subsystem pauses whenever we do return_air
 				if(isnull(target_turf)==1)
-					debug_admins("FIREDOOR RUNTIME DEBUG START\ndata\[firedoor_turf\] = [data[FIREDOOR_TURF]]\nfiredoor_turf = [FIREDOOR_TURF]\ndata = [data]\ntile_info = [tile_info]\ncardinal_target = [cardinal_target].\nFIREDOOR RUNTIME DEBUG END."
+					message_admins("FIREDOOR RUNTIME DEBUG START\ndata\[firedoor_turf\] = [data[FIREDOOR_TURF]]\nfiredoor_turf = [FIREDOOR_TURF]\ndata = [data]\ntile_info = [tile_info]\ncardinal_target = [cardinal_target].\nFIREDOOR RUNTIME DEBUG END.") // ADDED FOR DEBUGGING FREQUENT RUNTIME
 				data[FIREDOOR_ATMOS] = target_turf.return_air() // problem?
 				if(!data[FIREDOOR_ATMOS])
 					alerts |= FIREDOOR_ALERT_COLD
