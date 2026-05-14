@@ -32,7 +32,7 @@
 	gun_parts = list(/obj/item/part/gun/frame/opshot = 1, /obj/item/part/gun/grip/rubber = 1, /obj/item/part/gun/mechanism/shotgun = 1, /obj/item/part/gun/barrel/shotgun = 1)
 
 /obj/item/gun/projectile/shotgun/riot/robo
-	name = "intergrated \"State\" riot shotgun"
+	name = "integrated \"State\" riot shotgun"
 	desc = "A Seinemetall Defense GmbH riot auto action shotgun, its uncommonly seen deployed in most police operation due to the success of the \"stolen\" \"Regulator\" design. \
 	This particular shotgun has been redesigned many times, never quite reaching a standard everyone was happy with, with some lauding it as confusing for a shotgun. \
 	Holds up to six 20mm shells in a tube magazine."
@@ -45,7 +45,7 @@
 	load_method = SINGLE_CASING|SPEEDLOADER //So boxes of ammo work
 
 /obj/item/gun/projectile/shotgun/riot/robo/single_shot
-	name = "intergrated single barrel shotgun"
+	name = "integrated single barrel shotgun"
 	desc = "A auto ejecting single barrel shotgun for mining borgs to handle pesky critters in the underground."
 	icon_state = "miner_shotgun"
 	item_state = "miner_shotgun"
