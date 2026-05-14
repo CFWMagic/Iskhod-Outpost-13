@@ -38,8 +38,6 @@
 	//ranged and melee damage multipliers
 	var/r_damage_coeff = 1
 	var/m_damage_coeff = 1
-	var/r_armor_addition = 0
-	var/m_armor_addition = 0
 	var/rhit_power_use = 0
 	var/mhit_power_use = 0
 
@@ -52,7 +50,7 @@
 	var/obj/item/mecha_parts/mecha_equipment/thruster/thruster = null
 
 	//the values in this list show how much damage will pass through, not how much will be absorbed.
-	var/list/damage_absorption = list("brute"=6,"melee"=6,"fire"=1.2,"bullet"=6,"energy"=6,"bomb"=1)
+	var/list/damage_absorption = list("brute"=0.8,"fire"=1.2,"bullet"=0.9,"energy"=1,"bomb"=1)
 	// This armor level indicates how fortified the mech's armor is.
 	var/armor_level = MECHA_ARMOR_LIGHT
 	var/obj/item/cell/large/cell
@@ -166,6 +164,7 @@
 
 	for(var/atom/movable/AM in cargo)
 		AM.forceMove(loc)
+		AM.reset_plane_and_layer()
 
 	cargo.Cut()
 
@@ -237,10 +236,12 @@
 
 /obj/mecha/proc/reload_gun()
 	var/obj/item/mech_ammo_box/MAB
+
 	if(istype(selected, /obj/item/mecha_parts/mecha_equipment/ranged_weapon/ballistic/missile_rack)) // Does it use bullets?
 		var/obj/item/mecha_parts/mecha_equipment/ranged_weapon/ballistic/missile_rack/missile = selected
 		missile.rearm()
 		return TRUE
+
 	if(!istype(selected, /obj/item/mecha_parts/mecha_equipment/ranged_weapon/ballistic)) // Does it use bullets?
 		return FALSE
 
@@ -278,10 +279,9 @@
 			occupant_message(SPAN_WARNING("[selected.name] reloaded successfully.")) //Let the user know they infact reloaded their gun
 		return TRUE
 
-	//This means we don't have ammo stored for our weapon - Trilby
 	occupant_message(SPAN_WARNING("No Ammo Detected for Selected Weapon."))
+	//This means we dont have ammo stored for our weapon - Trilby
 	return FALSE
-
 
 ////////////////////////
 ////// Helpers /////////
@@ -821,9 +821,9 @@ assassination method if you time it right*/
 ////////  Health related procs  ////////
 ////////////////////////////////////////
 
-/obj/mecha/proc/take_damage(amount, type = "brute", armor_divisor, armor_carry_over)
+/obj/mecha/proc/take_damage(amount, type = "brute")
 	if(amount)
-		var/damage = absorb_damage(amount,type,armor_divisor,armor_carry_over)
+		var/damage = absorb_damage(amount,type)
 		health -= damage
 		update_health()
 		log_append_to_last("Took [damage] points of damage. Damage type: \"[type]\".", 1)
@@ -834,27 +834,24 @@ assassination method if you time it right*/
 		update_health()
 		log_append_to_last("Took [amount] points of damage.", 1)
 
-/obj/mecha/proc/absorb_damage(damage,damage_type,armor_divisor,armor_carry_over)
-	if(damage_type == BRUTE || damage_type == ARMOR_MELEE || damage_type == ARMOR_BULLET || damage_type == ARMOR_ENERGY)
-		log_append_to_last("damage before math [damage]. Armory carry over [armor_carry_over]. armor divisior [armor_divisor] type: \"[type]\".", 1)
-		return max(damage-(listgetindex(damage_absorption,damage_type)+armor_carry_over)/armor_divisor,0)
+/obj/mecha/proc/absorb_damage(damage,damage_type)
 	return damage*(listgetindex(damage_absorption,damage_type) || 1)
 
-/obj/mecha/proc/hit_damage(damage, type="brute", armor_divisor, is_melee = 0)
+/obj/mecha/proc/hit_damage(damage, type="brute", is_melee = 0)
 	var/power_to_use
-	var/armor_carry_over
+	var/damage_coeff_to_use
 
 	if(is_melee)
 		power_to_use = mhit_power_use
-		armor_carry_over = m_armor_addition
+		damage_coeff_to_use = m_damage_coeff
 	else
 		power_to_use = rhit_power_use
-		armor_carry_over = r_armor_addition
+		damage_coeff_to_use = r_damage_coeff
 
 	if(power_to_use)
 		use_power(power_to_use)
 
-	take_damage(round(damage), type, armor_divisor, armor_carry_over)
+	take_damage(round(damage*damage_coeff_to_use), type)
 	start_booster_cooldown(is_melee)
 
 
@@ -966,7 +963,7 @@ assassination method if you time it right*/
 			var/final_penetration = Proj.penetrating ? Proj.penetrating - armor_level : 0
 			var/damage_multiplier = final_penetration > 0 ? max(1.5, final_penetration) : 1 // Minimum damage bonus of 50% if you beat the mech's armor
 			Proj.penetrating = 0 // Reduce this value to maintain the old penetration loop's behavior
-			hit_damage((Proj.damage_types[BRUTE] + Proj.damage_types[BURN]) * damage_multiplier, Proj.check_armor, Proj.armor_divisor, is_melee=0)
+			hit_damage(Proj.get_structure_damage() * damage_multiplier, Proj.check_armor, is_melee=0)
 
 			//AP projectiles have a chance to cause additional damage
 			if(final_penetration > 0)
@@ -1223,7 +1220,7 @@ assassination method if you time it right*/
 				ammo[i] = I
 				user.visible_message("[user] attaches [I] to [src].", "You attach [I] to [src]")
 				log_message("Ammobox [I] inserted by [user]")
-		return
+				return
 
 	else
 		log_message("Attacked by [I]. Attacker - [user]")
@@ -1333,6 +1330,12 @@ assassination method if you time it right*/
 		to_chat(user, SPAN_DANGER("The [name] is already occupied!"))
 		log_append_to_last("Permission denied.")
 		return
+
+	// COMMENTED UNTIL WE DECIDE TO PORT OR REMOVE THIS FROM SOJOURN
+	//var/mob/living/L = user
+	//if(L.stats.getPerk(PERK_BLUESPACE_BELLCLOCK))
+	//	to_chat(user, SPAN_WARNING("Do [L]'s current state of tracking going into a mecha is forbidden."))
+	//	return
 
 	var/passed
 	if(dna)
