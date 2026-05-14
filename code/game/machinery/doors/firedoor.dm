@@ -1,3 +1,4 @@
+
 #define FIREDOOR_MAX_TEMP 323 // °C
 #define FIREDOOR_MIN_TEMP 253
 #define FIREDOOR_MIN_PRESSURE 30
@@ -11,9 +12,9 @@
 #define F_SOUTH "South"
 #define F_EAST "East"
 #define F_WEST "West"
-#define FIREDOOR_TURF "1"
-#define FIREDOOR_ATMOS "2"
-#define FIREDOOR_ALERT "3"
+#define FIREDOOR_TURF 1
+#define FIREDOOR_ATMOS 2
+#define FIREDOOR_ALERT 3
 /obj/machinery/door/firedoor
 	name = "\improper Emergency Shutter"
 	desc = "Emergency air-tight shutter, capable of sealing off breached areas."
@@ -115,16 +116,16 @@
 			var/turf/simulated/redefined_turf = neighbor
 			var/turf_zone = redefined_turf.zone
 			tile_info[cardinal] = list(
-				redefined_turf,
-				FALSE,
-				FALSE
+				FIREDOOR_TURF = redefined_turf,
+				FIREDOOR_ATMOS = FALSE,
+				FIREDOOR_ALERT = FALSE
 			)
 			registered_zas_zones[cardinal] = turf_zone
 		else
 			tile_info[cardinal] =  list(
-				neighbor,
-				FALSE,
-				FALSE
+				FIREDOOR_TURF = neighbor,
+				FIREDOOR_ATMOS = FALSE,
+				FIREDOOR_ALERT = FALSE
 			)
 			registered_zas_zones[cardinal] = null
 	handle_unique_zone_register()
@@ -383,8 +384,6 @@
 		if(data.len > 0)
 			var/turf/target_turf = data[FIREDOOR_TURF]
 			spawn(5) // we need this here else the air subsystem pauses whenever we do return_air
-				if(isnull(target_turf)==1)
-					message_admins("FIREDOOR RUNTIME DEBUG START\ndata\[firedoor_turf\] = [data[FIREDOOR_TURF]]\nfiredoor_turf = [FIREDOOR_TURF]\ndata = [data]\ntile_info = [tile_info]\ncardinal_target = [cardinal_target].\nFIREDOOR RUNTIME DEBUG END.") // ADDED FOR DEBUGGING FREQUENT RUNTIME
 				data[FIREDOOR_ATMOS] = target_turf.return_air() // problem?
 				if(!data[FIREDOOR_ATMOS])
 					alerts |= FIREDOOR_ALERT_COLD
