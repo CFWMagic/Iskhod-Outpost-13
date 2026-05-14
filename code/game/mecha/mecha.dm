@@ -40,6 +40,8 @@
 	var/m_damage_coeff = 1
 	var/rhit_power_use = 0
 	var/mhit_power_use = 0
+	var/r_armor_addition = 0
+	var/m_armor_addition = 0
 
 	//Movement
 	var/step_in = 10 //make a step in step_in/10 sec.
