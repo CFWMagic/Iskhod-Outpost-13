@@ -72,7 +72,7 @@
 
 /datum/design/research/item/rig_grenade_launcher
 	name = "hardsuit grenade launcher"
-	desc = "A mounted grenade launcher onto a rig. Holds smoke bombs, emps and flashbangs for non-lethal riot controle."
+	desc = "A mounted grenade launcher onto a rig. Holds smoke bombs, emps and flashbangs for non-lethal riot control."
 	build_path = /obj/item/rig_module/grenade_launcher
 	materials = list(MATERIAL_STEEL = 75, MATERIAL_PLASTIC = 65)
 	category = "RIG"
