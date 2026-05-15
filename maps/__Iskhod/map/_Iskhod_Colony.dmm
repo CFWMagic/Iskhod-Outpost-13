@@ -34342,7 +34342,9 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
-/obj/machinery/door/airlock/maintenance_rnd,
+/obj/machinery/door/airlock/maintenance_rnd{
+	req_access = list(5)
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/iskhod/maintenance/substation/science)
 "iqT" = (
@@ -78801,7 +78803,7 @@
 	},
 /obj/machinery/door/airlock/glass_research{
 	name = "Robotics Surgery Lab";
-	req_access = list(29)
+	req_access = list(5)
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/industrial/black_large_slates,
@@ -97426,10 +97428,8 @@
 "xUH" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/maintenance_engineering{
-	name = "Engineering Maintenance";
-	req_one_access = list(10,19);
-	req_access = list(10,5)
+/obj/machinery/door/airlock/maintenance_rnd{
+	req_access = list(5)
 	},
 /turf/simulated/floor/industrial/concrete_bricks,
 /area/iskhod/maintenance/substation/science)
