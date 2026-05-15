@@ -22,7 +22,9 @@
 
 	var/saved = "[A.name] analyzed! On circuit printers with cloning enabled, you may use the code below to clone the circuit:<br><br><code>[SScircuit.save_electronic_assembly(EA)]</code>"
 	if(saved)
-		to_chat(user, SPAN("notice", "You scan [A]."))
-		show_browser(user, HTML_SKELETON(saved), "window=circuit_scan;size=500x600;border=1;can_resize=1;can_close=1;can_minimize=1")
+		to_chat(user, SPAN("notice", "You scan [A]. The encoded results are as below. (WARNING, experimental implementation of analyzer code display as the preexisting method does not work)."))
+		to_chat(user, SPAN("notice", saved))
+	// COMMENTED OLD METHOD AND REPLACED WITH to_chat METHOD TO DISPLAY CODE AS HTML WAS NOT DISPLAYING - MushyP
+	//	show_browser(user, HTML_SKELETON(saved), "window=circuit_scan;size=500x600;border=1;can_resize=1;can_close=1;can_minimize=1")
 	else
 		to_chat(user, SPAN("warning", "[A] is not complete enough to be encoded!"))
