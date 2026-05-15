@@ -564,6 +564,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/iskhod/rnd/anomal)
+"ev" = (
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/tiled/white,
+/area/iskhod/rnd/mixing)
 "ez" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/mechanical,
@@ -711,18 +715,6 @@
 /area/iskhod/rnd/anomalisolone{
 	name = "Anomaly Analysis Lab"
 	})
-"fP" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/white,
-/area/iskhod/rnd/mixing)
 "fT" = (
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 1
@@ -1219,9 +1211,6 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/iskhod/rnd/mixing)
@@ -2258,9 +2247,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/disposalpipe/junction{
-	dir = 4;
-	icon_state = "pipe-j2"
+/obj/structure/disposalpipe/segment{
+	dir = 8;
+	icon_state = "pipe-c"
 	},
 /turf/simulated/floor/tiled/white,
 /area/iskhod/rnd/mixing)
@@ -3743,6 +3732,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/iskhod/rnd/outpostmachineroom)
+"Bs" = (
+/obj/structure/disposalpipe/segment,
+/turf/unsimulated/mineral,
+/area/iskhod/rnd/mixing)
 "Bu" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -4282,7 +4275,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/disposalpipe/junction{
-	dir = 2
+	dir = 1;
+	icon_state = "pipe-j2"
 	},
 /turf/simulated/floor/tiled/white,
 /area/iskhod/rnd/mixing)
@@ -4977,9 +4971,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 4;
-	icon_state = "pipe-c"
+/obj/structure/disposalpipe/junction{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/iskhod/rnd/mixing)
@@ -5355,6 +5348,11 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white/violetcorener,
 /area/iskhod/rnd/outpostgeneral)
+"NK" = (
+/obj/machinery/portable_atmospherics/powered/scrubber,
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/tiled/white/cargo,
+/area/iskhod/rnd/mixing)
 "NL" = (
 /obj/machinery/portable_atmospherics/canister/plasma,
 /turf/simulated/floor/tiled/white/cargo,
@@ -5542,6 +5540,10 @@
 	},
 /turf/simulated/floor/industrial/grey_slates_long,
 /area/mine/hallway)
+"Pa" = (
+/obj/structure/disposalpipe/segment,
+/turf/simulated/wall/r_wall/iskhod,
+/area/iskhod/rnd/mixing)
 "Pb" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -5668,6 +5670,10 @@
 /obj/machinery/atmospherics/pipe/tank/nitrogen,
 /turf/simulated/floor/industrial/grey_slates_long,
 /area/mine/atmos)
+"PO" = (
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/asteroid/dirt/mud,
+/area/iskhod/rnd/mixing)
 "PQ" = (
 /turf/simulated/shuttle/wall/mining{
 	icon_state = "7,18"
@@ -5765,6 +5771,11 @@
 	},
 /turf/simulated/floor/tiled/white/violetcorener,
 /area/eris/rnd/xenobiology/xenoflora)
+"Qq" = (
+/obj/machinery/portable_atmospherics/powered/pump,
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/tiled/white/cargo,
+/area/iskhod/rnd/mixing)
 "Qs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -6087,6 +6098,9 @@
 /area/iskhod/rnd/outpoststorage)
 "Sg" = (
 /obj/machinery/disposal,
+/obj/structure/disposalpipe/trunk{
+	dir = 2
+	},
 /turf/simulated/floor/tiled/white/cargo,
 /area/iskhod/rnd/mixing)
 "Sl" = (
@@ -7059,6 +7073,11 @@
 "Zm" = (
 /turf/unsimulated/mineral/cold,
 /area/mine/unexplored)
+"Zq" = (
+/obj/machinery/atmospherics/unary/vent_scrubber,
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/tiled/white,
+/area/iskhod/rnd/mixing)
 "Zr" = (
 /turf/simulated/wall/r_wall/iskhod,
 /area/mine/processing)
@@ -21813,12 +21832,12 @@ MV
 MV
 MV
 MV
-NM
-NM
-NM
-NM
-NM
-NM
+Xm
+Xm
+Xm
+Xm
+Xm
+Xm
 NM
 NM
 Ve
@@ -22015,11 +22034,11 @@ MV
 MV
 MV
 MV
-NM
 Xm
-Xm
-Xm
-Xm
+Vs
+Vs
+Vs
+Vs
 Xm
 NM
 vU
@@ -22217,8 +22236,8 @@ MV
 MV
 MV
 MV
-NM
 Xm
+Vs
 Vs
 Vs
 Vs
@@ -22419,8 +22438,8 @@ MV
 MV
 MV
 MV
-NM
 Xm
+Vs
 Vs
 Vs
 Vs
@@ -22621,8 +22640,8 @@ MV
 MV
 MV
 MV
-NM
 Xm
+Vs
 Vs
 Vs
 Yh
@@ -22823,8 +22842,8 @@ MV
 MV
 MV
 MV
-NM
 Xm
+Vs
 Vs
 Vs
 Vs
@@ -23025,8 +23044,8 @@ MV
 MV
 MV
 MV
-NM
 Xm
+Vs
 Vs
 hA
 cb
@@ -23227,19 +23246,19 @@ MV
 MV
 MV
 MV
-NM
 Xm
-Xm
-Xm
-Xm
-Xm
-Xm
-NM
-TP
-yY
-Bq
-Bq
-eG
+Vs
+Vs
+Vs
+PO
+Bs
+Bs
+Pa
+NK
+Qq
+ev
+ev
+Zq
 KJ
 AM
 AM
@@ -23429,13 +23448,13 @@ MV
 MV
 MV
 MV
-NM
-NM
-NM
-NM
-NM
-NM
-NM
+Xm
+Xm
+Xm
+Xm
+Xm
+Xm
+Xm
 NM
 TP
 yY
@@ -23853,7 +23872,7 @@ NM
 NM
 NM
 vw
-fP
+VC
 BG
 NM
 NM
@@ -24867,8 +24886,8 @@ iC
 iC
 iC
 iC
-bo
-bo
+iC
+iC
 bo
 bo
 bo
@@ -25069,8 +25088,8 @@ iC
 iC
 iC
 iC
-bo
-bo
+iC
+iC
 bo
 MV
 bo
@@ -25269,9 +25288,9 @@ iC
 iC
 iC
 iC
-bo
-eY
-eY
+iC
+iC
+iC
 bo
 bo
 MV
@@ -25471,8 +25490,8 @@ iC
 iC
 iC
 iC
-bo
-eY
+iC
+iC
 vW
 vW
 vW
@@ -25673,8 +25692,8 @@ iC
 iC
 iC
 iC
-bo
-eY
+iC
+iC
 vW
 vW
 vW
@@ -25873,10 +25892,10 @@ xR
 iC
 iC
 iC
-eY
-eY
-bo
-eY
+iC
+iC
+iC
+iC
 vW
 vW
 vW
@@ -26075,7 +26094,7 @@ xR
 iC
 iC
 iC
-eY
+iC
 eY
 eY
 eY
