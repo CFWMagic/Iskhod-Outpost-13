@@ -297,7 +297,7 @@
 	icon_state = "player-blue-lower"
 	join_tag = /datum/job/officerjr
 
-/*/datum/job/medspec
+/datum/job/medspec
 	title = "Corpsman"
 	flag = MEDSPEC
 	department = DEPARTMENT_SECURITY
@@ -350,4 +350,3 @@
 	name = "Corpsman"
 	icon_state = "player-blue"
 	join_tag = /datum/job/medspec
-	*/
