@@ -47231,7 +47231,6 @@
 	pixel_y = -27
 	},
 /obj/machinery/light,
-/obj/structure/bed/chair/janicart,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/breakroom)
