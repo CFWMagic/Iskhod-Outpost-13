@@ -16,7 +16,7 @@ var/list/admin_ranks = list() //list of all ranks with associated rights
 			continue
 
 		//Split the line at every "-"
-		var/list/List = splittext(line, "-")
+		var/list/List = splittext(line, "=")
 		if(!List.len)
 			continue
 
