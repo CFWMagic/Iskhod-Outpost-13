@@ -119,7 +119,7 @@ var/list/civilian_positions = list(JOBS_CIVILIAN)
 var/list/security_positions = list(JOBS_SECURITY)
 
 
-var/list/blackshield_positions = list(JOBS_SECURITY)
+//var/list/blackshield_positions = list(JOBS_SECURITY) // BLACKSHEILD AND SECURITY ARE CURRENLTY MERGED AS ONE DEPARTMENT
 
 
 var/list/nonhuman_positions = list(JOBS_NONHUMAN)
