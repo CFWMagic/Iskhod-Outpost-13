@@ -57,7 +57,9 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "aK" = (
 /obj/item/reagent_containers/snacks/bigroachburger{
 	pixel_x = -12;
@@ -96,7 +98,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "bb" = (
 /mob/living/carbon/superior/roach/kaiser,
 /turf/simulated/floor/asteroid/shale{
@@ -123,7 +127,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "by" = (
 /obj/machinery/door/airlock/hatch,
 /turf/simulated/floor/asteroid/shale{
@@ -182,7 +188,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "cn" = (
 /obj/structure/sign/warning/lethal_turrets,
 /turf/simulated/wall/iskhod_blue,
@@ -223,7 +231,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "cW" = (
 /obj/structure/bed/chair/custom/onestar{
 	dir = 8;
@@ -266,7 +276,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/dark/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "dq" = (
 /obj/structure/reagent_dispensers/beerkeg{
 	name = "metal barrel";
@@ -313,7 +325,9 @@
 /obj/structure/table/steel_reinforced,
 /obj/item/device/radio/headset/headset_blackshield/bowman/solfed,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "ei" = (
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0"
@@ -351,7 +365,9 @@
 /obj/machinery/door/airlock/hatch,
 /obj/effect/floor_decal/industrial_plant,
 /turf/simulated/floor/industrial/white_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "eH" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/simulated/floor/wood/wild4,
@@ -592,7 +608,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "hu" = (
 /mob/living/carbon/superior/spider/fortress/emperor,
 /turf/simulated/floor/asteroid/shale{
@@ -608,7 +626,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "hw" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -642,7 +662,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "hE" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -748,7 +770,9 @@
 	dir = 8
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "js" = (
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
@@ -769,7 +793,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "jH" = (
 /obj/effect/floor_decal/border/techfloor/orange/corner{
 	dir = 8
@@ -821,14 +847,18 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "kg" = (
 /obj/structure/bed/chair/office/light{
 	dir = 8
 	},
 /obj/item/remains,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "kh" = (
 /obj/structure/foamedmetal,
 /turf/simulated/floor/plating/under,
@@ -882,7 +912,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "lq" = (
 /obj/effect/decal/mecha_wreckage/ripley,
 /turf/simulated/floor/asteroid/shale{
@@ -939,7 +971,9 @@
 	faction = "tissue"
 	},
 /turf/simulated/floor/plating/under,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "lQ" = (
 /obj/effect/floor_decal/industrial/warningdust,
 /obj/structure/railing,
@@ -950,7 +984,9 @@
 /area/iskhod/dungeon/outside/caverns)
 "lY" = (
 /turf/simulated/floor/wood,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "mb" = (
 /obj/machinery/light/floor{
 	pixel_x = 0;
@@ -1063,7 +1099,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/plating/under,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "np" = (
 /turf/simulated/mineral/glacierice,
 /area/iskhod/dungeon/outside/caverns)
@@ -1160,7 +1198,9 @@
 /obj/effect/floor_decal/industrial_plant/steel_grate_alt,
 /obj/item/remains,
 /turf/simulated/floor/industrial,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "og" = (
 /obj/machinery/computer{
 	stat = 1;
@@ -1168,7 +1208,9 @@
 	pixel_y = -5
 	},
 /turf/simulated/floor/industrial/white_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "oh" = (
 /obj/structure/flora/tree/pine,
 /turf/simulated/floor/snow/smooth{
@@ -1205,6 +1247,12 @@
 /obj/effect/floor_decal/industrial/outputgate,
 /turf/simulated/floor/tiled/steel/panels,
 /area/iskhod/dungeon/outside/caverns)
+"oD" = (
+/obj/machinery/power/apc,
+/turf/simulated/wall/r_wall/iskhod,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "oE" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust{
@@ -1248,11 +1296,15 @@
 /obj/effect/floor_decal/industrial_plant/steel_grate_alt,
 /obj/structure/multiz/ladder,
 /turf/simulated/floor/industrial,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "pm" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating/under,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "pn" = (
 /obj/effect/overlay/water{
 	color = "#2c8bc4"
@@ -1276,7 +1328,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "pG" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust/corner,
@@ -1284,7 +1338,9 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "pH" = (
 /obj/machinery/bodyscanner,
 /turf/simulated/floor/industrial/white_large_slates,
@@ -1312,7 +1368,9 @@
 /obj/structure/table/rack/shelf,
 /obj/item/cell/large/greyson,
 /turf/simulated/floor/industrial/white_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "qd" = (
 /obj/structure/railing/grey{
 	dir = 4
@@ -1325,7 +1383,9 @@
 /obj/structure/railing/grey,
 /obj/structure/girder,
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "qk" = (
 /obj/machinery/optable,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -1339,7 +1399,9 @@
 	icon_state = "server1"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "qv" = (
 /obj/random/junk/low_chance,
 /obj/effect/floor_decal/border/techfloor/orange/corner{
@@ -1361,7 +1423,9 @@
 "rs" = (
 /obj/effect/floor_decal/industrial_plant,
 /turf/simulated/floor/industrial/white_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "rx" = (
 /obj/random/junk,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -1435,7 +1499,9 @@
 	faction = "tissue"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "sR" = (
 /obj/item/mine/excelsior{
 	armed = 1;
@@ -1474,12 +1540,16 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "td" = (
 /obj/item/remains,
 /obj/item/clothing/head/hardhat,
 /turf/simulated/floor/industrial/white_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "tr" = (
 /obj/random/cluster/spiders,
 /obj/random/junk/low_chance,
@@ -1503,7 +1573,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "tw" = (
 /obj/machinery/atmospherics/mains_pipe/simple/visible{
 	dir = 4
@@ -1541,11 +1613,14 @@
 	},
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "tM" = (
-/obj/machinery/power/apc/inactive,
 /turf/simulated/wall/r_wall/iskhod,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "tN" = (
 /obj/landmark/join/late/cryo/outsider,
 /obj/machinery/cryopod,
@@ -1564,7 +1639,9 @@
 /obj/structure/girder,
 /obj/structure/sign/warning/hazard_danger,
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "tR" = (
 /obj/structure/railing/grey,
 /obj/structure/railing/grey{
@@ -1606,7 +1683,9 @@
 	icon_state = "server1"
 	},
 /turf/simulated/floor/industrial,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "ur" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust/corner{
@@ -1654,12 +1733,16 @@
 	icon_state = "machine3"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "uK" = (
 /obj/structure/table/woodentable,
 /obj/random/gun_fancy,
 /turf/simulated/floor/wood,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "uQ" = (
 /obj/machinery/door/airlock/hatch,
 /obj/random/traps,
@@ -1686,6 +1769,11 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"ve" = (
+/turf/simulated/floor/industrial/white_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "vi" = (
 /obj/structure/table/rack/shelf,
 /obj/item/clothing/mask/gas/bigguy/sleekguy,
@@ -1698,7 +1786,9 @@
 	color = "#2e2e2e"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "vm" = (
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
@@ -1721,6 +1811,16 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"vx" = (
+/obj/structure/low_wall/iskhod,
+/obj/structure/grille,
+/obj/machinery/door/blast/shutters/glass{
+	name = "window"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "vE" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/floor_decal/border/techfloor/orange{
@@ -1730,14 +1830,18 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "vH" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_alt,
 /mob/living/simple/hostile/creature/tissue{
 	faction = "tissue"
 	},
 /turf/simulated/floor/industrial,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "vL" = (
 /turf/simulated/floor/rock,
 /area/iskhod/dungeon/outside/caverns)
@@ -1774,7 +1878,9 @@
 	interact_offline = 1
 	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "wn" = (
 /obj/structure/boulder,
 /turf/simulated/floor/snow/smooth{
@@ -1819,7 +1925,9 @@
 	icon_state = "server0"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "xj" = (
 /obj/structure/catwalk,
 /obj/structure/grille,
@@ -1838,7 +1946,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "xA" = (
 /obj/random/junk,
 /obj/random/junk,
@@ -1875,7 +1985,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "ym" = (
 /obj/structure/multiz/stairs/active/bottom{
 	dir = 1
@@ -1923,12 +2035,16 @@
 /turf/simulated/wall/untinted/onestar_reinforced{
 	name = "Missile"
 	},
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "yY" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning,
 /obj/machinery/door/blast/regular/open,
 /turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "ze" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/structure/table/marble,
@@ -1955,7 +2071,9 @@
 	icon_state = "personal9"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "zT" = (
 /obj/machinery/light/floor{
 	dir = 8
@@ -1967,7 +2085,9 @@
 	dir = 4
 	},
 /turf/simulated/floor/wood,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Ad" = (
 /obj/structure/table/steel,
 /obj/random/toolbox,
@@ -1993,11 +2113,15 @@
 /turf/simulated/wall/untinted/onestar_reinforced{
 	name = "Propeller"
 	},
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "As" = (
 /obj/structure/sign/warning/hazard_radiation,
 /turf/simulated/wall/r_wall/iskhod,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "At" = (
 /obj/structure/table/steel,
 /obj/random/toolbox/low_chance,
@@ -2057,7 +2181,9 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Bx" = (
 /obj/random/junk/low_chance,
 /obj/machinery/atmospherics/mains_pipe/simple/visible{
@@ -2097,7 +2223,9 @@
 /obj/structure/girder,
 /obj/structure/grille,
 /turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "BV" = (
 /turf/simulated/open,
 /area/iskhod/dungeon/outside/caverns)
@@ -2118,11 +2246,15 @@
 "Cq" = (
 /obj/effect/floor_decal/industrial_plant,
 /turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Cr" = (
 /obj/machinery/door/unpowered/simple/wood,
 /turf/simulated/floor/wood,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Cy" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/machinery/shield_conduit{
@@ -2132,7 +2264,9 @@
 	},
 /obj/machinery/self_destruct,
 /turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "CA" = (
 /obj/structure/lattice,
 /turf/simulated/floor/icewater,
@@ -2191,7 +2325,9 @@
 "CU" = (
 /obj/effect/floor_decal/industrial_plant,
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "CV" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust/corner{
@@ -2207,7 +2343,9 @@
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning,
 /obj/machinery/door/blast/regular,
 /turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Dh" = (
 /obj/structure/low_wall/iskhod,
 /obj/structure/grille,
@@ -2228,6 +2366,11 @@
 	},
 /turf/simulated/open,
 /area/iskhod/outside/forest)
+"Dm" = (
+/turf/simulated/open,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Do" = (
 /obj/structure/railing/grey,
 /obj/structure/railing/grey{
@@ -2390,7 +2533,9 @@
 	dir = 1
 	},
 /turf/simulated/floor/industrial,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "FC" = (
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/outside/forest)
@@ -2459,7 +2604,9 @@
 	icon_state = "machine0"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "GG" = (
 /turf/simulated/floor/wood_old,
 /area/iskhod/dungeon/outside/caverns)
@@ -2486,7 +2633,9 @@
 	},
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Hb" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_border{
 	dir = 1
@@ -2509,7 +2658,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Hw" = (
 /obj/structure/multiz/stairs/enter,
 /turf/simulated/open,
@@ -2573,7 +2724,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "It" = (
 /obj/effect/overlay/water{
 	color = "#880808"
@@ -2628,7 +2781,9 @@
 	},
 /obj/structure/girder,
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Jg" = (
 /obj/structure/table/standard,
 /obj/item/storage/firstaid/surgery/traitor,
@@ -2669,7 +2824,9 @@
 /area/iskhod/dungeon/outside/caverns)
 "JH" = (
 /turf/simulated/floor/tiled/dark/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "JJ" = (
 /obj/mecha/working/ripley/deathripley,
 /turf/simulated/floor/asteroid/shale{
@@ -2713,7 +2870,9 @@
 /obj/effect/floor_decal/industrial_plant,
 /obj/machinery/door/airlock/hatch,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Kd" = (
 /obj/effect/floor_decal/industrial_plant,
 /turf/simulated/floor/tiled/dark/brown_perforated,
@@ -2737,7 +2896,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Kg" = (
 /obj/structure/railing,
 /turf/simulated/floor/asteroid/shale{
@@ -2750,7 +2911,9 @@
 	faction = "tissue"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Kp" = (
 /obj/structure/table/standard,
 /obj/item/storage/firstaid/o2,
@@ -2847,7 +3010,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "LE" = (
 /mob/living/carbon/superior/spider/nurse/queen,
 /turf/simulated/floor/asteroid/shale{
@@ -2883,7 +3048,9 @@
 /obj/effect/floor_decal/industrial/warningdust/corner,
 /obj/structure/girder,
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Md" = (
 /obj/structure/railing{
 	dir = 1
@@ -2961,7 +3128,9 @@
 	faction = "tissue"
 	},
 /turf/simulated/floor/plating/under,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "MY" = (
 /turf/simulated/wall/iskhod_blue,
 /area/iskhod/dungeon/outside/caverns)
@@ -3009,7 +3178,9 @@
 "NW" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_alt,
 /turf/simulated/floor/industrial,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Ob" = (
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/outside/forest)
@@ -3047,7 +3218,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Os" = (
 /obj/structure/closet/secure_closet/freezer,
 /obj/random/medical_lowcost/low_chance,
@@ -3082,7 +3255,9 @@
 	interact_offline = 1
 	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Ow" = (
 /obj/machinery/cooking/stove,
 /obj/structure/table/steel,
@@ -3187,7 +3362,9 @@
 "PY" = (
 /obj/effect/floor_decal/industrial_plant,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "PZ" = (
 /obj/structure/railing,
 /turf/simulated/floor/icewater,
@@ -3326,7 +3503,9 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Sz" = (
 /obj/effect/decal/cleanable/solid_biomass/aoe,
 /turf/simulated/floor/beach/water/jungle,
@@ -3347,7 +3526,9 @@
 /obj/structure/girder,
 /obj/structure/sign/warning/vent_port,
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "SD" = (
 /turf/simulated/wall/iskhod_red,
 /area/iskhod/outside/forest)
@@ -3425,7 +3606,9 @@
 	icon_state = "server1"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "TV" = (
 /obj/random/junk,
 /obj/random/junk,
@@ -3456,7 +3639,9 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/dark/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Uq" = (
 /obj/random/mob/excelsior/low_chance,
 /obj/structure/railing{
@@ -3471,7 +3656,9 @@
 /obj/effect/floor_decal/industrial_plant,
 /obj/structure/girder,
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Ux" = (
 /obj/effect/overlay/water{
 	color = "#880808"
@@ -3722,11 +3909,14 @@
 	color = "#750008"
 	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "XX" = (
-/obj/structure/railing,
-/turf/simulated/mineral/glacierice,
-/area/iskhod/dungeon/outside/caverns)
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Ye" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning{
 	dir = 1
@@ -3735,7 +3925,9 @@
 	name = "009-LIMA"
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Yl" = (
 /obj/structure/window/basic/iskhod{
 	dir = 8
@@ -3773,7 +3965,9 @@
 	faction = "tissue"
 	},
 /turf/simulated/floor/industrial/white_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "YP" = (
 /obj/structure/flora/small/snow/rock3,
 /turf/simulated/floor/snow/smooth{
@@ -3808,7 +4002,9 @@
 /obj/structure/table/steel_reinforced,
 /obj/item/device/radio/headset/headset_blackshield/bowman/solfed,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Zg" = (
 /obj/effect/floor_decal/industrial/warningdust{
 	dir = 1
@@ -3851,7 +4047,9 @@
 "ZK" = (
 /obj/machinery/portable_atmospherics/canister/empty/oxygen,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "ZN" = (
 /obj/random/junk/low_chance,
 /turf/simulated/floor/asteroid/shale{
@@ -3860,9 +4058,11 @@
 	},
 /area/iskhod/dungeon/outside/caverns)
 "ZS" = (
-/obj/structure/railing/grey,
-/turf/simulated/mineral/glacierice,
-/area/iskhod/dungeon/outside/caverns)
+/obj/structure/catwalk,
+/turf/simulated/floor/plating/under,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "ZX" = (
 /obj/structure/catwalk,
 /obj/machinery/door/blast/regular,
@@ -137067,38 +137267,38 @@ iw
 iw
 iw
 iw
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
 iw
 iw
 iw
@@ -137368,30 +137568,30 @@ iw
 iw
 iw
 iw
-CO
-CO
+tM
+tM
 pm
-CO
-CO
-CO
+tM
+tM
+tM
 pm
-CO
-CO
-CO
-CO
+tM
+tM
+tM
+tM
 vi
 vi
 vi
 vi
-CO
+tM
 TR
 Za
 GZ
 TR
 uJ
 qs
-CO
-CO
+tM
+tM
 rs
 rs
 rs
@@ -137399,9 +137599,9 @@ eE
 xu
 jD
 bY
-CO
-CO
-CO
+tM
+tM
+tM
 iw
 iw
 iw
@@ -137670,40 +137870,40 @@ iw
 iw
 iw
 iw
-CO
+tM
 lN
-Vz
-Vz
-Vz
-Vz
+ZS
+ZS
+ZS
+ZS
 no
 ML
-CO
+tM
 pm
-CO
-RC
-RC
+tM
+XX
+XX
 hv
-RC
-CO
+XX
+tM
 Gu
 kg
 jn
 ed
 Kk
 qs
-CO
-CO
+tM
+tM
 eE
-CO
-CO
+tM
+tM
 As
 Cq
 xu
 xu
 pu
-CO
-CO
+tM
+tM
 iw
 iw
 iw
@@ -137972,40 +138172,40 @@ iw
 iw
 iw
 iw
-CO
-Vz
+tM
+ZS
 yU
 JH
-Vz
+ZS
 Uj
 yU
 no
 Dg
 PY
 Dg
-RC
+XX
 Kk
 hv
-RC
-CO
+XX
+tM
 zS
 Kk
-RC
+XX
 xe
-RC
-RC
+XX
+XX
 yY
-Vz
-js
-js
+ZS
+ve
+ve
 og
-Dh
+vx
 Cq
 Cy
 xu
 ho
 BO
-CO
+tM
 iw
 iw
 iw
@@ -138274,40 +138474,40 @@ iw
 iw
 iw
 iw
-CO
-Vz
+tM
+ZS
 JH
 yU
-Vz
+ZS
 yU
 Uj
-Vz
+ZS
 Dg
 PY
 Dg
-RC
-RC
+XX
+XX
 hv
 hv
 Ka
-RC
-RC
-RC
-RC
-RC
-RC
+XX
+XX
+XX
+XX
+XX
+XX
 yY
-Vz
-js
+ZS
+ve
 YA
 og
-Dh
+vx
 xu
 wm
 xu
 Ov
 BO
-CO
+tM
 iw
 iw
 iw
@@ -138576,40 +138776,40 @@ iw
 iw
 iw
 iw
-CO
-Vz
+tM
+ZS
 yU
 JH
 lN
 dp
 yU
-Vz
+ZS
 Dg
 PY
 Dg
-RC
+XX
 hv
 cU
 sF
-CO
-CO
-CO
-CO
-RC
+tM
+tM
+tM
+tM
+XX
 Kk
-RC
+XX
 yY
-Vz
-js
+ZS
+ve
 td
 og
-Dh
+vx
 xu
 XR
 xu
 hz
 BO
-CO
+tM
 iw
 iw
 iw
@@ -138878,40 +139078,40 @@ iw
 iw
 iw
 iw
-CO
-Vz
-Vz
-Vz
-Vz
-Vz
-Vz
-Vz
-CO
+tM
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+tM
 pm
-CO
-RC
-RC
+tM
+XX
+XX
 hv
 Ly
-CO
+tM
 zX
 uK
-CO
-RC
-RC
+tM
+XX
+XX
 qs
-CO
-CO
-js
-js
-js
+tM
+oD
+ve
+ve
+ve
 As
 jD
 bY
 bY
 pu
-CO
-CO
+tM
+tM
 iw
 iw
 iw
@@ -139180,40 +139380,40 @@ iw
 iw
 iw
 iw
-CO
-CO
+tM
+tM
 pm
-CO
-CO
-CO
+tM
+tM
+tM
 pm
-CO
-CO
-CO
-CO
+tM
+tM
+tM
+tM
 ZK
 ZK
 vE
 Hu
-CO
+tM
 lY
 lY
 Cr
-RC
+XX
 qs
 qs
-CO
-CO
+tM
+tM
 tM
 pP
 pP
-CO
+tM
 BO
 BO
 Ip
-CO
-CO
-CO
+tM
+tM
+tM
 iw
 iw
 iw
@@ -139483,38 +139683,38 @@ iw
 iw
 iw
 iw
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
 iw
 iw
 iw
@@ -201992,7 +202192,7 @@ AN
 AN
 AN
 AN
-np
+lw
 lw
 lw
 lw
@@ -202294,7 +202494,7 @@ AN
 AN
 AN
 AN
-np
+lw
 lw
 lw
 lw
@@ -202595,8 +202795,8 @@ AN
 AN
 AN
 AN
-np
-np
+lw
+lw
 TW
 lw
 lw
@@ -202897,8 +203097,8 @@ AN
 AN
 AN
 AN
-np
-np
+lw
+lw
 TW
 lw
 lw
@@ -203199,8 +203399,8 @@ AN
 AN
 AN
 AN
-np
-np
+lw
+lw
 lw
 lw
 TW
@@ -203502,7 +203702,7 @@ AN
 AN
 AN
 AN
-np
+lw
 lw
 TW
 TW
@@ -203804,17 +204004,17 @@ AN
 AN
 AN
 AN
-np
+lw
 TW
 TW
 TW
 TW
-np
-np
 TW
 TW
-np
-np
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -204106,17 +204306,17 @@ AN
 AN
 AN
 AN
-np
+lw
 TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -204408,19 +204608,19 @@ AN
 AN
 AN
 AN
-np
-np
+lw
+lw
 TW
 TW
-np
-np
-np
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -204710,20 +204910,20 @@ AN
 AN
 AN
 AN
-np
-np
+lw
+lw
 TW
 TW
-np
-np
-np
-np
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -204755,7 +204955,7 @@ TW
 TW
 TW
 lw
-np
+lw
 TW
 TW
 TW
@@ -205012,19 +205212,8 @@ AN
 AN
 AN
 AN
-np
-np
-TW
-TW
-np
-np
-np
-np
-np
-np
-np
-np
-np
+lw
+lw
 TW
 TW
 TW
@@ -205055,10 +205244,21 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+lw
+lw
+lw
+lw
 TW
 TW
 TW
@@ -205315,19 +205515,7 @@ AN
 AN
 AN
 AN
-np
-TW
-TW
-TW
-np
-np
-np
-np
-np
-np
-np
-np
-np
+lw
 TW
 TW
 TW
@@ -205357,11 +205545,23 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+lw
+lw
+lw
+lw
+lw
 TW
 TW
 is
@@ -205617,19 +205817,7 @@ AN
 AN
 AN
 AN
-np
-TW
-TW
-TW
-np
-np
-np
-np
-np
-np
-np
-np
-np
+lw
 TW
 TW
 TW
@@ -205657,13 +205845,25 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+lw
+lw
+lw
+lw
+lw
+lw
+lw
 TW
 TW
 is
@@ -205918,19 +206118,8 @@ AN
 AN
 AN
 AN
-np
-np
-TW
-TW
-TW
-np
-np
-np
-np
-np
-np
-np
-np
+lw
+lw
 TW
 TW
 TW
@@ -205960,12 +206149,23 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+lw
+lw
+lw
+lw
+lw
+lw
 TW
 TW
 is
@@ -206220,19 +206420,7 @@ AN
 AN
 AN
 AN
-np
-TW
-TW
-TW
-TW
-np
-np
-np
-np
-np
-np
-np
-np
+lw
 TW
 TW
 TW
@@ -206263,10 +206451,22 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+lw
+lw
+lw
+lw
 TW
 TW
 TW
@@ -206522,19 +206722,9 @@ AN
 AN
 AN
 AN
-np
-np
-np
-TW
-TW
-TW
-np
-np
-np
-np
-np
-np
-np
+lw
+lw
+lw
 TW
 TW
 TW
@@ -206566,9 +206756,19 @@ TW
 TW
 TW
 TW
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+lw
+lw
+lw
 TW
 TW
 TW
@@ -206585,7 +206785,7 @@ ER
 Xz
 TW
 TW
-np
+lw
 TW
 TW
 TW
@@ -206825,18 +207025,8 @@ AN
 AN
 AN
 AN
-np
-np
-TW
-TW
-TW
-np
-np
-np
-np
-np
-np
-np
+lw
+lw
 TW
 TW
 TW
@@ -206869,7 +207059,17 @@ TW
 TW
 TW
 TW
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+lw
 TW
 TW
 TW
@@ -206886,9 +207086,9 @@ ER
 ER
 Xz
 TW
-np
-np
-np
+lw
+lw
+lw
 TW
 TW
 TW
@@ -207128,17 +207328,17 @@ AN
 AN
 AN
 AN
-np
+lw
 TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -207188,9 +207388,9 @@ ER
 ER
 Xz
 TW
-np
-np
-np
+lw
+lw
+lw
 TW
 TW
 TW
@@ -207430,16 +207630,16 @@ AN
 AN
 AN
 AN
-np
+lw
 TW
 TW
 TW
 TW
 TW
-np
-np
-np
-np
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -207491,8 +207691,8 @@ ER
 Xz
 TW
 TW
-np
-np
+lw
+lw
 TW
 TW
 TW
@@ -207739,8 +207939,6 @@ TW
 TW
 TW
 TW
-np
-np
 TW
 TW
 TW
@@ -207753,8 +207951,10 @@ TW
 TW
 TW
 TW
-np
-np
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -208052,15 +208252,15 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -208355,15 +208555,15 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -208402,7 +208602,7 @@ TW
 TW
 TW
 TW
-np
+lw
 cY
 cY
 mr
@@ -208656,13 +208856,13 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -208704,17 +208904,17 @@ TW
 TW
 TW
 TW
-np
-np
+lw
+lw
 cY
 mr
 Xg
 bi
 TW
-np
-np
-np
-np
+lw
+lw
+lw
+lw
 AN
 iw
 iw
@@ -208960,12 +209160,12 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -209005,18 +209205,18 @@ TW
 TW
 TW
 TW
-np
-np
-np
+lw
+lw
+lw
 mr
 mr
 Xg
 bi
 TW
 TW
-np
-np
-np
+lw
+lw
+lw
 AN
 iw
 iw
@@ -209264,11 +209464,11 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -209307,9 +209507,9 @@ TW
 TW
 TW
 TW
-np
-np
-np
+lw
+lw
+lw
 mr
 mr
 Xg
@@ -209317,7 +209517,7 @@ bi
 TW
 TW
 TW
-np
+lw
 AN
 AN
 iw
@@ -209567,11 +209767,6 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
 TW
 TW
 TW
@@ -209591,8 +209786,13 @@ TW
 TW
 TW
 TW
-np
-ZS
+TW
+TW
+TW
+TW
+TW
+lw
+jQ
 SA
 SA
 CO
@@ -209609,9 +209809,9 @@ TW
 TW
 TW
 TW
-np
-np
-np
+lw
+lw
+lw
 mr
 mr
 Xg
@@ -209870,10 +210070,6 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
 TW
 TW
 TW
@@ -209893,9 +210089,13 @@ TW
 TW
 TW
 TW
-np
-np
-np
+TW
+TW
+TW
+TW
+lw
+lw
+lw
 SA
 kV
 SA
@@ -209911,8 +210111,8 @@ TW
 TW
 TW
 TW
-np
-XX
+lw
+PZ
 cY
 cY
 mr
@@ -210195,12 +210395,12 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
+lw
+lw
+lw
+lw
+lw
+lw
 SA
 TN
 CO
@@ -210214,7 +210414,7 @@ TW
 TW
 TW
 TW
-XX
+PZ
 mr
 mr
 mr
@@ -210497,12 +210697,12 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
+lw
+lw
+lw
+lw
+lw
+lw
 kV
 CO
 CO
@@ -210800,10 +211000,10 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
+lw
+lw
+lw
+lw
 SA
 SA
 ER
@@ -211102,10 +211302,10 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
+lw
+lw
+lw
+lw
 SA
 ER
 ER
@@ -211405,8 +211605,8 @@ TW
 TW
 TW
 TW
-np
-np
+lw
+lw
 yQ
 yQ
 yQ
@@ -228281,27 +228481,27 @@ kf
 Sw
 tv
 xO
-Dh
-CO
-CO
-CO
+vx
+tM
+tM
+tM
 Ye
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
 CU
 CU
 Xz
@@ -228575,14 +228775,14 @@ TW
 is
 Ur
 qe
-BV
-BV
+Dm
+Dm
 tP
-BV
-BV
+Dm
+Dm
 sY
 tv
-Dh
+vx
 tL
 NW
 vH
@@ -228590,23 +228790,23 @@ NW
 NW
 un
 un
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
 TW
 Ap
 TW
@@ -228877,14 +229077,14 @@ TW
 is
 Ur
 qe
-BV
-BV
+Dm
+Dm
 SB
-BV
-BV
+Dm
+Dm
 Kf
 bn
-Dh
+vx
 tL
 od
 NW
@@ -228892,24 +229092,24 @@ NW
 NW
 NW
 FB
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
 Ap
 TW
 TW
@@ -229179,14 +229379,14 @@ TW
 is
 Ur
 qe
-BV
-BV
+Dm
+Dm
 tP
-BV
-BV
+Dm
+Dm
 Oo
 tv
-Dh
+vx
 tL
 NW
 NW
@@ -229194,23 +229394,23 @@ pd
 NW
 un
 un
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
 TW
 Ap
 TW
@@ -229489,27 +229689,27 @@ aV
 li
 CU
 tv
-Dh
-CO
-CO
-CO
+vx
+tM
+tM
+tM
 Ye
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
-CO
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
 CU
 CU
 Xz
