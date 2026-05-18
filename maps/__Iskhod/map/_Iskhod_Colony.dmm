@@ -3693,8 +3693,8 @@
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/hallway/main/f1section1)
 "aSw" = (
-/obj/structure/table/standard,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/biogenerator,
 /turf/simulated/floor/industrial/ceramic,
 /area/iskhod/crew_quarters/hydroponics)
 "aSL" = (
@@ -14149,8 +14149,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/iskhod/ai/control)
 "duJ" = (
-/obj/machinery/smartfridge/drying_rack,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/honey_extractor,
 /turf/simulated/floor/industrial/ceramic,
 /area/iskhod/crew_quarters/hydroponics)
 "duO" = (
@@ -14344,6 +14344,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/industrial/ceramic,
 /area/iskhod/crew_quarters/hydroponics)
 "dwF" = (
@@ -18920,8 +18921,8 @@
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/hallway/side/f2section1)
 "eCV" = (
-/obj/machinery/portable_atmospherics/hydroponics,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/industrial/ceramic,
 /area/iskhod/crew_quarters/hydroponics)
 "eDe" = (
@@ -26141,6 +26142,8 @@
 /obj/item/grenade/chem_grenade/antiweed,
 /obj/item/grenade/chem_grenade/antiweed,
 /obj/item/grenade/chem_grenade/antiweed,
+/obj/item/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/glass/bucket,
 /turf/simulated/floor/industrial/ceramic,
 /area/iskhod/crew_quarters/hydroponics)
 "grC" = (
@@ -31849,12 +31852,12 @@
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/iskhod/absolutism/bioreactor)
 "hMr" = (
-/obj/structure/catwalk,
 /obj/machinery/alarm{
 	dir = 8;
 	pixel_x = 27
 	},
-/turf/simulated/wall/r_wall/iskhod_blue,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating/under,
 /area/iskhod/hallway/side/f2section2)
 "hMs" = (
 /obj/machinery/sleeper{
@@ -38014,10 +38017,6 @@
 /obj/structure/boulder,
 /turf/simulated/floor/rock/dark,
 /area/iskhod/hallway/main/f1section4)
-"jkh" = (
-/obj/structure/table/standard,
-/turf/simulated/floor/industrial/ceramic,
-/area/iskhod/crew_quarters/hydroponics)
 "jkj" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
@@ -47855,9 +47854,7 @@
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/hallway/side/f2section2)
 "lFf" = (
-/obj/structure/table/standard,
-/obj/item/reagent_containers/glass/bucket,
-/obj/item/reagent_containers/glass/bucket,
+/obj/machinery/reagentgrinder/industrial,
 /turf/simulated/floor/industrial/ceramic,
 /area/iskhod/crew_quarters/hydroponics)
 "lFg" = (
@@ -49974,10 +49971,10 @@
 	name = "\improper Command - Facility Director's Quarters"
 	})
 "mfA" = (
-/obj/machinery/honey_extractor,
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/industrial/ceramic,
 /area/iskhod/crew_quarters/hydroponics)
 "mfB" = (
@@ -52641,8 +52638,8 @@
 /turf/simulated/wall/r_wall/iskhod_green,
 /area/iskhod/hallway/main/f1section1)
 "mQz" = (
-/obj/machinery/biogenerator,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/smartfridge/drying_rack,
 /turf/simulated/floor/industrial/ceramic,
 /area/iskhod/crew_quarters/hydroponics)
 "mQG" = (
@@ -63905,7 +63902,6 @@
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/workshop)
 "pCx" = (
-/obj/machinery/portable_atmospherics/hydroponics,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
@@ -65312,7 +65308,7 @@
 /obj/machinery/alarm{
 	pixel_y = 27
 	},
-/obj/machinery/reagentgrinder/industrial,
+/obj/machinery/portable_atmospherics/hydroponics,
 /turf/simulated/floor/industrial/ceramic,
 /area/iskhod/crew_quarters/hydroponics)
 "pVZ" = (
@@ -71434,13 +71430,6 @@
 	},
 /turf/simulated/floor/industrial/navy_slates,
 /area/iskhod/security/detectives_office)
-"ryb" = (
-/obj/effect/decal/cleanable/fruit_smudge,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/industrial/ceramic,
-/area/iskhod/crew_quarters/hydroponics)
 "rym" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_border,
 /obj/machinery/camera/network/medbay{
@@ -119189,7 +119178,7 @@ phB
 lbK
 jJh
 mwq
-jJh
+nuP
 jJh
 aTx
 xoz
@@ -119392,7 +119381,7 @@ pvH
 jJh
 mwq
 nuP
-dRw
+jJh
 pCe
 oJz
 kRa
@@ -119590,11 +119579,11 @@ xKe
 vVL
 wMy
 phB
-iXh
+nuP
 jJh
 mwq
-nuP
-nuP
+jJh
+jJh
 qOS
 mwq
 jJh
@@ -119800,7 +119789,7 @@ pCx
 dmZ
 aSw
 mwq
-jkh
+dRw
 lyx
 jUq
 rQo
@@ -119998,7 +119987,7 @@ nuP
 mwq
 bJM
 nuP
-nuP
+jJh
 uaY
 mQz
 mwq
@@ -120200,7 +120189,7 @@ nuP
 mwq
 hkd
 eCV
-eCV
+mwq
 rTO
 duJ
 jJh
@@ -120400,7 +120389,7 @@ xIl
 phB
 nuP
 mwq
-ryb
+iXh
 mwq
 mwq
 uaY
