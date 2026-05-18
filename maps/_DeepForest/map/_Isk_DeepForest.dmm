@@ -84,6 +84,19 @@
 "aT" = (
 /turf/simulated/wall/wood,
 /area/iskhod/outside/forest)
+"aV" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust{
+	dir = 8
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/iskhod/dungeon/outside/caverns)
 "bb" = (
 /mob/living/carbon/superior/roach/kaiser,
 /turf/simulated/floor/asteroid/shale{
@@ -101,6 +114,16 @@
 /obj/structure/low_wall/iskhod,
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/outside/forest)
+"bn" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/iskhod/dungeon/outside/caverns)
 "by" = (
 /obj/machinery/door/airlock/hatch,
 /turf/simulated/floor/asteroid/shale{
@@ -150,6 +173,16 @@
 	},
 /turf/simulated/shuttle/floor/mining,
 /area/iskhod/dungeon/outside/caverns)
+"bY" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "cn" = (
 /obj/structure/sign/warning/lethal_turrets,
 /turf/simulated/wall/iskhod_blue,
@@ -198,6 +231,15 @@
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"cY" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/concrete_bricks,
+/area/iskhod/dungeon/outside/caverns)
 "dh" = (
 /obj/structure/multiz/stairs/active/bottom,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -211,8 +253,19 @@
 	},
 /area/iskhod/dungeon/outside/caverns)
 "dp" = (
-/obj/structure/sign/warning/hazard_radiation,
-/turf/simulated/wall/r_wall/iskhod,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "dq" = (
 /obj/structure/reagent_dispensers/beerkeg{
@@ -248,16 +301,6 @@
 /obj/random/material_ore/low_chance,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
-"dS" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/structure/flora/tree/pine,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "dU" = (
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/dungeon/outside/caverns)
@@ -291,11 +334,6 @@
 /obj/machinery/cooking/oven,
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
-"et" = (
-/obj/structure/table/rack/shelf,
-/obj/item/cell/large/greyson,
-/turf/simulated/floor/industrial/white_large_slates,
-/area/iskhod/dungeon/outside/caverns)
 "eC" = (
 /obj/structure/railing{
 	dir = 1
@@ -322,21 +360,6 @@
 /obj/random/material_ore/low_chance,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
-"eR" = (
-/obj/effect/overlay/water{
-	color = "#880808"
-	},
-/obj/effect/overlay/water/top{
-	color = "#880808"
-	},
-/mob/living/simple/hostile/carp/shark{
-	color = "#8B0000";
-	name = "malformed shark"
-	},
-/turf/simulated/floor/beach/water/ocean{
-	color = "#880808"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "fg" = (
 /mob/living/simple/hostile/jelly,
 /turf/simulated/floor/beach/water/jungle,
@@ -345,16 +368,6 @@
 /obj/structure/table/woodentable,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/outside/forest)
-"fl" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/structure/flora/small/snow/rock2,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "fo" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/flora/small/snow/rock3,
@@ -387,15 +400,6 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/dungeon/outside/trashcave)
-"fG" = (
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/tiled/dark/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
 "fL" = (
 /obj/structure/flora/rock/variant1,
 /turf/simulated/floor/snow/smooth{
@@ -445,16 +449,6 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
-"fU" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/structure/flora/small/snow/rock6,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "fW" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/structure/table/standard,
@@ -472,23 +466,19 @@
 "gc" = (
 /turf/simulated/floor/rock/dark,
 /area/iskhod/dungeon/outside/caverns)
-"gi" = (
-/obj/random/mob/excelsior,
-/turf/simulated/floor/industrial/navy_slates_fixed,
-/area/iskhod/dungeon/outside/caverns)
-"gl" = (
+"ge" = (
 /obj/item/mine/excelsior{
 	armed = 1;
 	anchored = 1
 	},
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/structure/flora/small/snow/rock6,
+/obj/structure/flora/small/snow/rock2,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0"
 	},
+/area/iskhod/dungeon/outside/caverns)
+"gi" = (
+/obj/random/mob/excelsior,
+/turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
 "gn" = (
 /obj/effect/floor_decal/industrial/warningdust/corner{
@@ -536,14 +526,13 @@
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
 "gA" = (
-/obj/structure/railing/grey{
-	dir = 8
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
 	},
-/mob/living/simple/hostile/carp/shark{
-	color = "#8B0000";
-	name = "malformed shark"
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
 	},
-/turf/simulated/floor/beach/water/ocean,
 /area/iskhod/dungeon/outside/caverns)
 "gE" = (
 /obj/structure/table/steel,
@@ -588,12 +577,37 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"ho" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/machinery/shield_conduit{
+	name = "strange device";
+	desc = "Looks important, probably best to leave it alone.";
+	dir = 4
+	},
+/obj/machinery/self_destruct,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "hu" = (
 /mob/living/carbon/superior/spider/fortress/emperor,
 /turf/simulated/floor/asteroid/shale{
 	nitrogen = 93.6478;
 	oxygen = 24.8937
 	},
+/area/iskhod/dungeon/outside/caverns)
+"hv" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "hw" = (
 /obj/structure/railing/grey{
@@ -613,6 +627,21 @@
 	nitrogen = 93.6478;
 	oxygen = 24.8937
 	},
+/area/iskhod/dungeon/outside/caverns)
+"hz" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/machinery/shield_conduit{
+	name = "strange device";
+	desc = "Looks important, probably best to leave it alone.";
+	dir = 8
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "hE" = (
 /obj/structure/table/standard,
@@ -647,24 +676,6 @@
 /obj/random/junk/low_chance,
 /turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
-"ij" = (
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
-	},
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_idle";
-	name = "biomass";
-	color = "#750008"
-	},
-/mob/living/simple/hostile/creature/tissue{
-	faction = "tissue"
-	},
-/turf/simulated/floor/plating/under,
-/area/iskhod/dungeon/outside/caverns)
 "im" = (
 /obj/random/junk,
 /turf/simulated/floor/asteroid/shale{
@@ -677,6 +688,17 @@
 	dir = 8
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"iq" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/trailrocka2,
+/obj/structure/flora/small/trailrockb3,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "is" = (
 /obj/structure/railing/grey,
@@ -730,20 +752,6 @@
 "js" = (
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
-"jv" = (
-/obj/effect/overlay/water{
-	color = "#880808"
-	},
-/obj/effect/overlay/water/top{
-	color = "#880808"
-	},
-/mob/living/simple/hostile/render/malformed{
-	faction = "tissue"
-	},
-/turf/simulated/floor/beach/water/ocean{
-	color = "#880808"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "jC" = (
 /obj/random/tool_upgrade/low_chance,
 /turf/simulated/floor/asteroid/shale{
@@ -751,11 +759,16 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
-"jG" = (
-/obj/structure/flora/tree/snow/four,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
+"jD" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/item/weapon/nuclear_cylinder,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
 	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "jH" = (
 /obj/effect/floor_decal/border/techfloor/orange/corner{
@@ -788,17 +801,6 @@
 "jW" = (
 /turf/simulated/open,
 /area/iskhod/outside/forest)
-"jY" = (
-/obj/effect/floor_decal/industrial_plant,
-/obj/item/weapon/nuclear_cylinder,
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_idle";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
 "kd" = (
 /obj/machinery/light/floor{
 	dir = 4
@@ -868,16 +870,6 @@
 /obj/structure/grille,
 /turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
-"kY" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/turf/simulated/floor/asteroid/shale{
-	nitrogen = 93.6478;
-	oxygen = 24.8937
-	},
-/area/iskhod/dungeon/outside/caverns)
 "li" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust/corner{
@@ -898,13 +890,6 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
-"ls" = (
-/mob/living/simple/hostile/carp/shark{
-	color = "#8B0000";
-	name = "malformed shark"
-	},
-/turf/simulated/floor/beach/water/ocean,
-/area/iskhod/dungeon/outside/caverns)
 "lw" = (
 /turf/simulated/floor/icewater,
 /area/iskhod/dungeon/outside/caverns)
@@ -919,6 +904,12 @@
 /obj/structure/table/steel,
 /obj/random/medical_lowcost_handmade,
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"lE" = (
+/obj/structure/flora/small/snow/rock6,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "lJ" = (
 /obj/random/mob/spiders,
@@ -941,6 +932,13 @@
 	nitrogen = 93.6478;
 	oxygen = 24.8937
 	},
+/area/iskhod/dungeon/outside/caverns)
+"lN" = (
+/obj/structure/catwalk,
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
 "lQ" = (
 /obj/effect/floor_decal/industrial/warningdust,
@@ -984,15 +982,25 @@
 	},
 /turf/simulated/floor/beach/water/ocean,
 /area/iskhod/dungeon/outside/caverns)
-"mn" = (
-/obj/effect/floor_decal/industrial_plant,
+"mm" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/tree/dead,
+/obj/structure/flora/small/snow/rock6,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"mr" = (
 /obj/effect/floor_decal/border/techfloor/orange{
 	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_idle";
+	icon_state = "blob_damaged2";
 	name = "biomass";
 	color = "#750008"
 	},
-/turf/simulated/floor/tiled/steel/brown_perforated,
+/turf/simulated/floor/industrial/concrete_bricks,
 /area/iskhod/dungeon/outside/caverns)
 "mv" = (
 /obj/structure/largecrate/hoverpod,
@@ -1005,6 +1013,16 @@
 /obj/structure/railing/grey{
 	dir = 4
 	},
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"mC" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/trailrockb2,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0"
 	},
@@ -1027,21 +1045,37 @@
 	color = "#880808"
 	},
 /area/iskhod/dungeon/outside/caverns)
-"mZ" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "nj" = (
 /obj/machinery/seed_extractor,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/outside/forest)
+"no" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/plating/under,
+/area/iskhod/dungeon/outside/caverns)
 "np" = (
 /turf/simulated/mineral/glacierice,
+/area/iskhod/dungeon/outside/caverns)
+"nr" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/trailrockb4,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "nt" = (
 /obj/effect/overlay/water/top{
@@ -1093,6 +1127,20 @@
 /obj/structure/low_wall/iskhod,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"nW" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock6,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "nX" = (
 /obj/structure/railing{
 	dir = 1
@@ -1120,6 +1168,12 @@
 	pixel_y = -5
 	},
 /turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
+"oh" = (
+/obj/structure/flora/tree/pine,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "on" = (
 /obj/structure/catwalk,
@@ -1167,7 +1221,11 @@
 	},
 /area/iskhod/outside/forest)
 "oK" = (
-/obj/structure/flora/small/snow/rock6,
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock8,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0"
 	},
@@ -1208,15 +1266,16 @@
 /obj/effect/floor_decal/border/techfloor/orange/corner,
 /turf/simulated/mineral/frostyrock,
 /area/iskhod/dungeon/outside/caverns)
-"pt" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
+"pu" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/item/weapon/nuclear_cylinder,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
 	},
-/obj/structure/flora/small/trailrockb2,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "pG" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -1249,6 +1308,11 @@
 "pO" = (
 /turf/simulated/floor/rock/manmade/asphalt,
 /area/iskhod/dungeon/outside/caverns)
+"pP" = (
+/obj/structure/table/rack/shelf,
+/obj/item/cell/large/greyson,
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
 "qd" = (
 /obj/structure/railing/grey{
 	dir = 4
@@ -1261,32 +1325,6 @@
 /obj/structure/railing/grey,
 /obj/structure/girder,
 /turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
-"qf" = (
-/obj/effect/floor_decal/industrial_plant,
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
-"qj" = (
-/obj/effect/floor_decal/industrial_plant,
-/obj/machinery/shield_conduit{
-	name = "strange device";
-	desc = "Looks important, probably best to leave it alone.";
-	dir = 8
-	},
-/obj/machinery/self_destruct,
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/tiled/steel/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "qk" = (
 /obj/machinery/optable,
@@ -1302,27 +1340,12 @@
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
-"qu" = (
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_idle";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/industrial/concrete_bricks,
-/area/iskhod/dungeon/outside/caverns)
 "qv" = (
 /obj/random/junk/low_chance,
 /obj/effect/floor_decal/border/techfloor/orange/corner{
 	dir = 4
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
-/area/iskhod/dungeon/outside/caverns)
-"qy" = (
-/obj/structure/flora/tree/snow/five,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
 /area/iskhod/dungeon/outside/caverns)
 "qB" = (
 /turf/simulated/wall/iskhod_blue,
@@ -1342,19 +1365,6 @@
 "rx" = (
 /obj/random/junk,
 /turf/simulated/floor/industrial/navy_slates_fixed,
-/area/iskhod/dungeon/outside/caverns)
-"rP" = (
-/obj/effect/floor_decal/industrial_plant,
-/obj/effect/floor_decal/industrial/warningdust{
-	dir = 8
-	},
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/tiled/dark/monofloor,
 /area/iskhod/dungeon/outside/caverns)
 "rQ" = (
 /obj/structure/boulder,
@@ -1414,12 +1424,27 @@
 /obj/random/scrap/dense_even,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/dungeon/outside/caverns)
-"sO" = (
-/mob/living/simple/hostile/carp/shark{
-	color = "#8B0000";
-	name = "malformed shark"
+"sF" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
 	},
-/turf/simulated/floor/industrial/concrete_bricks,
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/iskhod/dungeon/outside/caverns)
+"sR" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
 /area/iskhod/dungeon/outside/caverns)
 "sT" = (
 /obj/structure/multiz/stairs/active/bottom{
@@ -1450,6 +1475,11 @@
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/iskhod/dungeon/outside/caverns)
+"td" = (
+/obj/item/remains,
+/obj/item/clothing/head/hardhat,
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
 "tr" = (
 /obj/random/cluster/spiders,
 /obj/random/junk/low_chance,
@@ -1463,6 +1493,16 @@
 	dir = 1
 	},
 /turf/simulated/floor/icewater,
+/area/iskhod/dungeon/outside/caverns)
+"tv" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
 /area/iskhod/dungeon/outside/caverns)
 "tw" = (
 /obj/machinery/atmospherics/mains_pipe/simple/visible{
@@ -1502,6 +1542,10 @@
 /obj/structure/table/steel,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/iskhod/dungeon/outside/caverns)
+"tM" = (
+/obj/machinery/power/apc/inactive,
+/turf/simulated/wall/r_wall/iskhod,
+/area/iskhod/dungeon/outside/caverns)
 "tN" = (
 /obj/landmark/join/late/cryo/outsider,
 /obj/machinery/cryopod,
@@ -1534,6 +1578,16 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/iskhod/outside/forest)
+"tT" = (
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
 "tU" = (
 /obj/structure/table/steel,
 /obj/random/medical_lowcost_handmade,
@@ -1677,6 +1731,13 @@
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"vH" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/industrial,
+/area/iskhod/dungeon/outside/caverns)
 "vL" = (
 /turf/simulated/floor/rock,
 /area/iskhod/dungeon/outside/caverns)
@@ -1768,6 +1829,16 @@
 /obj/structure/table/bench/steel,
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"xu" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "xA" = (
 /obj/random/junk,
 /obj/random/junk,
@@ -1780,12 +1851,6 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
-"xC" = (
-/obj/effect/floor_decal/industrial_plant,
-/obj/structure/girder,
-/obj/structure/grille,
-/turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
 "xK" = (
 /obj/structure/table/steel,
 /obj/random/junkfood/onlyburger,
@@ -1794,6 +1859,22 @@
 	nitrogen = 93.6478;
 	oxygen = 24.8937
 	},
+/area/iskhod/dungeon/outside/caverns)
+"xO" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
 /area/iskhod/dungeon/outside/caverns)
 "ym" = (
 /obj/structure/multiz/stairs/active/bottom{
@@ -1810,22 +1891,6 @@
 	},
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
-"yu" = (
-/obj/effect/floor_decal/industrial_plant,
-/obj/effect/floor_decal/industrial/warningdust{
-	dir = 1
-	},
-/obj/structure/railing/grey{
-	dir = 1
-	},
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
 "yy" = (
 /obj/structure/grille,
 /turf/simulated/floor/snow/smooth{
@@ -1838,34 +1903,8 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
-"yD" = (
-/obj/effect/floor_decal/industrial_plant,
-/obj/machinery/shield_conduit{
-	name = "strange device";
-	desc = "Looks important, probably best to leave it alone.";
-	dir = 8
-	},
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_idle";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
 "yF" = (
 /turf/simulated/wall/rock/snow,
-/area/iskhod/dungeon/outside/caverns)
-"yH" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/structure/flora/tree/dead,
-/obj/structure/flora/small/snow/rock6,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
 /area/iskhod/dungeon/outside/caverns)
 "yL" = (
 /obj/structure/table/reinforced,
@@ -1895,16 +1934,6 @@
 /obj/structure/table/marble,
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
-"zi" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/structure/flora/small/trailrockb4,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "zm" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/wood/wild4,
@@ -1933,33 +1962,11 @@
 	},
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/dungeon/outside/caverns)
-"zW" = (
-/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
-/mob/living/simple/hostile/creature/tissue{
-	faction = "tissue"
-	},
-/turf/simulated/floor/industrial,
-/area/iskhod/dungeon/outside/caverns)
 "zX" = (
 /obj/structure/bed{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
-/area/iskhod/dungeon/outside/caverns)
-"zZ" = (
-/obj/effect/overlay/water{
-	color = "#880808"
-	},
-/obj/effect/overlay/water/top{
-	color = "#880808"
-	},
-/mob/living/simple/hostile/carp/greatwhite{
-	color = "#8B0000";
-	name = "malformed great white carp"
-	},
-/turf/simulated/floor/beach/water/ocean{
-	color = "#880808"
-	},
 /area/iskhod/dungeon/outside/caverns)
 "Ad" = (
 /obj/structure/table/steel,
@@ -1986,6 +1993,10 @@
 /turf/simulated/wall/untinted/onestar_reinforced{
 	name = "Propeller"
 	},
+/area/iskhod/dungeon/outside/caverns)
+"As" = (
+/obj/structure/sign/warning/hazard_radiation,
+/turf/simulated/wall/r_wall/iskhod,
 /area/iskhod/dungeon/outside/caverns)
 "At" = (
 /obj/structure/table/steel,
@@ -2026,18 +2037,6 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
-"AZ" = (
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
-	},
-/mob/living/simple/hostile/creature/tissue{
-	faction = "tissue"
-	},
-/turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
 "Ba" = (
 /obj/effect/spider/stickyweb,
 /turf/unsimulated/mineral/cold,
@@ -2051,11 +2050,6 @@
 "Bg" = (
 /obj/machinery/door/window/southleft,
 /turf/simulated/floor/icewater,
-/area/iskhod/dungeon/outside/caverns)
-"Bi" = (
-/obj/item/remains,
-/obj/item/clothing/head/hardhat,
-/turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "Bu" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -2100,13 +2094,8 @@
 /area/iskhod/dungeon/outside/caverns)
 "BO" = (
 /obj/effect/floor_decal/industrial_plant,
-/obj/item/weapon/nuclear_cylinder,
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
-	},
+/obj/structure/girder,
+/obj/structure/grille,
 /turf/simulated/floor/tiled/steel/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "BV" = (
@@ -2120,14 +2109,11 @@
 /obj/machinery/door/unpowered/simple/wood,
 /turf/simulated/floor/industrial/grey_slates_long,
 /area/iskhod/dungeon/outside/caverns)
-"Ck" = (
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
+"Cg" = (
+/obj/structure/flora/tree/snow/four,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
 	},
-/turf/simulated/floor/industrial/concrete_bricks,
 /area/iskhod/dungeon/outside/caverns)
 "Cq" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -2137,9 +2123,32 @@
 /obj/machinery/door/unpowered/simple/wood,
 /turf/simulated/floor/wood,
 /area/iskhod/dungeon/outside/caverns)
+"Cy" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/machinery/shield_conduit{
+	name = "strange device";
+	desc = "Looks important, probably best to leave it alone.";
+	dir = 4
+	},
+/obj/machinery/self_destruct,
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "CA" = (
 /obj/structure/lattice,
 /turf/simulated/floor/icewater,
+/area/iskhod/dungeon/outside/caverns)
+"CE" = (
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/concrete_bricks,
 /area/iskhod/dungeon/outside/caverns)
 "CF" = (
 /mob/living/simple/hostile/nightmare/dream_daemon,
@@ -2253,20 +2262,6 @@
 "DA" = (
 /turf/simulated/mineral/glacierice,
 /area/iskhod/outside/forest)
-"DJ" = (
-/obj/effect/overlay/water{
-	color = "#880808"
-	},
-/obj/effect/overlay/water/top{
-	color = "#880808"
-	},
-/mob/living/simple/hostile/creature/tissue{
-	faction = "tissue"
-	},
-/turf/simulated/floor/beach/water/ocean{
-	color = "#880808"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "DW" = (
 /obj/random/mob/roaches,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -2377,6 +2372,17 @@
 /obj/effect/step_trigger/A_forest_to_colony_2,
 /turf/simulated/floor/rock/manmade/asphalt,
 /area/iskhod/dungeon/outside/caverns)
+"FA" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock6,
+/obj/structure/flora/small/trailrocka2,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "FB" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_alt,
 /obj/machinery/computer{
@@ -2391,16 +2397,6 @@
 "FG" = (
 /obj/structure/bed/chair/office,
 /turf/simulated/floor/industrial/navy_slates_fixed,
-/area/iskhod/dungeon/outside/caverns)
-"FH" = (
-/obj/machinery/portable_atmospherics/canister/empty/oxygen,
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_idle";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "FI" = (
 /obj/structure/multiz/stairs/enter{
@@ -2439,6 +2435,21 @@
 	},
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"Gq" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "Gr" = (
 /obj/random/cigarettes,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -2446,15 +2457,6 @@
 "Gu" = (
 /obj/structure/salvageable/data_os{
 	icon_state = "machine0"
-	},
-/turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
-"Gw" = (
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
@@ -2475,13 +2477,6 @@
 	dir = 4
 	},
 /turf/simulated/floor/industrial/navy_large_slates,
-/area/iskhod/dungeon/outside/caverns)
-"GU" = (
-/obj/structure/catwalk,
-/mob/living/simple/hostile/creature/tissue{
-	faction = "tissue"
-	},
-/turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
 "GZ" = (
 /obj/machinery/computer{
@@ -2504,6 +2499,16 @@
 	dir = 1
 	},
 /turf/simulated/open,
+/area/iskhod/dungeon/outside/caverns)
+"Hu" = (
+/obj/machinery/portable_atmospherics/canister/empty/oxygen,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "Hw" = (
 /obj/structure/multiz/stairs/enter,
@@ -2541,9 +2546,49 @@
 /obj/structure/closet/crate/freezer/rations,
 /turf/simulated/floor/reinforced,
 /area/iskhod/dungeon/outside/caverns)
-"Io" = (
-/obj/machinery/power/apc/inactive,
-/turf/simulated/wall/r_wall/iskhod,
+"Ih" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark";
+	faction = "tissue"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"Ip" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/structure/girder,
+/obj/structure/grille,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
+"It" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/carp/greatwhite{
+	color = "#8B0000";
+	name = "malformed great white carp";
+	faction = "tissue"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "IB" = (
 /obj/item/stool/padded,
@@ -2565,6 +2610,16 @@
 /obj/structure/girder,
 /obj/structure/lattice,
 /turf/simulated/open,
+/area/iskhod/dungeon/outside/caverns)
+"IV" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock6,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "IZ" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -2667,12 +2722,34 @@
 /obj/structure/multiz/stairs/active,
 /turf/simulated/open,
 /area/iskhod/outside/forest)
+"Kf" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust{
+	dir = 1
+	},
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/iskhod/dungeon/outside/caverns)
 "Kg" = (
 /obj/structure/railing,
 /turf/simulated/floor/asteroid/shale{
 	nitrogen = 93.6478;
 	oxygen = 24.8937
 	},
+/area/iskhod/dungeon/outside/caverns)
+"Kk" = (
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "Kp" = (
 /obj/structure/table/standard,
@@ -2692,16 +2769,6 @@
 "Kx" = (
 /obj/structure/multiz/stairs/enter/bottom,
 /turf/simulated/floor/industrial/navy_slates_fixed,
-/area/iskhod/dungeon/outside/caverns)
-"Kz" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/structure/flora/small/snow/rock8,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
 /area/iskhod/dungeon/outside/caverns)
 "KA" = (
 /obj/random/mob/roaches,
@@ -2733,16 +2800,6 @@
 	},
 /turf/simulated/floor/beach/water/ocean,
 /area/iskhod/dungeon/outside/caverns)
-"La" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/structure/flora/small/snow/rock7,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "Le" = (
 /obj/random/junkfood,
 /obj/structure/table/rack/shelf,
@@ -2766,22 +2823,6 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
-"Ls" = (
-/obj/effect/overlay/water{
-	color = "#880808"
-	},
-/obj/effect/overlay/water/top{
-	color = "#880808"
-	},
-/mob/living/simple/hostile/carp/greatwhite{
-	color = "#8B0000";
-	name = "malformed great white carp";
-	faction = "tissue"
-	},
-/turf/simulated/floor/beach/water/ocean{
-	color = "#880808"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "Lu" = (
 /obj/random/junk,
 /obj/random/junk,
@@ -2791,6 +2832,21 @@
 	nitrogen = 93.6478;
 	oxygen = 24.8937
 	},
+/area/iskhod/dungeon/outside/caverns)
+"Ly" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "LE" = (
 /mob/living/carbon/superior/spider/nurse/queen,
@@ -2834,6 +2890,13 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"Mj" = (
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/wood/wild4,
+/area/iskhod/dungeon/outside/caverns)
 "Mo" = (
 /obj/random/material_ore/low_chance,
 /turf/simulated/floor/asteroid/shale{
@@ -2848,28 +2911,12 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
-"My" = (
-/obj/effect/overlay/water{
-	color = "#880808"
-	},
-/obj/effect/overlay/water/top{
-	color = "#880808"
-	},
-/mob/living/simple/hostile/carp/shark{
-	color = "#8B0000";
-	name = "malformed shark";
-	faction = "tissue"
-	},
-/turf/simulated/floor/beach/water/ocean{
-	color = "#880808"
-	},
-/area/iskhod/dungeon/outside/caverns)
-"MH" = (
+"ME" = (
 /mob/living/simple/hostile/carp/shark{
 	color = "#8B0000";
 	name = "malformed shark"
 	},
-/turf/simulated/floor/wood/wild4,
+/turf/simulated/floor/icewater,
 /area/iskhod/dungeon/outside/caverns)
 "MI" = (
 /obj/effect/overlay/water{
@@ -2897,10 +2944,7 @@
 	color = "#880808"
 	},
 /area/iskhod/dungeon/outside/caverns)
-"MY" = (
-/turf/simulated/wall/iskhod_blue,
-/area/iskhod/dungeon/outside/caverns)
-"Na" = (
+"ML" = (
 /obj/effect/floor_decal/border/techfloor/orange{
 	icon = 'icons/mob/blob.dmi';
 	icon_state = "blob_damaged2";
@@ -2913,7 +2957,13 @@
 	name = "biomass";
 	color = "#750008"
 	},
-/turf/simulated/floor/industrial/black_large_slates,
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/plating/under,
+/area/iskhod/dungeon/outside/caverns)
+"MY" = (
+/turf/simulated/wall/iskhod_blue,
 /area/iskhod/dungeon/outside/caverns)
 "Nj" = (
 /turf/simulated/wall/iskhod,
@@ -2926,12 +2976,6 @@
 /area/iskhod/outside/forest)
 "Ny" = (
 /turf/simulated/floor/beach/water/shallow,
-/area/iskhod/dungeon/outside/caverns)
-"ND" = (
-/obj/structure/flora/tree/pine,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
 /area/iskhod/dungeon/outside/caverns)
 "NE" = (
 /obj/structure/multiz/stairs/active/bottom{
@@ -2969,13 +3013,6 @@
 "Ob" = (
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/outside/forest)
-"Oc" = (
-/mob/living/simple/hostile/carp/shark{
-	color = "#8B0000";
-	name = "malformed shark"
-	},
-/turf/simulated/floor/icewater,
-/area/iskhod/dungeon/outside/caverns)
 "Od" = (
 /obj/machinery/door/window/southright,
 /turf/simulated/floor/icewater,
@@ -2988,33 +3025,28 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
-"Of" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/structure/flora/small/snow/rock4,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
-/area/iskhod/dungeon/outside/caverns)
-"Og" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/structure/flora/small/snow/rock6,
-/obj/structure/flora/small/trailrocka2,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "Oj" = (
 /obj/structure/boulder,
 /turf/simulated/floor/asteroid/shale{
 	nitrogen = 93.6478;
 	oxygen = 24.8937
 	},
+/area/iskhod/dungeon/outside/caverns)
+"Oo" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust{
+	dir = 1
+	},
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
 /area/iskhod/dungeon/outside/caverns)
 "Os" = (
 /obj/structure/closet/secure_closet/freezer,
@@ -3106,17 +3138,6 @@
 /obj/random/junkfood/onlyburger,
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
-"Pn" = (
-/obj/item/mine/excelsior{
-	armed = 1;
-	anchored = 1
-	},
-/obj/structure/flora/small/trailrocka2,
-/obj/structure/flora/small/trailrockb3,
-/turf/simulated/floor/snow/smooth{
-	icon_state = "snow0"
-	},
-/area/iskhod/dungeon/outside/caverns)
 "Po" = (
 /obj/machinery/chem_master,
 /turf/simulated/floor/industrial/white_large_slates,
@@ -3126,6 +3147,16 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"Pw" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock4,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "Px" = (
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -3147,6 +3178,12 @@
 /obj/random/handmade_tool,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"PU" = (
+/obj/structure/flora/tree/snow/five,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "PY" = (
 /obj/effect/floor_decal/industrial_plant,
 /turf/simulated/floor/industrial/black_large_slates,
@@ -3156,14 +3193,11 @@
 /turf/simulated/floor/icewater,
 /area/iskhod/dungeon/outside/caverns)
 "Qc" = (
-/obj/effect/floor_decal/industrial_plant,
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_idle";
-	name = "biomass";
-	color = "#750008"
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
 	},
-/turf/simulated/floor/tiled/dark/monofloor,
+/turf/simulated/floor/industrial/concrete_bricks,
 /area/iskhod/dungeon/outside/caverns)
 "Qe" = (
 /obj/effect/floor_decal/industrial_plant/steel_warning,
@@ -3199,6 +3233,13 @@
 /obj/structure/closet/crate/internals,
 /turf/simulated/floor/reinforced,
 /area/iskhod/dungeon/outside/caverns)
+"QN" = (
+/mob/living/simple/hostile/carp/greatwhite{
+	color = "#8B0000";
+	name = "malformed great white carp"
+	},
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
 "QP" = (
 /obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/reinforced,
@@ -3221,6 +3262,16 @@
 /obj/item/device/synthesized_instrument/guitar,
 /obj/structure/table/bench/wooden,
 /turf/simulated/floor/rock,
+/area/iskhod/dungeon/outside/caverns)
+"Rs" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock7,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "RC" = (
 /turf/simulated/floor/industrial/black_large_slates,
@@ -3276,12 +3327,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/iskhod/dungeon/outside/caverns)
-"Sx" = (
-/mob/living/simple/hostile/creature/tissue{
-	faction = "tissue"
-	},
-/turf/simulated/floor/industrial/white_large_slates,
-/area/iskhod/dungeon/outside/caverns)
 "Sz" = (
 /obj/effect/decal/cleanable/solid_biomass/aoe,
 /turf/simulated/floor/beach/water/jungle,
@@ -3321,35 +3366,18 @@
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
 "SO" = (
-/obj/effect/floor_decal/industrial_plant,
-/obj/effect/floor_decal/industrial/warningdust{
-	dir = 1
+/obj/effect/overlay/water{
+	color = "#880808"
 	},
-/obj/structure/railing/grey{
-	dir = 1
+/obj/effect/overlay/water/top{
+	color = "#880808"
 	},
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_idle";
-	name = "biomass";
-	color = "#750008"
+/mob/living/simple/hostile/render/malformed{
+	faction = "tissue"
 	},
-/turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
-"SP" = (
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
 	},
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_idle";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
 "SQ" = (
 /obj/structure/multiz/stairs/enter,
@@ -3357,19 +3385,6 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
-"Ta" = (
-/mob/living/simple/hostile/carp/shark{
-	color = "#8B0000";
-	name = "malformed shark"
-	},
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/industrial/concrete_bricks,
-/area/iskhod/dungeon/outside/caverns)
 "Tc" = (
 /obj/machinery/light/floor{
 	dir = 8
@@ -3403,21 +3418,6 @@
 /obj/structure/bed,
 /turf/simulated/floor/wood_old,
 /area/iskhod/dungeon/outside/caverns)
-"TQ" = (
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_idle";
-	name = "biomass";
-	color = "#750008"
-	},
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/tiled/dark/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
 "TR" = (
 /obj/structure/girder,
 /obj/structure/table/steel_reinforced,
@@ -3448,6 +3448,15 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/outside/forest)
+"Uj" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "Uq" = (
 /obj/random/mob/excelsior/low_chance,
 /obj/structure/railing{
@@ -3462,6 +3471,21 @@
 /obj/effect/floor_decal/industrial_plant,
 /obj/structure/girder,
 /turf/simulated/floor/tiled/dark/monofloor,
+/area/iskhod/dungeon/outside/caverns)
+"Ux" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/carp/greatwhite{
+	color = "#8B0000";
+	name = "malformed great white carp"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Uz" = (
 /obj/effect/floor_decal/corner/lightgrey/bordercee{
@@ -3478,26 +3502,9 @@
 /obj/random/firstaid/low_chance,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
-"UM" = (
-/obj/effect/floor_decal/industrial_plant,
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
 "UO" = (
 /obj/effect/step_trigger/A_forest_to_colony_1,
 /turf/simulated/floor/rock/manmade/asphalt,
-/area/iskhod/dungeon/outside/caverns)
-"UV" = (
-/mob/living/simple/hostile/carp/greatwhite{
-	color = "#8B0000";
-	name = "malformed great white carp"
-	},
-/turf/simulated/floor/beach/water/ocean,
 /area/iskhod/dungeon/outside/caverns)
 "Vd" = (
 /obj/effect/floor_decal/industrial/warningdust{
@@ -3532,14 +3539,6 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
-"Vu" = (
-/obj/structure/railing/grey,
-/mob/living/simple/hostile/carp/shark{
-	color = "#8B0000";
-	name = "malformed shark"
-	},
-/turf/simulated/floor/beach/water/ocean,
-/area/iskhod/dungeon/outside/caverns)
 "Vz" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
@@ -3586,28 +3585,6 @@
 "Wj" = (
 /obj/structure/sign/warning/moving_parts,
 /turf/simulated/wall/iskhod_blue,
-/area/iskhod/dungeon/outside/caverns)
-"Wl" = (
-/obj/effect/floor_decal/industrial_plant,
-/obj/machinery/shield_conduit{
-	name = "strange device";
-	desc = "Looks important, probably best to leave it alone.";
-	dir = 4
-	},
-/obj/machinery/self_destruct,
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/tiled/steel/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
-"Wo" = (
-/mob/living/simple/hostile/creature/tissue{
-	faction = "tissue"
-	},
-/turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "Wp" = (
 /obj/machinery/light/floor,
@@ -3656,6 +3633,20 @@
 /obj/structure/bed/double/padded,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/outside/forest)
+"WY" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "WZ" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/catwalk,
@@ -3689,25 +3680,17 @@
 /obj/structure/largecrate/animal/piano,
 /turf/simulated/floor/reinforced,
 /area/iskhod/dungeon/outside/caverns)
-"Xw" = (
-/obj/effect/floor_decal/industrial_plant,
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_damaged2";
-	name = "biomass";
-	color = "#750008"
-	},
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_idle";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/tiled/dark/monofloor,
-/area/iskhod/dungeon/outside/caverns)
 "Xz" = (
 /obj/structure/railing/grey{
 	dir = 1
+	},
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
+"XE" = (
+/obj/structure/railing/grey,
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
 	},
 /turf/simulated/floor/beach/water/ocean,
 /area/iskhod/dungeon/outside/caverns)
@@ -3729,9 +3712,15 @@
 /obj/machinery/shield_conduit{
 	name = "strange device";
 	desc = "Looks important, probably best to leave it alone.";
-	dir = 4
+	dir = 8
 	},
 /obj/machinery/self_destruct,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "XX" = (
@@ -3753,6 +3742,16 @@
 	},
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"Yn" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/tree/pine,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "Yp" = (
 /obj/structure/table/reinforced,
 /obj/random/medical,
@@ -3761,6 +3760,19 @@
 "Yr" = (
 /obj/structure/table/rack/shelf,
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"Yw" = (
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
+"YA" = (
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "YP" = (
 /obj/structure/flora/small/snow/rock3,
@@ -3839,18 +3851,6 @@
 "ZK" = (
 /obj/machinery/portable_atmospherics/canister/empty/oxygen,
 /turf/simulated/floor/industrial/black_large_slates,
-/area/iskhod/dungeon/outside/caverns)
-"ZL" = (
-/obj/effect/floor_decal/industrial_plant,
-/obj/structure/girder,
-/obj/structure/grille,
-/obj/effect/floor_decal/border/techfloor/orange{
-	icon = 'icons/mob/blob.dmi';
-	icon_state = "blob_idle";
-	name = "biomass";
-	color = "#750008"
-	},
-/turf/simulated/floor/tiled/steel/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "ZN" = (
 /obj/random/junk/low_chance,
@@ -137396,9 +137396,9 @@ rs
 rs
 rs
 eE
-qf
-BO
-mn
+xu
+jD
+bY
 CO
 CO
 CO
@@ -137671,37 +137671,37 @@ iw
 iw
 iw
 CO
-GU
+lN
 Vz
 Vz
 Vz
 Vz
-SP
-ij
+no
+ML
 CO
 pm
 CO
 RC
 RC
-Gw
+hv
 RC
 CO
 Gu
 kg
 jn
 ed
-Wo
+Kk
 qs
 CO
 CO
 eE
 CO
 CO
-dp
+As
 Cq
-qf
-qf
-jY
+xu
+xu
+pu
 CO
 CO
 iw
@@ -137977,19 +137977,19 @@ Vz
 yU
 JH
 Vz
-fG
+Uj
 yU
-SP
+no
 Dg
 PY
 Dg
 RC
-Wo
-Gw
+Kk
+hv
 RC
 CO
 zS
-Wo
+Kk
 RC
 xe
 RC
@@ -138001,10 +138001,10 @@ js
 og
 Dh
 Cq
-XR
-qf
-Wl
-xC
+Cy
+xu
+ho
+BO
 CO
 iw
 iw
@@ -138280,15 +138280,15 @@ JH
 yU
 Vz
 yU
-fG
+Uj
 Vz
 Dg
 PY
 Dg
 RC
 RC
-Gw
-Gw
+hv
+hv
 Ka
 RC
 RC
@@ -138299,14 +138299,14 @@ RC
 yY
 Vz
 js
-Sx
+YA
 og
 Dh
-qf
+xu
 wm
-qf
+xu
 Ov
-xC
+BO
 CO
 iw
 iw
@@ -138580,35 +138580,35 @@ CO
 Vz
 yU
 JH
-GU
-TQ
+lN
+dp
 yU
 Vz
 Dg
 PY
 Dg
 RC
-Gw
+hv
 cU
-AZ
+sF
 CO
 CO
 CO
 CO
 RC
-Wo
+Kk
 RC
 yY
 Vz
 js
-Bi
+td
 og
 Dh
-qf
-qj
-qf
-yD
-xC
+xu
+XR
+xu
+hz
+BO
 CO
 iw
 iw
@@ -138891,8 +138891,8 @@ pm
 CO
 RC
 RC
-Gw
-Na
+hv
+Ly
 CO
 zX
 uK
@@ -138905,11 +138905,11 @@ CO
 js
 js
 js
-dp
-BO
-mn
-mn
-jY
+As
+jD
+bY
+bY
+pu
 CO
 CO
 iw
@@ -139194,7 +139194,7 @@ CO
 ZK
 ZK
 vE
-FH
+Hu
 CO
 lY
 lY
@@ -139204,13 +139204,13 @@ qs
 qs
 CO
 CO
-Io
-et
-et
+tM
+pP
+pP
 CO
-xC
-xC
-ZL
+BO
+BO
+Ip
 CO
 CO
 CO
@@ -198376,23 +198376,23 @@ AN
 AN
 ei
 ei
-Of
+Pw
 ei
-qy
+PU
 ei
 ei
 ei
-ND
+oh
+ei
+ei
+lE
+ei
+PU
+ei
 ei
 ei
 oK
 ei
-qy
-ei
-ei
-ei
-Kz
-ei
 ei
 ei
 ei
@@ -198419,7 +198419,7 @@ AN
 ei
 ei
 ei
-ND
+oh
 AN
 AN
 AN
@@ -198440,8 +198440,8 @@ AN
 ei
 ei
 ei
-mZ
-ND
+gA
+oh
 ei
 ei
 AN
@@ -198677,7 +198677,7 @@ AN
 AN
 AN
 ei
-ND
+oh
 ei
 ei
 ei
@@ -198693,16 +198693,16 @@ ei
 ei
 ei
 ei
-ND
+oh
 ei
 ei
 ei
-mZ
-jG
+gA
+Cg
 ei
 ei
 ei
-ND
+oh
 ei
 ei
 ei
@@ -198985,41 +198985,19 @@ ei
 ei
 ei
 ei
-gl
+nW
 ei
 ei
-ND
-ei
-ei
-ei
-pt
+oh
 ei
 ei
 ei
-ei
-ND
+mC
 ei
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-zi
-ei
-ND
-ei
-fU
-ei
-ei
-ei
-ei
-yH
-ei
-ei
-ei
-Of
+oh
 ei
 ei
 ei
@@ -199027,15 +199005,37 @@ ei
 ei
 ei
 ei
-mZ
-jG
+ei
+nr
+ei
+oh
+ei
+IV
+ei
+ei
+ei
+ei
+mm
+ei
+ei
+ei
+Pw
 ei
 ei
 ei
 ei
 ei
-mZ
-jG
+ei
+ei
+gA
+Cg
+ei
+ei
+ei
+ei
+ei
+gA
+Cg
 ei
 ei
 ei
@@ -199324,7 +199324,7 @@ ei
 ei
 ei
 ei
-Of
+Pw
 ei
 ei
 ei
@@ -199580,22 +199580,10 @@ AN
 AN
 AN
 ei
-ND
+oh
 ei
 ei
-Og
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-mZ
-ei
-ND
+FA
 ei
 ei
 ei
@@ -199605,8 +199593,9 @@ ei
 ei
 ei
 ei
+gA
 ei
-Of
+oh
 ei
 ei
 ei
@@ -199617,12 +199606,7 @@ ei
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-mZ
-jG
+Pw
 ei
 ei
 ei
@@ -199636,8 +199620,9 @@ ei
 ei
 ei
 ei
-mZ
-jG
+ei
+gA
+Cg
 ei
 ei
 ei
@@ -199651,7 +199636,22 @@ ei
 ei
 ei
 ei
-mZ
+gA
+Cg
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+gA
 ei
 ei
 ei
@@ -199892,7 +199892,7 @@ ei
 ei
 ei
 ei
-qy
+PU
 ei
 ei
 ei
@@ -199900,18 +199900,10 @@ ei
 ei
 ei
 ei
-fU
+IV
 ei
 ei
-qy
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
+PU
 ei
 ei
 ei
@@ -199926,8 +199918,16 @@ ei
 ei
 ei
 ei
-mZ
-jG
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+gA
+Cg
 ei
 ei
 ei
@@ -199948,8 +199948,8 @@ ei
 ei
 ei
 ei
-mZ
-ND
+gA
+oh
 ei
 ei
 ei
@@ -200190,7 +200190,7 @@ ei
 ei
 ei
 ei
-Of
+Pw
 ei
 ei
 ei
@@ -200218,13 +200218,13 @@ ei
 ei
 ei
 ei
-zi
+nr
 ei
 ei
-ND
+oh
 ei
 ei
-fU
+IV
 ei
 ei
 ei
@@ -200245,8 +200245,8 @@ ei
 ei
 ei
 ei
-mZ
-jG
+gA
+Cg
 ei
 ei
 ei
@@ -200487,7 +200487,7 @@ AN
 ei
 ei
 ei
-fU
+IV
 ei
 ei
 ei
@@ -200497,28 +200497,24 @@ ei
 ei
 ei
 ei
-fU
+IV
 ei
 ei
 ei
-Of
-ei
-ei
-ei
-ei
-ei
-La
-ei
-ei
-ei
-ND
-ei
-ei
-fl
+Pw
 ei
 ei
 ei
 ei
+ei
+Rs
+ei
+ei
+ei
+oh
+ei
+ei
+ge
 ei
 ei
 ei
@@ -200530,7 +200526,11 @@ ei
 ei
 ei
 ei
-fU
+ei
+ei
+ei
+ei
+IV
 ei
 ei
 ei
@@ -200555,8 +200555,8 @@ ei
 ei
 ei
 ei
-mZ
-ND
+gA
+oh
 ei
 jL
 jL
@@ -200796,19 +200796,13 @@ ei
 ei
 ei
 ei
-ND
+oh
 ei
 ei
 ei
 ei
 ei
-ND
-ei
-ei
-ei
-ei
-ei
-ei
+oh
 ei
 ei
 ei
@@ -200819,7 +200813,13 @@ ei
 ei
 ei
 ei
-ND
+ei
+ei
+ei
+ei
+ei
+ei
+oh
 ei
 ei
 ei
@@ -200846,7 +200846,7 @@ ER
 Ww
 ei
 ei
-ND
+oh
 ei
 jL
 jL
@@ -201092,9 +201092,9 @@ ei
 ei
 ei
 ei
-ND
+oh
 ei
-Pn
+iq
 ei
 ei
 ei
@@ -201132,7 +201132,7 @@ jL
 jL
 ei
 ei
-kY
+sR
 jL
 jL
 jL
@@ -201390,7 +201390,7 @@ AN
 AN
 AN
 jL
-kY
+sR
 jL
 jL
 ei
@@ -201401,7 +201401,7 @@ jL
 jL
 jL
 ei
-dS
+Yn
 ei
 ei
 jL
@@ -201411,15 +201411,15 @@ jL
 jL
 jL
 ei
-mZ
+gA
 jL
 jL
 jL
 jL
 jL
 ei
-mZ
-jG
+gA
+Cg
 ei
 ei
 jL
@@ -201717,7 +201717,7 @@ jL
 jL
 jL
 jL
-kY
+sR
 jL
 jL
 jL
@@ -201725,14 +201725,14 @@ jL
 jL
 jL
 jL
-kY
+sR
 jL
 jL
 jL
 jL
 jL
 jL
-kY
+sR
 jL
 jL
 jL
@@ -202010,7 +202010,7 @@ jL
 jL
 jL
 jL
-kY
+sR
 jL
 jL
 jL
@@ -202645,7 +202645,7 @@ lw
 lw
 lw
 TW
-Oc
+ME
 jQ
 ER
 sz
@@ -203875,7 +203875,7 @@ TW
 TW
 Qw
 Xg
-Ck
+mr
 Xg
 Cf
 js
@@ -204176,8 +204176,8 @@ lw
 lw
 TW
 Qw
-Ck
-Ck
+mr
+mr
 Xg
 Tu
 js
@@ -204477,8 +204477,8 @@ lw
 lw
 lw
 PZ
-Ck
-Ck
+mr
+mr
 Xg
 Xg
 Tu
@@ -204774,15 +204774,15 @@ Xz
 TW
 TW
 lw
-Oc
+ME
 lw
 lw
 lw
 PZ
-qu
-Ck
+cY
+mr
 Xg
-sO
+Qc
 Xc
 Xc
 Xc
@@ -205062,7 +205062,7 @@ np
 TW
 TW
 TW
-Vu
+XE
 ER
 ER
 CO
@@ -205081,8 +205081,8 @@ lw
 lw
 lw
 PZ
-qu
-qu
+cY
+cY
 Xg
 Xg
 Xc
@@ -205383,8 +205383,8 @@ lw
 lw
 lw
 iS
-qu
-Ck
+cY
+mr
 Xg
 Xg
 Tu
@@ -205685,8 +205685,8 @@ lw
 lw
 lw
 iS
-qu
-Ck
+cY
+mr
 Xg
 Xg
 Tu
@@ -205985,10 +205985,10 @@ TW
 TW
 TW
 lw
-ls
+Yw
 iS
-qu
-Ck
+cY
+mr
 Xg
 Xg
 Tu
@@ -206290,8 +206290,8 @@ TW
 TW
 TW
 Qw
-Ck
-Ck
+mr
+mr
 Xg
 el
 Aj
@@ -206592,7 +206592,7 @@ TW
 TW
 TW
 Qw
-Ck
+mr
 Xg
 Xg
 Tu
@@ -206893,8 +206893,8 @@ TW
 TW
 TW
 iS
-Ck
-Ck
+mr
+mr
 Xg
 Xg
 Tu
@@ -207196,7 +207196,7 @@ TW
 TW
 iS
 Xg
-Ck
+mr
 Xg
 Xg
 Xc
@@ -207498,7 +207498,7 @@ TW
 TW
 iS
 Xg
-Ck
+mr
 Xg
 Xg
 Xc
@@ -207799,9 +207799,9 @@ TW
 TW
 TW
 iS
-Ta
-qu
-Ck
+CE
+cY
+mr
 Xg
 Tu
 js
@@ -208101,9 +208101,9 @@ TW
 TW
 TW
 iS
-Ck
-qu
-Ck
+mr
+cY
+mr
 Xg
 Tu
 js
@@ -208382,11 +208382,11 @@ TW
 TW
 TW
 TW
-ls
+Yw
 TW
 is
 ER
-MH
+Mj
 CO
 NI
 GG
@@ -208403,9 +208403,9 @@ TW
 TW
 TW
 np
-qu
-qu
-Ck
+cY
+cY
+mr
 Xg
 Tu
 Tu
@@ -208706,8 +208706,8 @@ TW
 TW
 np
 np
-qu
-Ck
+cY
+mr
 Xg
 bi
 TW
@@ -209008,8 +209008,8 @@ TW
 np
 np
 np
-Ck
-Ck
+mr
+mr
 Xg
 bi
 TW
@@ -209310,8 +209310,8 @@ TW
 np
 np
 np
-Ck
-Ck
+mr
+mr
 Xg
 bi
 TW
@@ -209612,8 +209612,8 @@ TW
 np
 np
 np
-Ck
-Ck
+mr
+mr
 Xg
 bi
 TW
@@ -209913,9 +209913,9 @@ TW
 TW
 np
 XX
-qu
-qu
-Ck
+cY
+cY
+mr
 Xg
 bi
 TW
@@ -210215,9 +210215,9 @@ TW
 TW
 TW
 XX
-Ck
-Ck
-Ck
+mr
+mr
+mr
 Qw
 TW
 TW
@@ -210518,7 +210518,7 @@ TW
 TW
 iS
 Xg
-Ck
+mr
 Xg
 Qw
 TW
@@ -210820,8 +210820,8 @@ TW
 TW
 iS
 Xg
-Ck
-sO
+mr
+Qc
 Qw
 TW
 TW
@@ -211122,7 +211122,7 @@ TW
 TW
 iS
 Xg
-Ck
+mr
 Xg
 Xg
 bi
@@ -226476,7 +226476,7 @@ TW
 TW
 TW
 TW
-UV
+QN
 TW
 TW
 TW
@@ -226783,7 +226783,7 @@ TW
 TW
 TW
 TW
-ls
+Yw
 TW
 TW
 TW
@@ -226791,7 +226791,7 @@ TW
 TW
 TW
 TW
-UV
+QN
 TW
 TW
 TW
@@ -227064,14 +227064,14 @@ TW
 TW
 TW
 TW
-ls
+Yw
 TW
 TW
 TW
 TW
 TW
 TW
-UV
+QN
 TW
 TW
 TW
@@ -227976,12 +227976,12 @@ qd
 qd
 qd
 Fd
-UM
-UM
+tv
+tv
 CU
-UM
-UM
-UM
+tv
+tv
+tv
 CU
 CU
 CU
@@ -228279,8 +228279,8 @@ pG
 kf
 kf
 Sw
-UM
-Xw
+tv
+xO
 Dh
 CO
 CO
@@ -228581,11 +228581,11 @@ tP
 BV
 BV
 sY
-UM
+tv
 Dh
 tL
 NW
-zW
+vH
 NW
 NW
 un
@@ -228882,8 +228882,8 @@ BV
 SB
 BV
 BV
-yu
-Qc
+Kf
+bn
 Dh
 tL
 od
@@ -229184,8 +229184,8 @@ BV
 tP
 BV
 BV
-SO
-UM
+Oo
+tv
 Dh
 tL
 NW
@@ -229485,10 +229485,10 @@ Bu
 Bu
 aD
 Bu
-rP
+aV
 li
 CU
-UM
+tv
 Dh
 CO
 CO
@@ -229791,13 +229791,13 @@ mh
 CU
 CU
 CU
-UM
-UM
-Qc
-Qc
-Qc
-UM
-UM
+tv
+tv
+bn
+bn
+bn
+tv
+tv
 CU
 CU
 CU
@@ -230091,7 +230091,7 @@ TW
 TW
 TW
 yQ
-gA
+tT
 yQ
 yQ
 yQ
@@ -231305,12 +231305,12 @@ TW
 TW
 TW
 TW
-ls
+Yw
 TW
 TW
 TW
 TW
-ls
+Yw
 TW
 TW
 TW
@@ -232228,7 +232228,7 @@ TW
 TW
 TW
 TW
-UV
+QN
 TW
 TW
 TW
@@ -249731,7 +249731,7 @@ mU
 mU
 mU
 mU
-Ls
+It
 mU
 mU
 mU
@@ -250040,7 +250040,7 @@ mU
 mU
 mU
 mU
-zZ
+Ux
 mU
 mU
 mU
@@ -250632,7 +250632,7 @@ mU
 mU
 mU
 mU
-zZ
+Ux
 mU
 mU
 mU
@@ -250642,7 +250642,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -250651,8 +250651,8 @@ mU
 mU
 mU
 mU
-DJ
-DJ
+WY
+WY
 mU
 mU
 mU
@@ -250943,7 +250943,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -250952,11 +250952,11 @@ mU
 mU
 mU
 mU
-DJ
-DJ
+WY
+WY
 mU
-DJ
-DJ
+WY
+WY
 mU
 mU
 mU
@@ -251244,7 +251244,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -251258,8 +251258,8 @@ mU
 mU
 mU
 mU
-DJ
-DJ
+WY
+WY
 mU
 mU
 mU
@@ -251545,7 +251545,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -251561,7 +251561,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -251847,7 +251847,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -251864,8 +251864,8 @@ mU
 mU
 mU
 mU
-DJ
-DJ
+WY
+WY
 mU
 mU
 mU
@@ -252148,14 +252148,14 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
 mU
 mU
 mU
-eR
+Gq
 mU
 mU
 mU
@@ -252167,7 +252167,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -252446,31 +252446,31 @@ mU
 mU
 mU
 mU
-jv
-jv
-jv
+SO
+SO
+SO
 mU
-DJ
-mU
-mU
+WY
 mU
 mU
 mU
 mU
 mU
-My
-eR
+mU
+mU
+Ih
+Gq
 mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -252751,29 +252751,29 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
 mU
-zZ
-mU
-mU
-mU
-mU
-mU
-eR
-eR
-mU
-mU
-mU
-DJ
+Ux
 mU
 mU
 mU
 mU
 mU
-DJ
+Gq
+Gq
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+WY
 mU
 mU
 mU
@@ -253053,7 +253053,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -253070,13 +253070,13 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -253372,7 +253372,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -253651,7 +253651,7 @@ CO
 mU
 mU
 mU
-zZ
+Ux
 mU
 mU
 mU
@@ -253675,7 +253675,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -253965,7 +253965,7 @@ mU
 mU
 mU
 mU
-jv
+SO
 mU
 mU
 mU
@@ -253977,7 +253977,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -254266,21 +254266,21 @@ mU
 mU
 mU
 mU
-jv
-jv
+SO
+SO
 mU
 mU
 mU
 mU
 mU
 mU
-eR
+Gq
 mU
 mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -254566,8 +254566,8 @@ mU
 mU
 mU
 mU
-jv
-jv
+SO
+SO
 mU
 mU
 mU
@@ -254582,7 +254582,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -254867,7 +254867,7 @@ mU
 mU
 mU
 mU
-jv
+SO
 mU
 mU
 mU
@@ -254885,7 +254885,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -255177,8 +255177,8 @@ mU
 mU
 mU
 mU
-eR
-eR
+Gq
+Gq
 mU
 mU
 mU
@@ -255187,7 +255187,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -255464,8 +255464,8 @@ mU
 mU
 mU
 mU
-DJ
-DJ
+WY
+WY
 mU
 mU
 mU
@@ -255478,19 +255478,19 @@ mU
 mU
 mU
 mU
-eR
-eR
+Gq
+Gq
 mU
 mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
-DJ
-DJ
+WY
+WY
 mU
 mU
 mU
@@ -255767,7 +255767,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -255779,20 +255779,20 @@ mU
 mU
 mU
 mU
-eR
-eR
+Gq
+Gq
 mU
 mU
 mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -256070,7 +256070,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -256080,21 +256080,21 @@ mU
 mU
 mU
 mU
-eR
-eR
+Gq
+Gq
 mU
 mU
 mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -256373,24 +256373,24 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
-Ls
-mU
-mU
-mU
-mU
-eR
+It
 mU
 mU
 mU
 mU
+Gq
 mU
 mU
 mU
-DJ
+mU
+mU
+mU
+mU
+WY
 mU
 mU
 mU
@@ -256675,7 +256675,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -256692,7 +256692,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -256978,7 +256978,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -256991,10 +256991,10 @@ mU
 mU
 mU
 mU
-jv
+SO
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -257280,7 +257280,7 @@ mU
 mU
 mU
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -257292,10 +257292,10 @@ mU
 mU
 mU
 mU
-jv
-jv
+SO
+SO
 mU
-DJ
+WY
 mU
 mU
 mU
@@ -257594,7 +257594,7 @@ mU
 mU
 mU
 mU
-jv
+SO
 mU
 mU
 mU
@@ -257895,7 +257895,7 @@ mU
 mU
 mU
 mU
-jv
+SO
 mU
 mU
 mU
@@ -258491,10 +258491,10 @@ mU
 mU
 mU
 mU
-DJ
-DJ
-DJ
-DJ
+WY
+WY
+WY
+WY
 mU
 mU
 mU
@@ -258796,11 +258796,11 @@ mU
 mU
 mU
 mU
-DJ
-DJ
-DJ
-DJ
-DJ
+WY
+WY
+WY
+WY
+WY
 mU
 mU
 mU
@@ -259088,7 +259088,7 @@ mU
 mU
 mU
 mU
-zZ
+Ux
 mU
 mU
 mU
