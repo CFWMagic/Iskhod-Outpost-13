@@ -183,6 +183,12 @@
 /area/iskhod/dungeon/outside/caverns)
 "cU" = (
 /obj/structure/multiz/ladder/up,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "cW" = (
@@ -203,6 +209,10 @@
 	nitrogen = 93.6478;
 	oxygen = 24.8937
 	},
+/area/iskhod/dungeon/outside/caverns)
+"dp" = (
+/obj/structure/sign/warning/hazard_radiation,
+/turf/simulated/wall/r_wall/iskhod,
 /area/iskhod/dungeon/outside/caverns)
 "dq" = (
 /obj/structure/reagent_dispensers/beerkeg{
@@ -238,6 +248,16 @@
 /obj/random/material_ore/low_chance,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"dS" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/tree/pine,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "dU" = (
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/dungeon/outside/caverns)
@@ -271,6 +291,11 @@
 /obj/machinery/cooking/oven,
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
+"et" = (
+/obj/structure/table/rack/shelf,
+/obj/item/cell/large/greyson,
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
 "eC" = (
 /obj/structure/railing{
 	dir = 1
@@ -297,6 +322,21 @@
 /obj/random/material_ore/low_chance,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"eR" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "fg" = (
 /mob/living/simple/hostile/jelly,
 /turf/simulated/floor/beach/water/jungle,
@@ -305,6 +345,16 @@
 /obj/structure/table/woodentable,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/outside/forest)
+"fl" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock2,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "fo" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/flora/small/snow/rock3,
@@ -337,6 +387,15 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/dungeon/outside/trashcave)
+"fG" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "fL" = (
 /obj/structure/flora/rock/variant1,
 /turf/simulated/floor/snow/smooth{
@@ -386,6 +445,16 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"fU" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock6,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "fW" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/structure/table/standard,
@@ -406,6 +475,20 @@
 "gi" = (
 /obj/random/mob/excelsior,
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"gl" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock6,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "gn" = (
 /obj/effect/floor_decal/industrial/warningdust/corner{
@@ -451,6 +534,16 @@
 /obj/random/junkfood,
 /obj/random/tool_upgrade/low_chance,
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"gA" = (
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/beach/water/ocean,
 /area/iskhod/dungeon/outside/caverns)
 "gE" = (
 /obj/structure/table/steel,
@@ -554,6 +647,24 @@
 /obj/random/junk/low_chance,
 /turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
+"ij" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/plating/under,
+/area/iskhod/dungeon/outside/caverns)
 "im" = (
 /obj/random/junk,
 /turf/simulated/floor/asteroid/shale{
@@ -619,11 +730,31 @@
 "js" = (
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"jv" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/render/malformed{
+	faction = "tissue"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "jC" = (
 /obj/random/tool_upgrade/low_chance,
 /turf/simulated/floor/asteroid/shale{
 	nitrogen = 93.6478;
 	oxygen = 24.8937
+	},
+/area/iskhod/dungeon/outside/caverns)
+"jG" = (
+/obj/structure/flora/tree/snow/four,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
 	},
 /area/iskhod/dungeon/outside/caverns)
 "jH" = (
@@ -657,6 +788,17 @@
 "jW" = (
 /turf/simulated/open,
 /area/iskhod/outside/forest)
+"jY" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/item/weapon/nuclear_cylinder,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "kd" = (
 /obj/machinery/light/floor{
 	dir = 4
@@ -726,10 +868,26 @@
 /obj/structure/grille,
 /turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
+"kY" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
+/area/iskhod/dungeon/outside/caverns)
 "li" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust/corner{
 	dir = 1
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/iskhod/dungeon/outside/caverns)
@@ -739,6 +897,13 @@
 	nitrogen = 93.6478;
 	oxygen = 24.8937
 	},
+/area/iskhod/dungeon/outside/caverns)
+"ls" = (
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/beach/water/ocean,
 /area/iskhod/dungeon/outside/caverns)
 "lw" = (
 /turf/simulated/floor/icewater,
@@ -819,6 +984,16 @@
 	},
 /turf/simulated/floor/beach/water/ocean,
 /area/iskhod/dungeon/outside/caverns)
+"mn" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "mv" = (
 /obj/structure/largecrate/hoverpod,
 /turf/simulated/floor/reinforced,
@@ -850,6 +1025,15 @@
 	},
 /turf/simulated/floor/beach/water/ocean{
 	color = "#880808"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"mZ" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
 	},
 /area/iskhod/dungeon/outside/caverns)
 "nj" = (
@@ -926,6 +1110,7 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial_plant/steel_grate_alt,
+/obj/item/remains,
 /turf/simulated/floor/industrial,
 /area/iskhod/dungeon/outside/caverns)
 "og" = (
@@ -981,6 +1166,12 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"oK" = (
+/obj/structure/flora/small/snow/rock6,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "oQ" = (
 /obj/structure/flora/small/snow/rock6,
 /turf/simulated/floor/snow/smooth{
@@ -1016,6 +1207,16 @@
 "po" = (
 /obj/effect/floor_decal/border/techfloor/orange/corner,
 /turf/simulated/mineral/frostyrock,
+/area/iskhod/dungeon/outside/caverns)
+"pt" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/trailrockb2,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "pG" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -1061,6 +1262,32 @@
 /obj/structure/girder,
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/iskhod/dungeon/outside/caverns)
+"qf" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
+"qj" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/machinery/shield_conduit{
+	name = "strange device";
+	desc = "Looks important, probably best to leave it alone.";
+	dir = 8
+	},
+/obj/machinery/self_destruct,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "qk" = (
 /obj/machinery/optable,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -1075,12 +1302,27 @@
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"qu" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/concrete_bricks,
+/area/iskhod/dungeon/outside/caverns)
 "qv" = (
 /obj/random/junk/low_chance,
 /obj/effect/floor_decal/border/techfloor/orange/corner{
 	dir = 4
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"qy" = (
+/obj/structure/flora/tree/snow/five,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "qB" = (
 /turf/simulated/wall/iskhod_blue,
@@ -1100,6 +1342,19 @@
 "rx" = (
 /obj/random/junk,
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"rP" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust{
+	dir = 8
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
 /area/iskhod/dungeon/outside/caverns)
 "rQ" = (
 /obj/structure/boulder,
@@ -1145,6 +1400,7 @@
 /obj/item/clothing/shoes/jackboots/duty,
 /obj/item/clothing/suit/storage/hazardvest,
 /obj/item/clothing/head/hardhat,
+/obj/item/tool/fireaxe/woodsman,
 /turf/simulated/floor/wood_old,
 /area/iskhod/dungeon/outside/caverns)
 "sx" = (
@@ -1157,6 +1413,13 @@
 "sz" = (
 /obj/random/scrap/dense_even,
 /turf/simulated/floor/wood/wild4,
+/area/iskhod/dungeon/outside/caverns)
+"sO" = (
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/industrial/concrete_bricks,
 /area/iskhod/dungeon/outside/caverns)
 "sT" = (
 /obj/structure/multiz/stairs/active/bottom{
@@ -1406,6 +1669,12 @@
 /area/iskhod/dungeon/outside/caverns)
 "vE" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "vL" = (
@@ -1438,6 +1707,11 @@
 	},
 /obj/structure/girder,
 /obj/structure/railing,
+/obj/machinery/nuclearbomb/station{
+	name = "nuclear reactor";
+	desc = "a device used to sustain a controlled fission nuclear chain reaction.";
+	interact_offline = 1
+	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "wn" = (
@@ -1506,6 +1780,12 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"xC" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/structure/girder,
+/obj/structure/grille,
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "xK" = (
 /obj/structure/table/steel,
 /obj/random/junkfood/onlyburger,
@@ -1530,6 +1810,22 @@
 	},
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
+"yu" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust{
+	dir = 1
+	},
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/iskhod/dungeon/outside/caverns)
 "yy" = (
 /obj/structure/grille,
 /turf/simulated/floor/snow/smooth{
@@ -1542,8 +1838,34 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"yD" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/machinery/shield_conduit{
+	name = "strange device";
+	desc = "Looks important, probably best to leave it alone.";
+	dir = 8
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "yF" = (
 /turf/simulated/wall/rock/snow,
+/area/iskhod/dungeon/outside/caverns)
+"yH" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/tree/dead,
+/obj/structure/flora/small/snow/rock6,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "yL" = (
 /obj/structure/table/reinforced,
@@ -1573,6 +1895,16 @@
 /obj/structure/table/marble,
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
+"zi" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/trailrockb4,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "zm" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/wood/wild4,
@@ -1601,11 +1933,33 @@
 	},
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"zW" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/industrial,
+/area/iskhod/dungeon/outside/caverns)
 "zX" = (
 /obj/structure/bed{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
+/area/iskhod/dungeon/outside/caverns)
+"zZ" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/carp/greatwhite{
+	color = "#8B0000";
+	name = "malformed great white carp"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Ad" = (
 /obj/structure/table/steel,
@@ -1672,6 +2026,18 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"AZ" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/iskhod/dungeon/outside/caverns)
 "Ba" = (
 /obj/effect/spider/stickyweb,
 /turf/unsimulated/mineral/cold,
@@ -1685,6 +2051,11 @@
 "Bg" = (
 /obj/machinery/door/window/southleft,
 /turf/simulated/floor/icewater,
+/area/iskhod/dungeon/outside/caverns)
+"Bi" = (
+/obj/item/remains,
+/obj/item/clothing/head/hardhat,
+/turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "Bu" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -1730,6 +2101,12 @@
 "BO" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/item/weapon/nuclear_cylinder,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "BV" = (
@@ -1742,6 +2119,15 @@
 "Cf" = (
 /obj/machinery/door/unpowered/simple/wood,
 /turf/simulated/floor/industrial/grey_slates_long,
+/area/iskhod/dungeon/outside/caverns)
+"Ck" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/concrete_bricks,
 /area/iskhod/dungeon/outside/caverns)
 "Cq" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -1867,6 +2253,20 @@
 "DA" = (
 /turf/simulated/mineral/glacierice,
 /area/iskhod/outside/forest)
+"DJ" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "DW" = (
 /obj/random/mob/roaches,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -1992,6 +2392,16 @@
 /obj/structure/bed/chair/office,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"FH" = (
+/obj/machinery/portable_atmospherics/canister/empty/oxygen,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/iskhod/dungeon/outside/caverns)
 "FI" = (
 /obj/structure/multiz/stairs/enter{
 	dir = 4
@@ -2039,6 +2449,15 @@
 	},
 /turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"Gw" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/iskhod/dungeon/outside/caverns)
 "GG" = (
 /turf/simulated/floor/wood_old,
 /area/iskhod/dungeon/outside/caverns)
@@ -2056,6 +2475,13 @@
 	dir = 4
 	},
 /turf/simulated/floor/industrial/navy_large_slates,
+/area/iskhod/dungeon/outside/caverns)
+"GU" = (
+/obj/structure/catwalk,
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
 "GZ" = (
 /obj/machinery/computer{
@@ -2108,11 +2534,16 @@
 /area/iskhod/outside/forest)
 "Id" = (
 /obj/machinery/optable,
+/obj/item/device/defib_kit/compact/combat/adv/loaded,
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "If" = (
 /obj/structure/closet/crate/freezer/rations,
 /turf/simulated/floor/reinforced,
+/area/iskhod/dungeon/outside/caverns)
+"Io" = (
+/obj/machinery/power/apc/inactive,
+/turf/simulated/wall/r_wall/iskhod,
 /area/iskhod/dungeon/outside/caverns)
 "IB" = (
 /obj/item/stool/padded,
@@ -2213,6 +2644,10 @@
 /area/iskhod/dungeon/outside/caverns)
 "JV" = (
 /obj/machinery/door/unpowered/simple/wood,
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "JW" = (
@@ -2258,6 +2693,16 @@
 /obj/structure/multiz/stairs/enter/bottom,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"Kz" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock8,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "KA" = (
 /obj/random/mob/roaches,
 /turf/simulated/floor/asteroid/shale{
@@ -2288,6 +2733,16 @@
 	},
 /turf/simulated/floor/beach/water/ocean,
 /area/iskhod/dungeon/outside/caverns)
+"La" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock7,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "Le" = (
 /obj/random/junkfood,
 /obj/structure/table/rack/shelf,
@@ -2309,6 +2764,22 @@
 /turf/simulated/floor/asteroid/shale{
 	nitrogen = 93.6478;
 	oxygen = 24.8937
+	},
+/area/iskhod/dungeon/outside/caverns)
+"Ls" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/carp/greatwhite{
+	color = "#8B0000";
+	name = "malformed great white carp";
+	faction = "tissue"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
 	},
 /area/iskhod/dungeon/outside/caverns)
 "Lu" = (
@@ -2377,6 +2848,29 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"My" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark";
+	faction = "tissue"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"MH" = (
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/wood/wild4,
+/area/iskhod/dungeon/outside/caverns)
 "MI" = (
 /obj/effect/overlay/water{
 	color = "#880808"
@@ -2406,6 +2900,21 @@
 "MY" = (
 /turf/simulated/wall/iskhod_blue,
 /area/iskhod/dungeon/outside/caverns)
+"Na" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/iskhod/dungeon/outside/caverns)
 "Nj" = (
 /turf/simulated/wall/iskhod,
 /area/iskhod/dungeon/outside/caverns)
@@ -2417,6 +2926,12 @@
 /area/iskhod/outside/forest)
 "Ny" = (
 /turf/simulated/floor/beach/water/shallow,
+/area/iskhod/dungeon/outside/caverns)
+"ND" = (
+/obj/structure/flora/tree/pine,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "NE" = (
 /obj/structure/multiz/stairs/active/bottom{
@@ -2454,6 +2969,13 @@
 "Ob" = (
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/outside/forest)
+"Oc" = (
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/icewater,
+/area/iskhod/dungeon/outside/caverns)
 "Od" = (
 /obj/machinery/door/window/southright,
 /turf/simulated/floor/icewater,
@@ -2464,6 +2986,27 @@
 /turf/simulated/floor/asteroid/shale{
 	nitrogen = 93.6478;
 	oxygen = 24.8937
+	},
+/area/iskhod/dungeon/outside/caverns)
+"Of" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock4,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"Og" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock6,
+/obj/structure/flora/small/trailrocka2,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
 	},
 /area/iskhod/dungeon/outside/caverns)
 "Oj" = (
@@ -2500,6 +3043,11 @@
 /obj/structure/girder,
 /obj/structure/railing{
 	dir = 1
+	},
+/obj/machinery/nuclearbomb/station{
+	name = "nuclear reactor";
+	desc = "a device used to sustain a controlled fission nuclear chain reaction.";
+	interact_offline = 1
 	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
@@ -2558,6 +3106,17 @@
 /obj/random/junkfood/onlyburger,
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
+"Pn" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/trailrocka2,
+/obj/structure/flora/small/trailrockb3,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "Po" = (
 /obj/machinery/chem_master,
 /turf/simulated/floor/industrial/white_large_slates,
@@ -2595,6 +3154,16 @@
 "PZ" = (
 /obj/structure/railing,
 /turf/simulated/floor/icewater,
+/area/iskhod/dungeon/outside/caverns)
+"Qc" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
 /area/iskhod/dungeon/outside/caverns)
 "Qe" = (
 /obj/effect/floor_decal/industrial_plant/steel_warning,
@@ -2707,6 +3276,12 @@
 	},
 /turf/simulated/floor/tiled/dark/monofloor,
 /area/iskhod/dungeon/outside/caverns)
+"Sx" = (
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
 "Sz" = (
 /obj/effect/decal/cleanable/solid_biomass/aoe,
 /turf/simulated/floor/beach/water/jungle,
@@ -2745,12 +3320,56 @@
 /obj/random/closet_tech/low_chance,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"SO" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust{
+	dir = 1
+	},
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/iskhod/dungeon/outside/caverns)
+"SP" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/plating/under,
+/area/iskhod/dungeon/outside/caverns)
 "SQ" = (
 /obj/structure/multiz/stairs/enter,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"Ta" = (
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/concrete_bricks,
+/area/iskhod/dungeon/outside/caverns)
 "Tc" = (
 /obj/machinery/light/floor{
 	dir = 8
@@ -2783,6 +3402,21 @@
 "TN" = (
 /obj/structure/bed,
 /turf/simulated/floor/wood_old,
+/area/iskhod/dungeon/outside/caverns)
+"TQ" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "TR" = (
 /obj/structure/girder,
@@ -2844,9 +3478,26 @@
 /obj/random/firstaid/low_chance,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"UM" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/iskhod/dungeon/outside/caverns)
 "UO" = (
 /obj/effect/step_trigger/A_forest_to_colony_1,
 /turf/simulated/floor/rock/manmade/asphalt,
+/area/iskhod/dungeon/outside/caverns)
+"UV" = (
+/mob/living/simple/hostile/carp/greatwhite{
+	color = "#8B0000";
+	name = "malformed great white carp"
+	},
+/turf/simulated/floor/beach/water/ocean,
 /area/iskhod/dungeon/outside/caverns)
 "Vd" = (
 /obj/effect/floor_decal/industrial/warningdust{
@@ -2881,6 +3532,14 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"Vu" = (
+/obj/structure/railing/grey,
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
 "Vz" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
@@ -2927,6 +3586,28 @@
 "Wj" = (
 /obj/structure/sign/warning/moving_parts,
 /turf/simulated/wall/iskhod_blue,
+/area/iskhod/dungeon/outside/caverns)
+"Wl" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/machinery/shield_conduit{
+	name = "strange device";
+	desc = "Looks important, probably best to leave it alone.";
+	dir = 4
+	},
+/obj/machinery/self_destruct,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
+"Wo" = (
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "Wp" = (
 /obj/machinery/light/floor,
@@ -3008,6 +3689,22 @@
 /obj/structure/largecrate/animal/piano,
 /turf/simulated/floor/reinforced,
 /area/iskhod/dungeon/outside/caverns)
+"Xw" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/iskhod/dungeon/outside/caverns)
 "Xz" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -3029,6 +3726,11 @@
 /area/iskhod/outside/forest)
 "XR" = (
 /obj/effect/floor_decal/industrial_plant,
+/obj/machinery/shield_conduit{
+	name = "strange device";
+	desc = "Looks important, probably best to leave it alone.";
+	dir = 4
+	},
 /obj/machinery/self_destruct,
 /turf/simulated/floor/tiled/steel/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
@@ -3137,6 +3839,18 @@
 "ZK" = (
 /obj/machinery/portable_atmospherics/canister/empty/oxygen,
 /turf/simulated/floor/industrial/black_large_slates,
+/area/iskhod/dungeon/outside/caverns)
+"ZL" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/structure/girder,
+/obj/structure/grille,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "ZN" = (
 /obj/random/junk/low_chance,
@@ -136682,9 +137396,9 @@ rs
 rs
 rs
 eE
-Cq
-Cq
+qf
 BO
+mn
 CO
 CO
 CO
@@ -136957,37 +137671,37 @@ iw
 iw
 iw
 CO
+GU
 Vz
 Vz
 Vz
 Vz
-Vz
-Vz
-Vz
+SP
+ij
 CO
 pm
 CO
 RC
 RC
-RC
+Gw
 RC
 CO
 Gu
 kg
 jn
 ed
-RC
+Wo
 qs
 CO
 CO
 eE
 CO
 CO
-CO
-BO
+dp
 Cq
-Cq
-BO
+qf
+qf
+jY
 CO
 CO
 iw
@@ -137263,19 +137977,19 @@ Vz
 yU
 JH
 Vz
-JH
+fG
 yU
-Vz
+SP
 Dg
 PY
 Dg
 RC
-RC
-RC
+Wo
+Gw
 RC
 CO
 zS
-RC
+Wo
 RC
 xe
 RC
@@ -137288,9 +138002,9 @@ og
 Dh
 Cq
 XR
-Cq
-XR
-Cq
+qf
+Wl
+xC
 CO
 iw
 iw
@@ -137566,15 +138280,15 @@ JH
 yU
 Vz
 yU
-JH
+fG
 Vz
 Dg
 PY
 Dg
 RC
 RC
-RC
-RC
+Gw
+Gw
 Ka
 RC
 RC
@@ -137585,14 +138299,14 @@ RC
 yY
 Vz
 js
-js
+Sx
 og
 Dh
-XR
+qf
 wm
-Cq
+qf
 Ov
-XR
+xC
 CO
 iw
 iw
@@ -137866,35 +138580,35 @@ CO
 Vz
 yU
 JH
-Vz
-JH
+GU
+TQ
 yU
 Vz
 Dg
 PY
 Dg
 RC
-RC
+Gw
 cU
-RC
+AZ
 CO
 CO
 CO
 CO
 RC
-RC
+Wo
 RC
 yY
 Vz
 js
-js
+Bi
 og
 Dh
-Cq
-XR
-Cq
-XR
-Cq
+qf
+qj
+qf
+yD
+xC
 CO
 iw
 iw
@@ -138177,8 +138891,8 @@ pm
 CO
 RC
 RC
-RC
-RC
+Gw
+Na
 CO
 zX
 uK
@@ -138191,11 +138905,11 @@ CO
 js
 js
 js
-CO
+dp
 BO
-Cq
-Cq
-BO
+mn
+mn
+jY
 CO
 CO
 iw
@@ -138480,7 +139194,7 @@ CO
 ZK
 ZK
 vE
-ZK
+FH
 CO
 lY
 lY
@@ -138490,13 +139204,13 @@ qs
 qs
 CO
 CO
+Io
+et
+et
 CO
-js
-js
-CO
-Cq
-BO
-Cq
+xC
+xC
+ZL
 CO
 CO
 CO
@@ -197662,22 +198376,22 @@ AN
 AN
 ei
 ei
+Of
+ei
+qy
 ei
 ei
 ei
+ND
+ei
+ei
+oK
+ei
+qy
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
+Kz
 ei
 ei
 ei
@@ -197705,7 +198419,7 @@ AN
 ei
 ei
 ei
-ei
+ND
 AN
 AN
 AN
@@ -197726,8 +198440,8 @@ AN
 ei
 ei
 ei
-ei
-ei
+mZ
+ND
 ei
 ei
 AN
@@ -197963,6 +198677,7 @@ AN
 AN
 AN
 ei
+ND
 ei
 ei
 ei
@@ -197978,17 +198693,16 @@ ei
 ei
 ei
 ei
+ND
 ei
 ei
 ei
+mZ
+jG
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-ei
+ND
 ei
 ei
 ei
@@ -198271,6 +198985,19 @@ ei
 ei
 ei
 ei
+gl
+ei
+ei
+ND
+ei
+ei
+ei
+pt
+ei
+ei
+ei
+ei
+ND
 ei
 ei
 ei
@@ -198279,6 +199006,20 @@ ei
 ei
 ei
 ei
+zi
+ei
+ND
+ei
+fU
+ei
+ei
+ei
+ei
+yH
+ei
+ei
+ei
+Of
 ei
 ei
 ei
@@ -198286,42 +199027,15 @@ ei
 ei
 ei
 ei
+mZ
+jG
 ei
 ei
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
+mZ
+jG
 ei
 ei
 ei
@@ -198610,7 +199324,7 @@ ei
 ei
 ei
 ei
-ei
+Of
 ei
 ei
 ei
@@ -198866,8 +199580,10 @@ AN
 AN
 AN
 ei
+ND
 ei
 ei
+Og
 ei
 ei
 ei
@@ -198877,7 +199593,9 @@ ei
 ei
 ei
 ei
+mZ
 ei
+ND
 ei
 ei
 ei
@@ -198888,6 +199606,7 @@ ei
 ei
 ei
 ei
+Of
 ei
 ei
 ei
@@ -198902,6 +199621,8 @@ ei
 ei
 ei
 ei
+mZ
+jG
 ei
 ei
 ei
@@ -198915,6 +199636,8 @@ ei
 ei
 ei
 ei
+mZ
+jG
 ei
 ei
 ei
@@ -198928,16 +199651,7 @@ ei
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
+mZ
 ei
 ei
 ei
@@ -199178,6 +199892,18 @@ ei
 ei
 ei
 ei
+qy
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+fU
+ei
+ei
+qy
 ei
 ei
 ei
@@ -199200,20 +199926,8 @@ ei
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
+mZ
+jG
 ei
 ei
 ei
@@ -199234,8 +199948,8 @@ ei
 ei
 ei
 ei
-ei
-ei
+mZ
+ND
 ei
 ei
 ei
@@ -199476,6 +200190,7 @@ ei
 ei
 ei
 ei
+Of
 ei
 ei
 ei
@@ -199503,14 +200218,13 @@ ei
 ei
 ei
 ei
+zi
 ei
 ei
+ND
 ei
 ei
-ei
-ei
-ei
-ei
+fU
 ei
 ei
 ei
@@ -199531,8 +200245,8 @@ ei
 ei
 ei
 ei
-ei
-ei
+mZ
+jG
 ei
 ei
 ei
@@ -199773,6 +200487,34 @@ AN
 ei
 ei
 ei
+fU
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+fU
+ei
+ei
+ei
+Of
+ei
+ei
+ei
+ei
+ei
+La
+ei
+ei
+ei
+ND
+ei
+ei
+fl
 ei
 ei
 ei
@@ -199788,35 +200530,7 @@ ei
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
+fU
 ei
 ei
 ei
@@ -199841,8 +200555,8 @@ ei
 ei
 ei
 ei
-ei
-ei
+mZ
+ND
 ei
 jL
 jL
@@ -200082,6 +200796,13 @@ ei
 ei
 ei
 ei
+ND
+ei
+ei
+ei
+ei
+ei
+ND
 ei
 ei
 ei
@@ -200098,14 +200819,7 @@ ei
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
+ND
 ei
 ei
 ei
@@ -200132,7 +200846,7 @@ ER
 Ww
 ei
 ei
-ei
+ND
 ei
 jL
 jL
@@ -200378,9 +201092,9 @@ ei
 ei
 ei
 ei
+ND
 ei
-ei
-ei
+Pn
 ei
 ei
 ei
@@ -200418,7 +201132,7 @@ jL
 jL
 ei
 ei
-jL
+kY
 jL
 jL
 jL
@@ -200676,14 +201390,7 @@ AN
 AN
 AN
 jL
-jL
-jL
-jL
-ei
-ei
-ei
-ei
-jL
+kY
 jL
 jL
 ei
@@ -200693,9 +201400,8 @@ ei
 jL
 jL
 jL
-jL
-jL
-jL
+ei
+dS
 ei
 ei
 jL
@@ -200703,9 +201409,17 @@ jL
 jL
 jL
 jL
+jL
 ei
+mZ
+jL
+jL
+jL
+jL
+jL
 ei
-ei
+mZ
+jG
 ei
 ei
 jL
@@ -201003,6 +201717,7 @@ jL
 jL
 jL
 jL
+kY
 jL
 jL
 jL
@@ -201010,15 +201725,14 @@ jL
 jL
 jL
 jL
+kY
 jL
 jL
 jL
 jL
 jL
 jL
-jL
-jL
-jL
+kY
 jL
 jL
 jL
@@ -201296,7 +202010,7 @@ jL
 jL
 jL
 jL
-jL
+kY
 jL
 jL
 jL
@@ -201931,7 +202645,7 @@ lw
 lw
 lw
 TW
-lw
+Oc
 jQ
 ER
 sz
@@ -203161,7 +203875,7 @@ TW
 TW
 Qw
 Xg
-Xg
+Ck
 Xg
 Cf
 js
@@ -203462,8 +204176,8 @@ lw
 lw
 TW
 Qw
-Xg
-Xg
+Ck
+Ck
 Xg
 Tu
 js
@@ -203763,8 +204477,8 @@ lw
 lw
 lw
 PZ
-Xg
-Xg
+Ck
+Ck
 Xg
 Xg
 Tu
@@ -204060,15 +204774,15 @@ Xz
 TW
 TW
 lw
-lw
+Oc
 lw
 lw
 lw
 PZ
+qu
+Ck
 Xg
-Xg
-Xg
-Xg
+sO
 Xc
 Xc
 Xc
@@ -204348,7 +205062,7 @@ np
 TW
 TW
 TW
-is
+Vu
 ER
 ER
 CO
@@ -204367,8 +205081,8 @@ lw
 lw
 lw
 PZ
-Xg
-Xg
+qu
+qu
 Xg
 Xg
 Xc
@@ -204669,8 +205383,8 @@ lw
 lw
 lw
 iS
-Xg
-Xg
+qu
+Ck
 Xg
 Xg
 Tu
@@ -204971,8 +205685,8 @@ lw
 lw
 lw
 iS
-Xg
-Xg
+qu
+Ck
 Xg
 Xg
 Tu
@@ -205271,10 +205985,10 @@ TW
 TW
 TW
 lw
-TW
+ls
 iS
-Xg
-Xg
+qu
+Ck
 Xg
 Xg
 Tu
@@ -205576,8 +206290,8 @@ TW
 TW
 TW
 Qw
-Xg
-Xg
+Ck
+Ck
 Xg
 el
 Aj
@@ -205878,7 +206592,7 @@ TW
 TW
 TW
 Qw
-Xg
+Ck
 Xg
 Xg
 Tu
@@ -206179,8 +206893,8 @@ TW
 TW
 TW
 iS
-Xg
-Xg
+Ck
+Ck
 Xg
 Xg
 Tu
@@ -206482,7 +207196,7 @@ TW
 TW
 iS
 Xg
-Xg
+Ck
 Xg
 Xg
 Xc
@@ -206784,7 +207498,7 @@ TW
 TW
 iS
 Xg
-Xg
+Ck
 Xg
 Xg
 Xc
@@ -207085,9 +207799,9 @@ TW
 TW
 TW
 iS
-Xg
-Xg
-Xg
+Ta
+qu
+Ck
 Xg
 Tu
 js
@@ -207387,9 +208101,9 @@ TW
 TW
 TW
 iS
-Xg
-Xg
-Xg
+Ck
+qu
+Ck
 Xg
 Tu
 js
@@ -207668,11 +208382,11 @@ TW
 TW
 TW
 TW
-TW
+ls
 TW
 is
 ER
-ER
+MH
 CO
 NI
 GG
@@ -207689,9 +208403,9 @@ TW
 TW
 TW
 np
-Xg
-Xg
-Xg
+qu
+qu
+Ck
 Xg
 Tu
 Tu
@@ -207992,8 +208706,8 @@ TW
 TW
 np
 np
-Xg
-Xg
+qu
+Ck
 Xg
 bi
 TW
@@ -208294,8 +209008,8 @@ TW
 np
 np
 np
-Xg
-Xg
+Ck
+Ck
 Xg
 bi
 TW
@@ -208596,8 +209310,8 @@ TW
 np
 np
 np
-Xg
-Xg
+Ck
+Ck
 Xg
 bi
 TW
@@ -208898,8 +209612,8 @@ TW
 np
 np
 np
-Xg
-Xg
+Ck
+Ck
 Xg
 bi
 TW
@@ -209199,9 +209913,9 @@ TW
 TW
 np
 XX
-Xg
-Xg
-Xg
+qu
+qu
+Ck
 Xg
 bi
 TW
@@ -209501,9 +210215,9 @@ TW
 TW
 TW
 XX
-Xg
-Xg
-Xg
+Ck
+Ck
+Ck
 Qw
 TW
 TW
@@ -209804,7 +210518,7 @@ TW
 TW
 iS
 Xg
-Xg
+Ck
 Xg
 Qw
 TW
@@ -210106,8 +210820,8 @@ TW
 TW
 iS
 Xg
-Xg
-Xg
+Ck
+sO
 Qw
 TW
 TW
@@ -210408,7 +211122,7 @@ TW
 TW
 iS
 Xg
-Xg
+Ck
 Xg
 Xg
 bi
@@ -219836,7 +220550,7 @@ iw
 iw
 iw
 iw
-iw
+gc
 iw
 iw
 iw
@@ -220138,7 +220852,7 @@ iw
 iw
 iw
 iw
-iw
+gc
 iw
 iw
 iw
@@ -220440,7 +221154,7 @@ iw
 iw
 iw
 iw
-iw
+gc
 iw
 iw
 iw
@@ -225762,7 +226476,7 @@ TW
 TW
 TW
 TW
-TW
+UV
 TW
 TW
 TW
@@ -226069,6 +226783,7 @@ TW
 TW
 TW
 TW
+ls
 TW
 TW
 TW
@@ -226076,8 +226791,7 @@ TW
 TW
 TW
 TW
-TW
-TW
+UV
 TW
 TW
 TW
@@ -226350,14 +227064,14 @@ TW
 TW
 TW
 TW
+ls
 TW
 TW
 TW
 TW
 TW
 TW
-TW
-TW
+UV
 TW
 TW
 TW
@@ -227262,12 +227976,12 @@ qd
 qd
 qd
 Fd
+UM
+UM
 CU
-CU
-CU
-CU
-CU
-CU
+UM
+UM
+UM
 CU
 CU
 CU
@@ -227565,8 +228279,8 @@ pG
 kf
 kf
 Sw
-CU
-CU
+UM
+Xw
 Dh
 CO
 CO
@@ -227575,19 +228289,19 @@ Ye
 CO
 CO
 CO
-CU
-CU
-CU
-CU
-CU
-CU
-CU
-CU
-CU
-CU
-CU
-CU
-CU
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
 CU
 CU
 Xz
@@ -227867,11 +228581,11 @@ tP
 BV
 BV
 sY
-CU
+UM
 Dh
 tL
 NW
-NW
+zW
 NW
 NW
 un
@@ -228168,8 +228882,8 @@ BV
 SB
 BV
 BV
-sY
-CU
+yu
+Qc
 Dh
 tL
 od
@@ -228470,8 +229184,8 @@ BV
 tP
 BV
 BV
-sY
-CU
+SO
+UM
 Dh
 tL
 NW
@@ -228771,10 +229485,10 @@ Bu
 Bu
 aD
 Bu
-Bu
+rP
 li
 CU
-CU
+UM
 Dh
 CO
 CO
@@ -228783,19 +229497,19 @@ Ye
 CO
 CO
 CO
-CU
-CU
-CU
-CU
-CU
-CU
-CU
-CU
-CU
-CU
-CU
-CU
-CU
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
 CU
 CU
 Xz
@@ -229077,13 +229791,13 @@ mh
 CU
 CU
 CU
-CU
-CU
-CU
-CU
-CU
-CU
-CU
+UM
+UM
+Qc
+Qc
+Qc
+UM
+UM
 CU
 CU
 CU
@@ -229377,7 +230091,7 @@ TW
 TW
 TW
 yQ
-yQ
+gA
 yQ
 yQ
 yQ
@@ -230591,12 +231305,12 @@ TW
 TW
 TW
 TW
+ls
 TW
 TW
 TW
 TW
-TW
-TW
+ls
 TW
 TW
 TW
@@ -231514,7 +232228,7 @@ TW
 TW
 TW
 TW
-TW
+UV
 TW
 TW
 TW
@@ -248109,13 +248823,13 @@ CO
 CO
 CO
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+CO
+CO
+CO
+CO
+CO
+CO
 CO
 CO
 CO
@@ -248407,37 +249121,37 @@ CO
 CO
 CO
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
 CO
 CO
 CO
@@ -248706,43 +249420,43 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
+CO
 CO
 TW
 TW
@@ -249008,43 +249722,43 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+Ls
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -249310,43 +250024,43 @@ TW
 TW
 CO
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+zZ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 CO
 TW
@@ -249611,45 +250325,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -249913,45 +250627,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+zZ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -250215,45 +250929,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+DJ
+mU
+DJ
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -250517,45 +251231,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -250819,45 +251533,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -251121,45 +251835,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -251423,45 +252137,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+eR
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -251725,45 +252439,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+jv
+jv
+jv
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+My
+eR
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -252027,45 +252741,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+zZ
+mU
+mU
+mU
+mU
+mU
+eR
+eR
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -252329,45 +253043,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -252631,45 +253345,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -252933,45 +253647,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+zZ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -253235,45 +253949,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+jv
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -253537,45 +254251,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+jv
+jv
+mU
+mU
+mU
+mU
+mU
+mU
+eR
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -253839,45 +254553,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+jv
+jv
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -254141,45 +254855,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+jv
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -254443,45 +255157,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+eR
+eR
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -254745,45 +255459,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+DJ
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+eR
+eR
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+DJ
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -255047,45 +255761,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+eR
+eR
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -255349,45 +256063,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+eR
+eR
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -255651,45 +256365,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+Ls
+mU
+mU
+mU
+mU
+eR
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -255953,45 +256667,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -256255,45 +256969,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+jv
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -256557,45 +257271,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+jv
+jv
+mU
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -256859,45 +257573,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+jv
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -257161,45 +257875,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+jv
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -257463,45 +258177,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -257765,45 +258479,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+DJ
+DJ
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -258067,45 +258781,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+DJ
+DJ
+DJ
+DJ
+DJ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -258369,45 +259083,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+zZ
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -258671,45 +259385,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -258973,45 +259687,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -259275,45 +259989,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -259577,45 +260291,45 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -259880,43 +260594,43 @@ TW
 TW
 CO
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 CO
 TW
@@ -260182,43 +260896,43 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
 CO
 TW
 TW
@@ -260484,43 +261198,43 @@ TW
 TW
 TW
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
+CO
 CO
 TW
 TW
@@ -260789,37 +261503,37 @@ CO
 CO
 CO
 CO
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
 CO
 CO
 CO
