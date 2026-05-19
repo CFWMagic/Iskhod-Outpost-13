@@ -168,9 +168,13 @@
 
 /area/iskhod/engineering/solars
 	name = "Engineering High Altitude Solars"
+	area_light_color = COLOR_LIGHTING_DEFAULT_BRIGHT //exterior area
+	dynamic_lighting = FALSE //exterior area
 
 /area/iskhod/engineering/solars_control
 	name = "Engineering Solars Control Room"
+	area_light_color = COLOR_LIGHTING_DEFAULT_BRIGHT //semi exterior area
+	dynamic_lighting = TRUE //semi exterior area
 
 // Environment / Logic
 /area/iskhod/pit

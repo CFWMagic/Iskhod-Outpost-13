@@ -190,6 +190,7 @@
 	icon_state = "erisgreen"
 	forced_ambience = list('sound/ambience/forestamb1.ogg', 'sound/ambience/forestamb2.ogg', 'sound/ambience/forestamb3.ogg', 'sound/ambience/forestamb5.ogg', 'sound/ambience/forestamb6.ogg')
 
+
 /area/iskhod/dungeon/outside/abandoned_solars/powered
 	requires_power = FALSE
 
@@ -503,12 +504,15 @@
 
 /area/iskhod/outside/inside_colony/west
 	name = "Colony Meadow - West"
+
 /area/iskhod/outside/mountainsolars
 	name = "Mountain Solars"
 	icon_state = "meadow"
 	sound_env = MOUNTAINS
 	forced_ambience = list('sound/ambience/meadowamb1.ogg', 'sound/ambience/meadowamb2.ogg', 'sound/ambience/meadowamb3.ogg', 'sound/ambience/meadowamb4.ogg')
 	is_dungeon_lootable = FALSE
+	area_light_color = COLOR_LIGHTING_DEFAULT_BRIGHT //exterior area
+	dynamic_lighting = TRUE //exterior area
 
 /area/iskhod/outside/kepler //Off-world location
 	name = "barren planet"
