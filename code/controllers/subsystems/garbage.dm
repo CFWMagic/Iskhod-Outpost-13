@@ -19,7 +19,7 @@ SUBSYSTEM_DEF(garbage)
 	name = "Garbage"
 	priority = SS_PRIORITY_GARBAGE
 	wait = 2 SECONDS
-	flags = SS_POST_FIRE_TIMING|SS_BACKGROUND|SS_NO_INIT
+	flags = SS_TICKER|SS_BACKGROUND|SS_NO_INIT // SWITCHED SS_POST_FIRE_TIMING WITH SS_TICKER TO AVOID GARBAGE COLLECTION RUNNING AWAY AND HAVING MASSIVE WAIT TIMES.
 	runlevels = RUNLEVELS_DEFAULT | RUNLEVEL_LOBBY
 	init_order = INIT_ORDER_GARBAGE
 	//init_stage = INITSTAGE_EARLY
@@ -242,7 +242,7 @@ SUBSYSTEM_DEF(garbage)
 	if (level > GC_QUEUE_COUNT)
 		HardDelete(D)
 		return
-	// stuff deleted at compile map init (it happens) would have gc_destroyed = 0, making SSatoms decide to 
+	// stuff deleted at compile map init (it happens) would have gc_destroyed = 0, making SSatoms decide to
 	// initialize them even though they're in our queue, horribly breaking everything
 	var/gctime = world.time || 1
 	var/refid = "\ref[D]"

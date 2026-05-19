@@ -1,5 +1,5 @@
-//Jobs depatment lists for use in constant expressions
-#define JOBS_SECURITY "Captain","Lieutenant","Detective","Ranger","Junior Ranger"
+//Jobs department lists for use in constant expressions
+#define JOBS_SECURITY "Captain","Lieutenant","Detective", "Corpsman", "Ranger","Junior Ranger"
 #define JOBS_COMMAND "Facility Director","Steward","Captain","Operations Manager","Chief Engineer","Medical Overseer","Research Overseer","Penitent","Foreman"
 #define JOBS_ENGINEERING "Chief Engineer","Guild Engineer","Guild Apprentice","Disposals Technician"
 #define JOBS_MEDICAL "Medical Overseer","Doctor","Psychiatrist","Nurse","Paramedic","Resident","Chemist"

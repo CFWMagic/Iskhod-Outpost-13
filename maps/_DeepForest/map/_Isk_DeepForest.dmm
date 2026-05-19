@@ -30,6 +30,14 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"at" = (
+/obj/structure/closet/oldstyle,
+/obj/item/clothing/under/overalls/utilitygrey,
+/obj/item/clothing/shoes/jackboots/duty,
+/obj/random/ammo,
+/obj/random/ammo,
+/turf/simulated/floor/wood_old,
+/area/iskhod/dungeon/outside/caverns)
 "az" = (
 /obj/structure/railing,
 /obj/structure/railing{
@@ -40,6 +48,18 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"aD" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust/corner{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warningdust/corner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "aK" = (
 /obj/item/reagent_containers/snacks/bigroachburger{
 	pixel_x = -12;
@@ -66,6 +86,21 @@
 "aT" = (
 /turf/simulated/wall/wood,
 /area/iskhod/outside/forest)
+"aV" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust{
+	dir = 8
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "bb" = (
 /mob/living/carbon/superior/roach/kaiser,
 /turf/simulated/floor/asteroid/shale{
@@ -73,10 +108,28 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"bi" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
 "bm" = (
 /obj/structure/low_wall/iskhod,
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/outside/forest)
+"bn" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "by" = (
 /obj/machinery/door/airlock/hatch,
 /turf/simulated/floor/asteroid/shale{
@@ -108,6 +161,9 @@
 /obj/random/mob/roaches,
 /turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
+"bM" = (
+/turf/simulated/floor/reinforced,
+/area/iskhod/dungeon/outside/caverns)
 "bS" = (
 /obj/effect/floor_decal/industrial_plant/steel_grate_warning{
 	dir = 1
@@ -123,6 +179,18 @@
 	},
 /turf/simulated/shuttle/floor/mining,
 /area/iskhod/dungeon/outside/caverns)
+"bY" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "cn" = (
 /obj/structure/sign/warning/lethal_turrets,
 /turf/simulated/wall/iskhod_blue,
@@ -154,6 +222,34 @@
 	},
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
+"cU" = (
+/obj/structure/multiz/ladder/up,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"cW" = (
+/obj/structure/bed/chair/custom/onestar{
+	dir = 8;
+	name = "metal chair"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/iskhod/dungeon/outside/caverns)
+"cY" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/concrete_bricks,
+/area/iskhod/dungeon/outside/caverns)
 "dh" = (
 /obj/structure/multiz/stairs/active/bottom,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -165,6 +261,30 @@
 	nitrogen = 93.6478;
 	oxygen = 24.8937
 	},
+/area/iskhod/dungeon/outside/caverns)
+"dp" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"dq" = (
+/obj/structure/reagent_dispensers/beerkeg{
+	name = "metal barrel";
+	starting_reagent = "fuel"
+	},
+/turf/simulated/floor/reinforced,
 /area/iskhod/dungeon/outside/caverns)
 "dy" = (
 /obj/structure/table/reinforced,
@@ -180,6 +300,10 @@
 /obj/structure/lattice,
 /turf/simulated/open,
 /area/iskhod/dungeon/outside/caverns)
+"dG" = (
+/obj/structure/catwalk,
+/turf/simulated/floor/beach/water/shallow,
+/area/iskhod/dungeon/outside/caverns)
 "dK" = (
 /obj/structure/closet/crate,
 /obj/random/material_ore/low_chance,
@@ -192,10 +316,26 @@
 "dU" = (
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"ed" = (
+/obj/machinery/computer{
+	stat = 1;
+	dir = 1;
+	pixel_y = -5
+	},
+/obj/structure/table/steel_reinforced,
+/obj/item/device/radio/headset/headset_blackshield/bowman/solfed,
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "ei" = (
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0"
 	},
+/area/iskhod/dungeon/outside/caverns)
+"ek" = (
+/obj/structure/closet/crate/secure/hydrosec,
+/turf/simulated/floor/reinforced,
 /area/iskhod/dungeon/outside/caverns)
 "el" = (
 /obj/structure/table/steel_reinforced,
@@ -203,10 +343,31 @@
 /obj/machinery/door/window/brigdoor/southright,
 /turf/simulated/floor/industrial/grey_slates_long,
 /area/iskhod/dungeon/outside/caverns)
+"er" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/machinery/cooking/oven,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
+"eC" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
+/area/iskhod/dungeon/outside/caverns)
 "eD" = (
 /obj/structure/catwalk,
 /turf/simulated/open,
 /area/iskhod/outside/forest)
+"eE" = (
+/obj/machinery/door/airlock/hatch,
+/obj/effect/floor_decal/industrial_plant,
+/turf/simulated/floor/industrial/white_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "eH" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /turf/simulated/floor/wood/wild4,
@@ -304,6 +465,12 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"fW" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/structure/table/standard,
+/obj/machinery/microwave,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "fZ" = (
 /obj/item/material/baseballbat/uranium,
 /obj/structure/table/marble,
@@ -314,6 +481,16 @@
 /area/iskhod/dungeon/outside/caverns)
 "gc" = (
 /turf/simulated/floor/rock/dark,
+/area/iskhod/dungeon/outside/caverns)
+"ge" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock2,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "gi" = (
 /obj/random/mob/excelsior,
@@ -331,6 +508,12 @@
 	nitrogen = 93.6478;
 	oxygen = 24.8937
 	},
+/area/iskhod/dungeon/outside/caverns)
+"gs" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_border,
+/obj/effect/floor_decal/industrial/warningdust,
+/obj/machinery/door/airlock/hatch,
+/turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "gt" = (
 /obj/effect/floor_decal/industrial/warningdust/corner,
@@ -357,6 +540,15 @@
 /obj/random/junkfood,
 /obj/random/tool_upgrade/low_chance,
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"gA" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "gE" = (
 /obj/structure/table/steel,
@@ -401,6 +593,24 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"ho" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/machinery/shield_conduit{
+	name = "strange device";
+	desc = "Looks important, probably best to leave it alone.";
+	dir = 4
+	},
+/obj/machinery/self_destruct,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "hu" = (
 /mob/living/carbon/superior/spider/fortress/emperor,
 /turf/simulated/floor/asteroid/shale{
@@ -408,6 +618,17 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"hv" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "hw" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -427,6 +648,23 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"hz" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/machinery/shield_conduit{
+	name = "strange device";
+	desc = "Looks important, probably best to leave it alone.";
+	dir = 8
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "hE" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -442,6 +680,20 @@
 /obj/structure/closet/secure_closet/freezer/kitchen,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/outside/forest)
+"ia" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
+"ie" = (
+/obj/effect/floor_decal/industrial_plant/steel_warning,
+/obj/structure/table/steel_reinforced,
+/obj/structure/salvageable/computer_os{
+	dir = 4;
+	pixel_x = -9
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "ig" = (
 /obj/random/junk/low_chance,
 /turf/simulated/floor/plating/under,
@@ -458,6 +710,17 @@
 	dir = 8
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"iq" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/trailrocka2,
+/obj/structure/flora/small/trailrockb3,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "is" = (
 /obj/structure/railing/grey,
@@ -476,12 +739,17 @@
 "iJ" = (
 /obj/structure/girder,
 /obj/structure/largecrate/hoverpod,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
 "iN" = (
 /obj/random/junk/low_chance,
 /obj/random/junk/low_chance,
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"iS" = (
+/obj/structure/railing,
+/turf/simulated/floor/beach/water/ocean,
 /area/iskhod/dungeon/outside/caverns)
 "iV" = (
 /obj/structure/multiz/stairs/enter,
@@ -491,6 +759,20 @@
 /mob/living/simple/hostile/nightmare,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/outside/forest)
+"jh" = (
+/obj/structure/bed{
+	dir = 4
+	},
+/turf/simulated/floor/wood_old,
+/area/iskhod/dungeon/outside/caverns)
+"jn" = (
+/obj/structure/bed/chair/office/light{
+	dir = 8
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "js" = (
 /turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
@@ -501,6 +783,19 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"jD" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/item/weapon/nuclear_cylinder,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "jH" = (
 /obj/effect/floor_decal/border/techfloor/orange/corner{
 	dir = 8
@@ -546,6 +841,24 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"kf" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"kg" = (
+/obj/structure/bed/chair/office/light{
+	dir = 8
+	},
+/obj/item/remains,
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "kh" = (
 /obj/structure/foamedmetal,
 /turf/simulated/floor/plating/under,
@@ -567,6 +880,13 @@
 /obj/random/material_ore/low_chance,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"kF" = (
+/obj/structure/reagent_dispensers/beerkeg{
+	name = "metal barrel";
+	starting_reagent = null
+	},
+/turf/simulated/floor/reinforced,
+/area/iskhod/dungeon/outside/caverns)
 "kT" = (
 /obj/structure/boulder,
 /obj/structure/boulder,
@@ -575,6 +895,26 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"kV" = (
+/obj/structure/girder,
+/obj/structure/grille,
+/turf/simulated/floor/plating/under,
+/area/iskhod/dungeon/outside/caverns)
+"li" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust/corner{
+	dir = 1
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "lq" = (
 /obj/effect/decal/mecha_wreckage/ripley,
 /turf/simulated/floor/asteroid/shale{
@@ -596,6 +936,12 @@
 /obj/structure/table/steel,
 /obj/random/medical_lowcost_handmade,
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"lE" = (
+/obj/structure/flora/small/snow/rock6,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "lJ" = (
 /obj/random/mob/spiders,
@@ -619,6 +965,15 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"lN" = (
+/obj/structure/catwalk,
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/plating/under,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "lQ" = (
 /obj/effect/floor_decal/industrial/warningdust,
 /obj/structure/railing,
@@ -627,6 +982,11 @@
 "lU" = (
 /turf/simulated/wall/iskhod_red,
 /area/iskhod/dungeon/outside/caverns)
+"lY" = (
+/turf/simulated/floor/wood,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "mb" = (
 /obj/machinery/light/floor{
 	pixel_x = 0;
@@ -649,6 +1009,39 @@
 /obj/structure/railing/grey,
 /turf/simulated/floor/beach/water/ocean,
 /area/iskhod/dungeon/outside/caverns)
+"mk" = (
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
+"mm" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/tree/dead,
+/obj/structure/flora/small/snow/rock6,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"mr" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/concrete_bricks,
+/area/iskhod/dungeon/outside/caverns)
+"mv" = (
+/obj/structure/largecrate/hoverpod,
+/turf/simulated/floor/reinforced,
+/area/iskhod/dungeon/outside/caverns)
 "mx" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -656,6 +1049,16 @@
 /obj/structure/railing/grey{
 	dir = 4
 	},
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"mC" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/trailrockb2,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0"
 	},
@@ -682,8 +1085,35 @@
 /obj/machinery/seed_extractor,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/outside/forest)
+"no" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/plating/under,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "np" = (
 /turf/simulated/mineral/glacierice,
+/area/iskhod/dungeon/outside/caverns)
+"nr" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/trailrockb4,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "nt" = (
 /obj/effect/overlay/water/top{
@@ -710,6 +1140,15 @@
 /obj/structure/sign/warning/moving_parts/small,
 /turf/simulated/wall/r_wall,
 /area/iskhod/dungeon/outside/caverns)
+"nN" = (
+/obj/structure/closet/oldstyle,
+/obj/item/clothing/under/overalls/utilitygrey,
+/obj/item/clothing/shoes/jackboots/duty,
+/obj/item/clothing/suit/armor/heavy/riot,
+/obj/random/ammo,
+/obj/random/ammo,
+/turf/simulated/floor/wood_old,
+/area/iskhod/dungeon/outside/caverns)
 "nQ" = (
 /obj/item/material/sword/uranium,
 /obj/structure/table/marble,
@@ -726,6 +1165,20 @@
 /obj/structure/low_wall/iskhod,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"nW" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock6,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "nX" = (
 /obj/structure/railing{
 	dir = 1
@@ -737,6 +1190,32 @@
 	dir = 9
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"od" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
+/obj/item/remains,
+/turf/simulated/floor/industrial,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"og" = (
+/obj/machinery/computer{
+	stat = 1;
+	dir = 1;
+	pixel_y = -5
+	},
+/turf/simulated/floor/industrial/white_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"oh" = (
+/obj/structure/flora/tree/pine,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "on" = (
 /obj/structure/catwalk,
@@ -768,6 +1247,12 @@
 /obj/effect/floor_decal/industrial/outputgate,
 /turf/simulated/floor/tiled/steel/panels,
 /area/iskhod/dungeon/outside/caverns)
+"oD" = (
+/obj/machinery/power/apc,
+/turf/simulated/wall/r_wall/iskhod,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "oE" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust{
@@ -783,6 +1268,16 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"oK" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock8,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "oQ" = (
 /obj/structure/flora/small/snow/rock6,
 /turf/simulated/floor/snow/smooth{
@@ -797,6 +1292,19 @@
 /obj/structure/table/rack/shelf,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"pd" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
+/obj/structure/multiz/ladder,
+/turf/simulated/floor/industrial,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"pm" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating/under,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "pn" = (
 /obj/effect/overlay/water{
 	color = "#2c8bc4"
@@ -809,6 +1317,33 @@
 "po" = (
 /obj/effect/floor_decal/border/techfloor/orange/corner,
 /turf/simulated/mineral/frostyrock,
+/area/iskhod/dungeon/outside/caverns)
+"pu" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/item/weapon/nuclear_cylinder,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"pG" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust/corner,
+/obj/effect/floor_decal/industrial/warningdust/corner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"pH" = (
+/obj/machinery/bodyscanner,
+/turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "pK" = (
 /obj/effect/decal/mecha_wreckage/durand,
@@ -829,6 +1364,28 @@
 "pO" = (
 /turf/simulated/floor/rock/manmade/asphalt,
 /area/iskhod/dungeon/outside/caverns)
+"pP" = (
+/obj/structure/table/rack/shelf,
+/obj/item/cell/large/greyson,
+/turf/simulated/floor/industrial/white_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"qd" = (
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
+"qe" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust,
+/obj/structure/railing/grey,
+/obj/structure/girder,
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "qk" = (
 /obj/machinery/optable,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -836,6 +1393,15 @@
 "qr" = (
 /turf/simulated/floor/beach/water/jungle,
 /area/iskhod/dungeon/outside/caverns)
+"qs" = (
+/obj/structure/girder,
+/obj/structure/salvageable/data_os{
+	icon_state = "server1"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "qv" = (
 /obj/random/junk/low_chance,
 /obj/effect/floor_decal/border/techfloor/orange/corner{
@@ -854,6 +1420,12 @@
 /obj/effect/decal/cleanable/blood,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"rs" = (
+/obj/effect/floor_decal/industrial_plant,
+/turf/simulated/floor/industrial/white_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "rx" = (
 /obj/random/junk,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -896,8 +1468,45 @@
 /obj/structure/railing,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"sv" = (
+/obj/structure/closet/oldstyle,
+/obj/item/clothing/under/overalls/utilitygrey,
+/obj/item/clothing/shoes/jackboots/duty,
+/obj/item/clothing/suit/storage/hazardvest,
+/obj/item/clothing/head/hardhat,
+/obj/item/tool/fireaxe/woodsman,
+/turf/simulated/floor/wood_old,
+/area/iskhod/dungeon/outside/caverns)
 "sx" = (
 /obj/effect/decal/mecha_wreckage/hoverpod,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
+/area/iskhod/dungeon/outside/caverns)
+"sz" = (
+/obj/random/scrap/dense_even,
+/turf/simulated/floor/wood/wild4,
+/area/iskhod/dungeon/outside/caverns)
+"sF" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"sR" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
 /turf/simulated/floor/asteroid/shale{
 	nitrogen = 93.6478;
 	oxygen = 24.8937
@@ -922,6 +1531,25 @@
 	},
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/outside/forest)
+"sY" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust{
+	dir = 1
+	},
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"td" = (
+/obj/item/remains,
+/obj/item/clothing/head/hardhat,
+/turf/simulated/floor/industrial/white_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "tr" = (
 /obj/random/cluster/spiders,
 /obj/random/junk/low_chance,
@@ -936,6 +1564,18 @@
 	},
 /turf/simulated/floor/icewater,
 /area/iskhod/dungeon/outside/caverns)
+"tv" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "tw" = (
 /obj/machinery/atmospherics/mains_pipe/simple/visible{
 	dir = 4
@@ -966,11 +1606,42 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"tL" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_warning,
+/obj/machinery/computer{
+	stat = 1
+	},
+/obj/structure/table/steel,
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"tM" = (
+/turf/simulated/wall/r_wall/iskhod,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "tN" = (
 /obj/landmark/join/late/cryo/outsider,
 /obj/machinery/cryopod,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"tP" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warningdust,
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/obj/structure/railing/grey,
+/obj/structure/girder,
+/obj/structure/sign/warning/hazard_danger,
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "tR" = (
 /obj/structure/railing/grey,
 /obj/structure/railing/grey{
@@ -984,6 +1655,16 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/iskhod/outside/forest)
+"tT" = (
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
 "tU" = (
 /obj/structure/table/steel,
 /obj/random/medical_lowcost_handmade,
@@ -996,6 +1677,15 @@
 /obj/machinery/door/airlock/hatch,
 /turf/simulated/wall/iskhod_blue,
 /area/iskhod/dungeon/outside/caverns)
+"un" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
+/obj/structure/salvageable/data_os{
+	icon_state = "server1"
+	},
+/turf/simulated/floor/industrial,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "ur" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust/corner{
@@ -1006,6 +1696,11 @@
 "uu" = (
 /obj/machinery/vending/cigarette,
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"uv" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/structure/multiz/ladder,
+/turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "uy" = (
 /obj/structure/railing/grey{
@@ -1032,6 +1727,22 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"uJ" = (
+/obj/structure/girder,
+/obj/structure/salvageable/data_os{
+	icon_state = "machine3"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"uK" = (
+/obj/structure/table/woodentable,
+/obj/random/gun_fancy,
+/turf/simulated/floor/wood,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "uQ" = (
 /obj/machinery/door/airlock/hatch,
 /obj/random/traps,
@@ -1058,6 +1769,26 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"ve" = (
+/turf/simulated/floor/industrial/white_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"vi" = (
+/obj/structure/table/rack/shelf,
+/obj/item/clothing/mask/gas/bigguy/sleekguy,
+/obj/item/clothing/under/turtleneck/black,
+/obj/item/clothing/mask/balaclava,
+/obj/item/clothing/shoes/swimmingfins{
+	color = "#2e2e2e"
+	},
+/obj/item/tank/oxygen{
+	color = "#2e2e2e"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "vm" = (
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
@@ -1080,6 +1811,37 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"vx" = (
+/obj/structure/low_wall/iskhod,
+/obj/structure/grille,
+/obj/machinery/door/blast/shutters/glass{
+	name = "window"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"vE" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"vH" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/industrial,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "vL" = (
 /turf/simulated/floor/rock,
 /area/iskhod/dungeon/outside/caverns)
@@ -1094,12 +1856,45 @@
 	},
 /turf/simulated/open,
 /area/iskhod/dungeon/outside/caverns)
+"wm" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/inputgate,
+/obj/effect/floor_decal/industrial/outputgate,
+/obj/effect/floor_decal/industrial/inputgate,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/girder,
+/obj/structure/railing,
+/obj/machinery/nuclearbomb/station{
+	name = "nuclear reactor";
+	desc = "a device used to sustain a controlled fission nuclear chain reaction.";
+	interact_offline = 1
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "wn" = (
 /obj/structure/boulder,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"wx" = (
+/obj/effect/floor_decal/industrial_plant/steel_warning,
+/obj/structure/salvageable/machine_os{
+	dir = 4;
+	pixel_x = -7
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "wE" = (
 /obj/structure/multiz/stairs/enter/bottom{
 	dir = 8
@@ -1125,11 +1920,35 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"xe" = (
+/obj/structure/salvageable/data_os{
+	icon_state = "server0"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "xj" = (
 /obj/structure/catwalk,
 /obj/structure/grille,
 /turf/simulated/floor/icewater,
 /area/iskhod/dungeon/outside/caverns)
+"xq" = (
+/obj/structure/table/bench/steel,
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
+"xu" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "xA" = (
 /obj/random/junk,
 /obj/random/junk,
@@ -1151,6 +1970,24 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"xO" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "ym" = (
 /obj/structure/multiz/stairs/active/bottom{
 	dir = 1
@@ -1194,6 +2031,25 @@
 	},
 /turf/simulated/floor/beach/water/ocean,
 /area/iskhod/dungeon/outside/caverns)
+"yU" = (
+/turf/simulated/wall/untinted/onestar_reinforced{
+	name = "Missile"
+	},
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"yY" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_warning,
+/obj/machinery/door/blast/regular/open,
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"ze" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/structure/table/marble,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "zm" = (
 /obj/structure/table/standard,
 /turf/simulated/floor/wood/wild4,
@@ -1210,12 +2066,28 @@
 /obj/random/booze,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"zS" = (
+/obj/structure/salvageable/data_os{
+	icon_state = "personal9"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "zT" = (
 /obj/machinery/light/floor{
 	dir = 8
 	},
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"zX" = (
+/obj/structure/bed{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Ad" = (
 /obj/structure/table/steel,
 /obj/random/toolbox,
@@ -1230,6 +2102,26 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"Aj" = (
+/obj/structure/bed/chair/office/light{
+	dir = 1;
+	pixel_y = 4
+	},
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
+"Ap" = (
+/turf/simulated/wall/untinted/onestar_reinforced{
+	name = "Propeller"
+	},
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"As" = (
+/obj/structure/sign/warning/hazard_radiation,
+/turf/simulated/wall/r_wall/iskhod,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "At" = (
 /obj/structure/table/steel,
 /obj/random/toolbox/low_chance,
@@ -1242,6 +2134,11 @@
 	nitrogen = 93.6478;
 	oxygen = 24.8937
 	},
+/area/iskhod/dungeon/outside/caverns)
+"AJ" = (
+/obj/structure/table/standard,
+/obj/item/storage/fancy/vials,
+/turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "AN" = (
 /turf/unsimulated/mineral/cold,
@@ -1278,6 +2175,15 @@
 /obj/machinery/door/window/southleft,
 /turf/simulated/floor/icewater,
 /area/iskhod/dungeon/outside/caverns)
+"Bu" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Bx" = (
 /obj/random/junk/low_chance,
 /obj/machinery/atmospherics/mains_pipe/simple/visible{
@@ -1302,10 +2208,24 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"BI" = (
+/obj/structure/window/reinforced/iskhod{
+	dir = 4
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/iskhod/dungeon/outside/caverns)
 "BM" = (
 /obj/structure/boulder,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"BO" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/structure/girder,
+/obj/structure/grille,
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "BV" = (
 /turf/simulated/open,
 /area/iskhod/dungeon/outside/caverns)
@@ -1314,12 +2234,55 @@
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
 "Cf" = (
-/obj/machinery/door/airlock/highsecurity,
+/obj/machinery/door/unpowered/simple/wood,
 /turf/simulated/floor/industrial/grey_slates_long,
 /area/iskhod/dungeon/outside/caverns)
+"Cg" = (
+/obj/structure/flora/tree/snow/four,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"Cq" = (
+/obj/effect/floor_decal/industrial_plant,
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"Cr" = (
+/obj/machinery/door/unpowered/simple/wood,
+/turf/simulated/floor/wood,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"Cy" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/machinery/shield_conduit{
+	name = "strange device";
+	desc = "Looks important, probably best to leave it alone.";
+	dir = 4
+	},
+/obj/machinery/self_destruct,
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "CA" = (
 /obj/structure/lattice,
 /turf/simulated/floor/icewater,
+/area/iskhod/dungeon/outside/caverns)
+"CE" = (
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/concrete_bricks,
 /area/iskhod/dungeon/outside/caverns)
 "CF" = (
 /mob/living/simple/hostile/nightmare/dream_daemon,
@@ -1331,12 +2294,20 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"CJ" = (
+/obj/item/storage/deferred/crate/ak,
+/turf/simulated/floor/reinforced,
+/area/iskhod/dungeon/outside/caverns)
 "CO" = (
 /turf/simulated/wall/r_wall/iskhod,
 /area/iskhod/dungeon/outside/caverns)
 "CP" = (
 /turf/simulated/floor/plating/under,
 /area/iskhod/outside/forest)
+"CQ" = (
+/obj/machinery/chemical_dispenser,
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
 "CS" = (
 /obj/random/material_ore/low_chance,
 /turf/simulated/mineral/frostyrock,
@@ -1351,6 +2322,12 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
+"CU" = (
+/obj/effect/floor_decal/industrial_plant,
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "CV" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust/corner{
@@ -1362,6 +2339,13 @@
 /obj/machinery/floodlight,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"Dg" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_warning,
+/obj/machinery/door/blast/regular,
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Dh" = (
 /obj/structure/low_wall/iskhod,
 /obj/structure/grille,
@@ -1382,6 +2366,25 @@
 	},
 /turf/simulated/open,
 /area/iskhod/outside/forest)
+"Dm" = (
+/turf/simulated/open,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"Do" = (
+/obj/structure/railing/grey,
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
+"Dv" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_warning{
+	dir = 1
+	},
+/obj/structure/curtain/medical,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "Dw" = (
 /obj/random/mob/excelsior,
 /turf/simulated/floor/asteroid/shale{
@@ -1458,6 +2461,15 @@
 /obj/random/handmade_tool,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/outside/forest)
+"ED" = (
+/obj/structure/lattice,
+/obj/structure/girder{
+	name = "Crane Claw";
+	desc = "A mechanical claw of a crane, riddled with all sorts of hydraulic tubes and intricate machinery";
+	color = "#B7410E"
+	},
+/turf/simulated/open,
+/area/iskhod/dungeon/outside/caverns)
 "ER" = (
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/dungeon/outside/caverns)
@@ -1478,17 +2490,52 @@
 /obj/effect/spider/stickyweb,
 /turf/simulated/mineral/frostyrock,
 /area/iskhod/dungeon/outside/caverns)
+"Fd" = (
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/obj/structure/railing/grey,
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
 "Fm" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"Fy" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_warning{
+	dir = 1
+	},
+/obj/random/scrap/dense_even,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "Fz" = (
 /obj/effect/floor_decal/industrial/road/straight1,
 /obj/effect/step_trigger/A_forest_to_colony_2,
 /turf/simulated/floor/rock/manmade/asphalt,
 /area/iskhod/dungeon/outside/caverns)
+"FA" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock6,
+/obj/structure/flora/small/trailrocka2,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"FB" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
+/obj/machinery/computer{
+	stat = 1;
+	dir = 1
+	},
+/turf/simulated/floor/industrial,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "FC" = (
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/outside/forest)
@@ -1526,9 +2573,42 @@
 	},
 /turf/simulated/floor/tiled/steel/monofloor,
 /area/iskhod/dungeon/outside/caverns)
+"Gm" = (
+/obj/structure/table/standard,
+/obj/machinery/chem_heater{
+	pixel_y = 4
+	},
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
+"Gq" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "Gr" = (
 /obj/random/cigarettes,
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"Gu" = (
+/obj/structure/salvageable/data_os{
+	icon_state = "machine0"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"GG" = (
+/turf/simulated/floor/wood_old,
 /area/iskhod/dungeon/outside/caverns)
 "GM" = (
 /obj/item/device/lighting/toggleable/lantern,
@@ -1545,12 +2625,42 @@
 	},
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/dungeon/outside/caverns)
+"GZ" = (
+/obj/machinery/computer{
+	stat = 1;
+	dir = 4;
+	pixel_x = -4
+	},
+/obj/structure/table/steel_reinforced,
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"Hb" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_border{
+	dir = 1
+	},
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "Ho" = (
 /obj/structure/multiz/stairs/active{
 	dir = 1
 	},
 /turf/simulated/open,
 /area/iskhod/dungeon/outside/caverns)
+"Hu" = (
+/obj/machinery/portable_atmospherics/canister/empty/oxygen,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Hw" = (
 /obj/structure/multiz/stairs/enter,
 /turf/simulated/open,
@@ -1578,10 +2688,70 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"Id" = (
+/obj/machinery/optable,
+/obj/item/device/defib_kit/compact/combat/adv/loaded,
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
+"If" = (
+/obj/structure/closet/crate/freezer/rations,
+/turf/simulated/floor/reinforced,
+/area/iskhod/dungeon/outside/caverns)
+"Ih" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark";
+	faction = "tissue"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"Ip" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/structure/girder,
+/obj/structure/grille,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"It" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/carp/greatwhite{
+	color = "#8B0000";
+	name = "malformed great white carp";
+	faction = "tissue"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "IB" = (
 /obj/item/stool/padded,
 /obj/item/ammo_casing/shotgun/spent,
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"IF" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/structure/closet/secure_closet/freezer/fridge,
+/turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "IS" = (
 /obj/structure/bed/chair/office{
@@ -1593,6 +2763,31 @@
 /obj/structure/girder,
 /obj/structure/lattice,
 /turf/simulated/open,
+/area/iskhod/dungeon/outside/caverns)
+"IV" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock6,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"IZ" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust/corner{
+	dir = 8
+	},
+/obj/structure/girder,
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"Jg" = (
+/obj/structure/table/standard,
+/obj/item/storage/firstaid/surgery/traitor,
+/turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "Jl" = (
 /obj/effect/floor_decal/industrial_plant,
@@ -1629,7 +2824,9 @@
 /area/iskhod/dungeon/outside/caverns)
 "JH" = (
 /turf/simulated/floor/tiled/dark/brown_perforated,
-/area/iskhod/dungeon/outside/caverns)
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "JJ" = (
 /obj/mecha/working/ripley/deathripley,
 /turf/simulated/floor/asteroid/shale{
@@ -1657,14 +2854,74 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"JV" = (
+/obj/machinery/door/unpowered/simple/wood,
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
 "JW" = (
 /obj/effect/window_lwall_spawn/reinforced,
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"Ka" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/machinery/door/airlock/hatch,
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"Kd" = (
+/obj/effect/floor_decal/industrial_plant,
+/turf/simulated/floor/tiled/dark/brown_perforated,
 /area/iskhod/dungeon/outside/caverns)
 "Ke" = (
 /obj/structure/multiz/stairs/active,
 /turf/simulated/open,
 /area/iskhod/outside/forest)
+"Kf" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust{
+	dir = 1
+	},
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"Kg" = (
+/obj/structure/railing,
+/turf/simulated/floor/asteroid/shale{
+	nitrogen = 93.6478;
+	oxygen = 24.8937
+	},
+/area/iskhod/dungeon/outside/caverns)
+"Kk" = (
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"Kp" = (
+/obj/structure/table/standard,
+/obj/item/storage/firstaid/o2,
+/obj/item/storage/firstaid/radiation,
+/obj/item/storage/firstaid/fire,
+/obj/item/storage/firstaid,
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
 "Ks" = (
 /obj/random/junk/low_chance,
 /turf/simulated/floor/asteroid/shale{
@@ -1699,6 +2956,13 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/trashcave)
+"KU" = (
+/obj/structure/railing/grey,
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
 "Le" = (
 /obj/random/junkfood,
 /obj/structure/table/rack/shelf,
@@ -1732,6 +2996,23 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"Ly" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "LE" = (
 /mob/living/carbon/superior/spider/nurse/queen,
 /turf/simulated/floor/asteroid/shale{
@@ -1749,11 +3030,39 @@
 /obj/item/tool/crowbar,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"LR" = (
+/obj/structure/table/standard,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/glass/beaker{
+	pixel_x = 1;
+	pixel_y = 3;
+	preloaded_reagents = list("plasma"=30)
+	},
+/obj/structure/window/basic/iskhod{
+	dir = 4
+	},
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
+"LS" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust/corner,
+/obj/structure/girder,
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Md" = (
 /obj/structure/railing{
 	dir = 1
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"Mj" = (
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/wood/wild4,
 /area/iskhod/dungeon/outside/caverns)
 "Mo" = (
 /obj/random/material_ore/low_chance,
@@ -1768,6 +3077,13 @@
 	nitrogen = 93.6478;
 	oxygen = 24.8937
 	},
+/area/iskhod/dungeon/outside/caverns)
+"ME" = (
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/icewater,
 /area/iskhod/dungeon/outside/caverns)
 "MI" = (
 /obj/effect/overlay/water{
@@ -1795,6 +3111,26 @@
 	color = "#880808"
 	},
 /area/iskhod/dungeon/outside/caverns)
+"ML" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/plating/under,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "MY" = (
 /turf/simulated/wall/iskhod_blue,
 /area/iskhod/dungeon/outside/caverns)
@@ -1807,6 +3143,9 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/iskhod/outside/forest)
+"Ny" = (
+/turf/simulated/floor/beach/water/shallow,
+/area/iskhod/dungeon/outside/caverns)
 "NE" = (
 /obj/structure/multiz/stairs/active/bottom{
 	dir = 8
@@ -1816,6 +3155,15 @@
 "NF" = (
 /obj/structure/multiz/stairs/active,
 /turf/simulated/open,
+/area/iskhod/dungeon/outside/caverns)
+"NI" = (
+/obj/structure/window/reinforced/iskhod{
+	dir = 8
+	},
+/obj/structure/bed{
+	dir = 1
+	},
+/turf/simulated/floor/wood_old,
 /area/iskhod/dungeon/outside/caverns)
 "NJ" = (
 /turf/simulated/wall/r_wall/iskhod_red,
@@ -1827,6 +3175,12 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"NW" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_alt,
+/turf/simulated/floor/industrial,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Ob" = (
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/outside/forest)
@@ -1849,6 +3203,24 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"Oo" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust{
+	dir = 1
+	},
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_idle";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Os" = (
 /obj/structure/closet/secure_closet/freezer,
 /obj/random/medical_lowcost/low_chance,
@@ -1861,6 +3233,31 @@
 /obj/effect/window_lwall_spawn/plasma/reinforced,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"Ov" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/inputgate,
+/obj/effect/floor_decal/industrial/outputgate,
+/obj/effect/floor_decal/industrial/inputgate,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/railing,
+/obj/structure/girder,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/nuclearbomb/station{
+	name = "nuclear reactor";
+	desc = "a device used to sustain a controlled fission nuclear chain reaction.";
+	interact_offline = 1
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Ow" = (
 /obj/machinery/cooking/stove,
 /obj/structure/table/steel,
@@ -1871,6 +3268,14 @@
 	dir = 4
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"OM" = (
+/obj/structure/material_box,
+/turf/simulated/floor/reinforced,
+/area/iskhod/dungeon/outside/caverns)
+"OR" = (
+/obj/structure/closet/crate/large,
+/turf/simulated/floor/reinforced,
 /area/iskhod/dungeon/outside/caverns)
 "OW" = (
 /obj/structure/table/steel_reinforced,
@@ -1884,6 +3289,10 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"Pc" = (
+/obj/machinery/door/blast/regular,
+/turf/simulated/floor/tiled/dark/techfloor_grid,
+/area/iskhod/dungeon/outside/caverns)
 "Pe" = (
 /obj/structure/railing/grey{
 	dir = 1
@@ -1896,11 +3305,33 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"Pi" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/structure/table/marble,
+/obj/random/junkfood/onlyburger,
+/obj/random/junkfood/onlyburger,
+/obj/random/junkfood/onlyburger,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
+"Po" = (
+/obj/machinery/chem_master,
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
 "Ps" = (
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"Pw" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock4,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "Px" = (
 /obj/structure/table/steel_reinforced,
 /turf/simulated/floor/industrial/navy_slates_fixed,
@@ -1922,6 +3353,38 @@
 /obj/random/handmade_tool,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"PU" = (
+/obj/structure/flora/tree/snow/five,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"PY" = (
+/obj/effect/floor_decal/industrial_plant,
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"PZ" = (
+/obj/structure/railing,
+/turf/simulated/floor/icewater,
+/area/iskhod/dungeon/outside/caverns)
+"Qc" = (
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/industrial/concrete_bricks,
+/area/iskhod/dungeon/outside/caverns)
+"Qe" = (
+/obj/effect/floor_decal/industrial_plant/steel_warning,
+/obj/structure/table/steel_reinforced,
+/obj/structure/salvageable/console_broken_os{
+	dir = 4;
+	pixel_x = -5
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "Qh" = (
 /obj/effect/floor_decal/industrial_plant,
 /obj/effect/floor_decal/industrial/warningdust,
@@ -1939,6 +3402,25 @@
 "Qp" = (
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/outside/forest)
+"Qw" = (
+/obj/structure/lattice,
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
+"QB" = (
+/obj/structure/closet/crate/internals,
+/turf/simulated/floor/reinforced,
+/area/iskhod/dungeon/outside/caverns)
+"QN" = (
+/mob/living/simple/hostile/carp/greatwhite{
+	color = "#8B0000";
+	name = "malformed great white carp"
+	},
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
+"QP" = (
+/obj/structure/closet/crate/trashcart,
+/turf/simulated/floor/reinforced,
+/area/iskhod/dungeon/outside/caverns)
 "QW" = (
 /obj/random/junk,
 /obj/random/junk/low_chance,
@@ -1958,12 +3440,36 @@
 /obj/structure/table/bench/wooden,
 /turf/simulated/floor/rock,
 /area/iskhod/dungeon/outside/caverns)
+"Rs" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/small/snow/rock7,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
+"RC" = (
+/turf/simulated/floor/industrial/black_large_slates,
+/area/iskhod/dungeon/outside/caverns)
+"RH" = (
+/turf/simulated/floor/tiled/dark/techfloor_grid,
+/area/iskhod/dungeon/outside/caverns)
 "RK" = (
 /obj/machinery/door/unpowered/simple/wood,
 /turf/simulated/floor/snow/smooth{
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"RL" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_border,
+/obj/effect/floor_decal/industrial/warningdust{
+	dir = 1
+	},
+/obj/machinery/door/airlock/hatch,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/iskhod/dungeon/outside/caverns)
 "RZ" = (
 /obj/structure/salvageable/machine_os{
 	dir = 4
@@ -1991,6 +3497,15 @@
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"Sw" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust/corner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Sz" = (
 /obj/effect/decal/cleanable/solid_biomass/aoe,
 /turf/simulated/floor/beach/water/jungle,
@@ -1998,6 +3513,22 @@
 "SA" = (
 /turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
+"SB" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/effect/floor_decal/industrial/warningdust{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warningdust,
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/obj/structure/railing/grey,
+/obj/structure/girder,
+/obj/structure/sign/warning/vent_port,
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "SD" = (
 /turf/simulated/wall/iskhod_red,
 /area/iskhod/outside/forest)
@@ -2014,6 +3545,20 @@
 "SM" = (
 /obj/random/closet_tech/low_chance,
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"SO" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/render/malformed{
+	faction = "tissue"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "SQ" = (
 /obj/structure/multiz/stairs/enter,
@@ -2050,6 +3595,20 @@
 /obj/effect/window_lwall_spawn,
 /turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
+"TN" = (
+/obj/structure/bed,
+/turf/simulated/floor/wood_old,
+/area/iskhod/dungeon/outside/caverns)
+"TR" = (
+/obj/structure/girder,
+/obj/structure/table/steel_reinforced,
+/obj/structure/salvageable/data_os{
+	icon_state = "server1"
+	},
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "TV" = (
 /obj/random/junk,
 /obj/random/junk,
@@ -2072,6 +3631,17 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/outside/forest)
+"Uj" = (
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Uq" = (
 /obj/random/mob/excelsior/low_chance,
 /obj/structure/railing{
@@ -2081,6 +3651,28 @@
 	dir = 1
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"Ur" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/structure/girder,
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"Ux" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/carp/greatwhite{
+	color = "#8B0000";
+	name = "malformed great white carp"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
 /area/iskhod/dungeon/outside/caverns)
 "Uz" = (
 /obj/effect/floor_decal/corner/lightgrey/bordercee{
@@ -2111,6 +3703,17 @@
 /obj/structure/girder,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/dungeon/outside/caverns)
+"Vh" = (
+/obj/structure/multiz/ladder/up,
+/turf/simulated/floor/tiled/dark/techfloor_grid,
+/area/iskhod/dungeon/outside/caverns)
+"Vj" = (
+/obj/structure/closet/oldstyle,
+/obj/item/clothing/under/overalls/utilitygrey,
+/obj/item/clothing/shoes/jackboots/duty,
+/obj/item/clothing/suit/storage/toggle/labcoat,
+/turf/simulated/floor/wood_old,
+/area/iskhod/dungeon/outside/caverns)
 "Vl" = (
 /obj/structure/table/rack/shelf,
 /obj/random/junkfood,
@@ -2123,12 +3726,24 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"Vz" = (
+/obj/structure/catwalk,
+/turf/simulated/floor/plating/under,
+/area/iskhod/dungeon/outside/caverns)
 "VE" = (
 /turf/simulated/floor/asteroid/shale{
 	nitrogen = 93.6478;
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/trashcave)
+"VR" = (
+/obj/structure/closet/crate/radiation,
+/turf/simulated/floor/reinforced,
+/area/iskhod/dungeon/outside/caverns)
+"VS" = (
+/obj/structure/closet/crate/serbcrate,
+/turf/simulated/floor/reinforced,
+/area/iskhod/dungeon/outside/caverns)
 "VW" = (
 /obj/random/material_ore/low_chance,
 /obj/random/material_ore/low_chance,
@@ -2183,11 +3798,19 @@
 	oxygen = 24.8937
 	},
 /area/iskhod/dungeon/outside/caverns)
+"WF" = (
+/obj/machinery/vending/sovietsoda,
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
 "WH" = (
 /obj/structure/bed/chair/office{
 	dir = 1
 	},
 /turf/simulated/floor/industrial/navy_slates_fixed,
+/area/iskhod/dungeon/outside/caverns)
+"WJ" = (
+/obj/structure/closet/crate/hydroponics,
+/turf/simulated/floor/reinforced,
 /area/iskhod/dungeon/outside/caverns)
 "WN" = (
 /obj/machinery/seed_storage/random,
@@ -2197,11 +3820,32 @@
 /obj/structure/bed/double/padded,
 /turf/simulated/floor/wood/wild4,
 /area/iskhod/outside/forest)
+"WY" = (
+/obj/effect/overlay/water{
+	color = "#880808"
+	},
+/obj/effect/overlay/water/top{
+	color = "#880808"
+	},
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/beach/water/ocean{
+	color = "#880808"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "WZ" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/iskhod/outside/forest)
+"Xc" = (
+/turf/simulated/wall/iron,
+/area/iskhod/dungeon/outside/caverns)
+"Xf" = (
+/obj/machinery/reagentgrinder/industrial,
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
 "Xg" = (
 /turf/simulated/floor/industrial/concrete_bricks,
 /area/iskhod/dungeon/outside/caverns)
@@ -2219,11 +3863,30 @@
 /obj/random/junk,
 /turf/unsimulated/mineral/cold,
 /area/iskhod/dungeon/outside/caverns)
+"Xv" = (
+/obj/structure/largecrate/animal/piano,
+/turf/simulated/floor/reinforced,
+/area/iskhod/dungeon/outside/caverns)
 "Xz" = (
 /obj/structure/railing/grey{
 	dir = 1
 	},
 /turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
+"XE" = (
+/obj/structure/railing/grey,
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
+"XH" = (
+/obj/structure/noticeboard{
+	pixel_x = 32;
+	name = "Doska Obyavleniy"
+	},
+/turf/simulated/floor/industrial/white_large_slates,
 /area/iskhod/dungeon/outside/caverns)
 "XP" = (
 /obj/structure/grille/broken,
@@ -2231,6 +3894,56 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"XR" = (
+/obj/effect/floor_decal/industrial_plant,
+/obj/machinery/shield_conduit{
+	name = "strange device";
+	desc = "Looks important, probably best to leave it alone.";
+	dir = 8
+	},
+/obj/machinery/self_destruct,
+/obj/effect/floor_decal/border/techfloor/orange{
+	icon = 'icons/mob/blob.dmi';
+	icon_state = "blob_damaged2";
+	name = "biomass";
+	color = "#750008"
+	},
+/turf/simulated/floor/tiled/steel/brown_perforated,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"XX" = (
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"Ye" = (
+/obj/effect/floor_decal/industrial_plant/steel_grate_warning{
+	dir = 1
+	},
+/obj/machinery/door/airlock/hatch{
+	name = "009-LIMA"
+	},
+/turf/simulated/floor/tiled/dark/monofloor,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"Yl" = (
+/obj/structure/window/basic/iskhod{
+	dir = 8
+	},
+/turf/simulated/floor/industrial/white_large_slates,
+/area/iskhod/dungeon/outside/caverns)
+"Yn" = (
+/obj/item/mine/excelsior{
+	armed = 1;
+	anchored = 1
+	},
+/obj/structure/flora/tree/pine,
+/turf/simulated/floor/snow/smooth{
+	icon_state = "snow0"
+	},
+/area/iskhod/dungeon/outside/caverns)
 "Yp" = (
 /obj/structure/table/reinforced,
 /obj/random/medical,
@@ -2240,6 +3953,21 @@
 /obj/structure/table/rack/shelf,
 /turf/simulated/floor/industrial/navy_slates_fixed,
 /area/iskhod/dungeon/outside/caverns)
+"Yw" = (
+/mob/living/simple/hostile/carp/shark{
+	color = "#8B0000";
+	name = "malformed shark"
+	},
+/turf/simulated/floor/beach/water/ocean,
+/area/iskhod/dungeon/outside/caverns)
+"YA" = (
+/mob/living/simple/hostile/creature/tissue{
+	faction = "tissue"
+	},
+/turf/simulated/floor/industrial/white_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "YP" = (
 /obj/structure/flora/small/snow/rock3,
 /turf/simulated/floor/snow/smooth{
@@ -2265,6 +3993,18 @@
 	icon_state = "snow0"
 	},
 /area/iskhod/outside/forest)
+"Za" = (
+/obj/machinery/computer{
+	stat = 1;
+	dir = 4;
+	pixel_x = -4
+	},
+/obj/structure/table/steel_reinforced,
+/obj/item/device/radio/headset/headset_blackshield/bowman/solfed,
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "Zg" = (
 /obj/effect/floor_decal/industrial/warningdust{
 	dir = 1
@@ -2304,12 +4044,29 @@
 /obj/machinery/door/airlock/highsecurity,
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/outside/forest)
+"ZK" = (
+/obj/machinery/portable_atmospherics/canister/empty/oxygen,
+/turf/simulated/floor/industrial/black_large_slates,
+/area/derelict{
+	name = "Derelict submarine"
+	})
 "ZN" = (
 /obj/random/junk/low_chance,
 /turf/simulated/floor/asteroid/shale{
 	nitrogen = 93.6478;
 	oxygen = 24.8937
 	},
+/area/iskhod/dungeon/outside/caverns)
+"ZS" = (
+/obj/structure/catwalk,
+/turf/simulated/floor/plating/under,
+/area/derelict{
+	name = "Derelict submarine"
+	})
+"ZX" = (
+/obj/structure/catwalk,
+/obj/machinery/door/blast/regular,
+/turf/simulated/floor/plating/under,
 /area/iskhod/dungeon/outside/caverns)
 
 (1,1,1) = {"
@@ -108982,9 +110739,9 @@ iw
 iw
 NJ
 Qh
-SA
-SA
-SA
+Vz
+Vz
+Vz
 oE
 NJ
 iw
@@ -109285,8 +111042,8 @@ NJ
 NJ
 Qh
 iJ
-SA
-SA
+Vz
+Vz
 oE
 NJ
 NJ
@@ -109584,13 +111341,13 @@ iw
 iw
 iw
 NJ
-SA
+Ny
 ur
 yr
 yr
 yr
 CV
-SA
+Ny
 NJ
 iw
 iw
@@ -109886,13 +111643,13 @@ iw
 iw
 iw
 NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+Ny
+Ny
+RH
+Vz
+RH
+Ny
+Ny
 NJ
 iw
 iw
@@ -110188,13 +111945,13 @@ iw
 iw
 iw
 NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+Ny
+Ny
+RH
+Vz
+RH
+Ny
+Ny
 NJ
 iw
 iw
@@ -110490,13 +112247,13 @@ iw
 iw
 iw
 NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+NJ
+NJ
+Pc
+ZX
+Pc
+NJ
+NJ
 NJ
 iw
 iw
@@ -110792,13 +112549,13 @@ iw
 iw
 iw
 NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+QP
+bM
+RH
+dG
+RH
+kF
+kF
 NJ
 iw
 iw
@@ -111094,13 +112851,13 @@ iw
 iw
 iw
 NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+VS
+bM
+RH
+dG
+RH
+kF
+kF
 NJ
 iw
 iw
@@ -111397,12 +113154,12 @@ iw
 iw
 NJ
 SA
-SA
-SA
-SA
-SA
-SA
-SA
+bM
+RH
+dG
+RH
+kF
+kF
 NJ
 iw
 iw
@@ -111697,14 +113454,14 @@ iw
 iw
 iw
 iw
-NJ
+iw
 SA
 SA
-SA
-SA
-SA
-SA
-SA
+Vh
+dG
+RH
+kF
+kF
 NJ
 iw
 iw
@@ -111999,14 +113756,14 @@ iw
 iw
 iw
 iw
-NJ
+iw
 SA
 SA
-SA
-SA
-SA
-SA
-SA
+RH
+dG
+RH
+Xv
+kF
 NJ
 iw
 iw
@@ -112301,14 +114058,14 @@ iw
 iw
 iw
 iw
-NJ
+iw
+iw
 SA
-SA
-SA
-SA
-SA
-SA
-SA
+RH
+dG
+RH
+If
+mv
 NJ
 iw
 iw
@@ -112603,14 +114360,14 @@ iw
 iw
 iw
 iw
-NJ
+iw
+iw
 SA
-SA
-SA
-SA
-SA
-SA
-SA
+RH
+dG
+RH
+If
+mv
 NJ
 iw
 iw
@@ -112905,14 +114662,14 @@ iw
 iw
 iw
 iw
-NJ
+iw
 SA
 SA
-SA
-SA
-SA
-SA
-SA
+RH
+dG
+RH
+ek
+If
 NJ
 iw
 iw
@@ -113209,12 +114966,12 @@ iw
 iw
 NJ
 SA
-SA
-SA
-SA
-SA
-SA
-SA
+dq
+RH
+dG
+RH
+bM
+If
 NJ
 iw
 iw
@@ -113510,13 +115267,13 @@ iw
 iw
 iw
 NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+dq
+dq
+RH
+dG
+RH
+bM
+bM
 NJ
 iw
 iw
@@ -113812,13 +115569,13 @@ iw
 iw
 iw
 NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+dq
+dq
+RH
+dG
+RH
+bM
+QB
 NJ
 iw
 iw
@@ -114114,13 +115871,13 @@ iw
 iw
 iw
 NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+dq
+OM
+RH
+dG
+RH
+bM
+OM
 NJ
 iw
 iw
@@ -114416,13 +116173,13 @@ iw
 iw
 iw
 NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+OM
+VR
+RH
+dG
+RH
+OM
+OM
 NJ
 iw
 iw
@@ -114718,13 +116475,13 @@ iw
 iw
 iw
 NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+VR
+QP
+RH
+dG
+RH
+WJ
+WJ
 NJ
 iw
 iw
@@ -115020,13 +116777,13 @@ iw
 iw
 iw
 NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+VR
+QB
+RH
+dG
+RH
+WJ
+WJ
 NJ
 iw
 iw
@@ -115322,13 +117079,13 @@ iw
 iw
 iw
 NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+OR
+bM
+RH
+dG
+RH
+OR
+WJ
 NJ
 iw
 iw
@@ -115624,13 +117381,13 @@ iw
 iw
 iw
 NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+CJ
+bM
+RH
+dG
+RH
+bM
+OR
 NJ
 iw
 iw
@@ -115926,13 +117683,13 @@ iw
 iw
 iw
 NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+bM
+bM
+RH
+dG
+RH
+bM
+bM
 NJ
 iw
 iw
@@ -116231,10 +117988,10 @@ NJ
 SA
 SA
 SA
-SA
-SA
-SA
-SA
+dG
+RH
+bM
+bM
 NJ
 iw
 iw
@@ -116532,11 +118289,11 @@ iw
 NJ
 SA
 SA
-SA
-SA
-SA
-SA
-SA
+Ny
+dG
+RH
+bM
+OR
 NJ
 iw
 iw
@@ -116831,14 +118588,14 @@ iw
 iw
 iw
 iw
-NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+iw
+Ny
+Ny
+Ny
+Ny
+Ny
+bM
+bM
 NJ
 iw
 iw
@@ -117133,14 +118890,14 @@ iw
 iw
 iw
 iw
-NJ
+iw
+iw
+Ny
+Ny
+Ny
 SA
 SA
-SA
-SA
-SA
-SA
-SA
+bM
 NJ
 iw
 iw
@@ -117435,11 +119192,11 @@ iw
 iw
 iw
 iw
-NJ
-SA
-SA
-SA
-SA
+iw
+iw
+iw
+iw
+Ny
 SA
 SA
 SA
@@ -117737,13 +119494,13 @@ iw
 iw
 iw
 iw
-NJ
-SA
-SA
-SA
-SA
-SA
-SA
+iw
+iw
+iw
+iw
+Ny
+Ny
+Ny
 SA
 NJ
 iw
@@ -118039,14 +119796,14 @@ iw
 iw
 iw
 iw
-NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+iw
+iw
+iw
+iw
+Ny
+Ny
+Ny
+Ny
 NJ
 iw
 iw
@@ -118341,14 +120098,14 @@ iw
 iw
 iw
 iw
-NJ
-SA
-SA
-SA
-SA
-SA
-SA
-SA
+iw
+iw
+iw
+iw
+iw
+Ny
+Ny
+Ny
 NJ
 iw
 iw
@@ -118643,13 +120400,13 @@ iw
 iw
 iw
 iw
-NJ
-NJ
-SA
-SA
-SA
-SA
-SA
+iw
+iw
+iw
+iw
+iw
+Ny
+Ny
 NJ
 NJ
 iw
@@ -118946,10 +120703,10 @@ iw
 iw
 iw
 iw
-NJ
-NJ
-NJ
-NJ
+iw
+iw
+iw
+iw
 NJ
 NJ
 NJ
@@ -135510,38 +137267,38 @@ iw
 iw
 iw
 iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
 iw
 iw
 iw
@@ -135811,40 +137568,40 @@ iw
 iw
 iw
 iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
+tM
+tM
+pm
+tM
+tM
+tM
+pm
+tM
+tM
+tM
+tM
+vi
+vi
+vi
+vi
+tM
+TR
+Za
+GZ
+TR
+uJ
+qs
+tM
+tM
+rs
+rs
+rs
+eE
+xu
+jD
+bY
+tM
+tM
+tM
 iw
 iw
 iw
@@ -136113,40 +137870,40 @@ iw
 iw
 iw
 iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
+tM
+lN
+ZS
+ZS
+ZS
+ZS
+no
+ML
+tM
+pm
+tM
+XX
+XX
+hv
+XX
+tM
+Gu
+kg
+jn
+ed
+Kk
+qs
+tM
+tM
+eE
+tM
+tM
+As
+Cq
+xu
+xu
+pu
+tM
+tM
 iw
 iw
 iw
@@ -136415,40 +138172,40 @@ iw
 iw
 iw
 iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
+tM
+ZS
+yU
+JH
+ZS
+Uj
+yU
+no
+Dg
+PY
+Dg
+XX
+Kk
+hv
+XX
+tM
+zS
+Kk
+XX
+xe
+XX
+XX
+yY
+ZS
+ve
+ve
+og
+vx
+Cq
+Cy
+xu
+ho
+BO
+tM
 iw
 iw
 iw
@@ -136717,40 +138474,40 @@ iw
 iw
 iw
 iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
+tM
+ZS
+JH
+yU
+ZS
+yU
+Uj
+ZS
+Dg
+PY
+Dg
+XX
+XX
+hv
+hv
+Ka
+XX
+XX
+XX
+XX
+XX
+XX
+yY
+ZS
+ve
+YA
+og
+vx
+xu
+wm
+xu
+Ov
+BO
+tM
 iw
 iw
 iw
@@ -137019,40 +138776,40 @@ iw
 iw
 iw
 iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
+tM
+ZS
+yU
+JH
+lN
+dp
+yU
+ZS
+Dg
+PY
+Dg
+XX
+hv
+cU
+sF
+tM
+tM
+tM
+tM
+XX
+Kk
+XX
+yY
+ZS
+ve
+td
+og
+vx
+xu
+XR
+xu
+hz
+BO
+tM
 iw
 iw
 iw
@@ -137321,40 +139078,40 @@ iw
 iw
 iw
 iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
+tM
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+tM
+pm
+tM
+XX
+XX
+hv
+Ly
+tM
+zX
+uK
+tM
+XX
+XX
+qs
+tM
+oD
+ve
+ve
+ve
+As
+jD
+bY
+bY
+pu
+tM
+tM
 iw
 iw
 iw
@@ -137623,40 +139380,40 @@ iw
 iw
 iw
 iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
+tM
+tM
+pm
+tM
+tM
+tM
+pm
+tM
+tM
+tM
+tM
+ZK
+ZK
+vE
+Hu
+tM
+lY
+lY
+Cr
+XX
+qs
+qs
+tM
+tM
+tM
+pP
+pP
+tM
+BO
+BO
+Ip
+tM
+tM
+tM
 iw
 iw
 iw
@@ -137926,38 +139683,38 @@ iw
 iw
 iw
 iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
-iw
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
 iw
 iw
 iw
@@ -196819,22 +198576,22 @@ AN
 AN
 ei
 ei
+Pw
+ei
+PU
 ei
 ei
 ei
+oh
+ei
+ei
+lE
+ei
+PU
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
+oK
 ei
 ei
 ei
@@ -196862,7 +198619,7 @@ AN
 ei
 ei
 ei
-ei
+oh
 AN
 AN
 AN
@@ -196883,8 +198640,8 @@ AN
 ei
 ei
 ei
-ei
-ei
+gA
+oh
 ei
 ei
 AN
@@ -197120,6 +198877,7 @@ AN
 AN
 AN
 ei
+oh
 ei
 ei
 ei
@@ -197135,17 +198893,16 @@ ei
 ei
 ei
 ei
+oh
 ei
 ei
 ei
+gA
+Cg
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-ei
+oh
 ei
 ei
 ei
@@ -197428,6 +199185,19 @@ ei
 ei
 ei
 ei
+nW
+ei
+ei
+oh
+ei
+ei
+ei
+mC
+ei
+ei
+ei
+ei
+oh
 ei
 ei
 ei
@@ -197436,6 +199206,20 @@ ei
 ei
 ei
 ei
+nr
+ei
+oh
+ei
+IV
+ei
+ei
+ei
+ei
+mm
+ei
+ei
+ei
+Pw
 ei
 ei
 ei
@@ -197443,42 +199227,15 @@ ei
 ei
 ei
 ei
+gA
+Cg
 ei
 ei
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
+gA
+Cg
 ei
 ei
 ei
@@ -197767,7 +199524,7 @@ ei
 ei
 ei
 ei
-ei
+Pw
 ei
 ei
 ei
@@ -198023,8 +199780,10 @@ AN
 AN
 AN
 ei
+oh
 ei
 ei
+FA
 ei
 ei
 ei
@@ -198034,7 +199793,9 @@ ei
 ei
 ei
 ei
+gA
 ei
+oh
 ei
 ei
 ei
@@ -198045,6 +199806,7 @@ ei
 ei
 ei
 ei
+Pw
 ei
 ei
 ei
@@ -198059,6 +199821,8 @@ ei
 ei
 ei
 ei
+gA
+Cg
 ei
 ei
 ei
@@ -198072,6 +199836,8 @@ ei
 ei
 ei
 ei
+gA
+Cg
 ei
 ei
 ei
@@ -198085,16 +199851,7 @@ ei
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
+gA
 ei
 ei
 ei
@@ -198335,6 +200092,18 @@ ei
 ei
 ei
 ei
+PU
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+IV
+ei
+ei
+PU
 ei
 ei
 ei
@@ -198357,20 +200126,8 @@ ei
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
+gA
+Cg
 ei
 ei
 ei
@@ -198391,8 +200148,8 @@ ei
 ei
 ei
 ei
-ei
-ei
+gA
+oh
 ei
 ei
 ei
@@ -198633,6 +200390,7 @@ ei
 ei
 ei
 ei
+Pw
 ei
 ei
 ei
@@ -198660,14 +200418,13 @@ ei
 ei
 ei
 ei
+nr
 ei
 ei
+oh
 ei
 ei
-ei
-ei
-ei
-ei
+IV
 ei
 ei
 ei
@@ -198677,7 +200434,7 @@ ei
 ei
 ei
 tR
-bS
+Fy
 bS
 bS
 mx
@@ -198688,8 +200445,8 @@ ei
 ei
 ei
 ei
-ei
-ei
+gA
+Cg
 ei
 ei
 ei
@@ -198930,6 +200687,34 @@ AN
 ei
 ei
 ei
+IV
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+ei
+IV
+ei
+ei
+ei
+Pw
+ei
+ei
+ei
+ei
+ei
+Rs
+ei
+ei
+ei
+oh
+ei
+ei
+ge
 ei
 ei
 ei
@@ -198945,44 +200730,16 @@ ei
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
+IV
 ei
 ei
 ei
 tR
 ER
 ER
+sz
 ER
-ER
-ER
+sz
 mx
 ei
 ei
@@ -198998,8 +200755,8 @@ ei
 ei
 ei
 ei
-ei
-ei
+gA
+oh
 ei
 jL
 jL
@@ -199239,6 +200996,13 @@ ei
 ei
 ei
 ei
+oh
+ei
+ei
+ei
+ei
+ei
+oh
 ei
 ei
 ei
@@ -199255,14 +201019,7 @@ ei
 ei
 ei
 ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
-ei
+oh
 ei
 ei
 ei
@@ -199289,7 +201046,7 @@ ER
 Ww
 ei
 ei
-ei
+oh
 ei
 jL
 jL
@@ -199535,9 +201292,9 @@ ei
 ei
 ei
 ei
+oh
 ei
-ei
-ei
+iq
 ei
 ei
 ei
@@ -199575,7 +201332,7 @@ jL
 jL
 ei
 ei
-jL
+sR
 jL
 jL
 jL
@@ -199833,14 +201590,7 @@ AN
 AN
 AN
 jL
-jL
-jL
-jL
-ei
-ei
-ei
-ei
-jL
+sR
 jL
 jL
 ei
@@ -199850,9 +201600,8 @@ ei
 jL
 jL
 jL
-jL
-jL
-jL
+ei
+Yn
 ei
 ei
 jL
@@ -199860,9 +201609,17 @@ jL
 jL
 jL
 jL
+jL
 ei
+gA
+jL
+jL
+jL
+jL
+jL
 ei
-ei
+gA
+Cg
 ei
 ei
 jL
@@ -199882,10 +201639,10 @@ jL
 jL
 jL
 sd
-ER
+sz
 ER
 lQ
-IT
+ED
 IT
 IT
 Vd
@@ -200160,6 +201917,7 @@ jL
 jL
 jL
 jL
+sR
 jL
 jL
 jL
@@ -200167,15 +201925,14 @@ jL
 jL
 jL
 jL
+sR
 jL
 jL
 jL
 jL
 jL
 jL
-jL
-jL
-jL
+sR
 jL
 jL
 jL
@@ -200184,7 +201941,7 @@ jL
 jL
 jL
 sd
-ER
+sz
 ER
 Be
 Ev
@@ -200435,10 +202192,10 @@ AN
 AN
 AN
 AN
-np
 lw
 lw
 lw
+lw
 jL
 jL
 jL
@@ -200453,7 +202210,7 @@ jL
 jL
 jL
 jL
-jL
+sR
 jL
 jL
 jL
@@ -200486,7 +202243,7 @@ lw
 lw
 lw
 sd
-ER
+sz
 ER
 Dh
 Dh
@@ -200503,12 +202260,12 @@ jL
 jL
 jL
 jL
-jL
+Kg
 Xg
 Xg
 Xg
 Xg
-jL
+eC
 jL
 AN
 AN
@@ -200737,7 +202494,7 @@ AN
 AN
 AN
 AN
-np
+lw
 lw
 lw
 lw
@@ -200791,11 +202548,11 @@ jQ
 ER
 ER
 Dh
-JH
-JH
-JH
+Qe
+ie
+wx
 Dh
-ER
+sz
 ER
 Ww
 jL
@@ -200805,12 +202562,12 @@ jL
 lw
 lw
 lw
-lw
+PZ
 Xg
 Xg
 Xg
 Xg
-jL
+eC
 jL
 AN
 AN
@@ -201038,31 +202795,6 @@ AN
 AN
 AN
 AN
-np
-np
-TW
-lw
-lw
-lw
-lw
-lw
-lw
-lw
-lw
-lw
-lw
-lw
-lw
-lw
-lw
-lw
-lw
-lw
-lw
-lw
-lw
-lw
-lw
 lw
 lw
 TW
@@ -201075,6 +202807,31 @@ lw
 lw
 lw
 lw
+lw
+lw
+lw
+lw
+lw
+lw
+lw
+lw
+lw
+lw
+lw
+lw
+lw
+lw
+lw
+TW
+lw
+lw
+lw
+lw
+lw
+lw
+lw
+lw
+lw
 jL
 jL
 jL
@@ -201088,16 +202845,16 @@ lw
 lw
 lw
 TW
-lw
+ME
 jQ
 ER
-ER
+sz
 CO
-JH
-JH
-JH
+RC
+cW
+RC
 CO
-ER
+sz
 ER
 Ww
 jL
@@ -201107,17 +202864,17 @@ lw
 lw
 lw
 lw
-lw
+PZ
 Xg
 Xg
 Xg
 Xg
-cF
-cF
-cF
-cF
-cF
-cF
+Xc
+Xc
+Xc
+Xc
+Xc
+Xc
 AN
 iw
 iw
@@ -201340,8 +203097,8 @@ AN
 AN
 AN
 AN
-np
-np
+lw
+lw
 TW
 lw
 lw
@@ -201393,11 +203150,11 @@ TW
 lw
 jQ
 ER
-ER
+sz
 CO
-JH
-JH
-JH
+BI
+RC
+BI
 CO
 ER
 ER
@@ -201410,16 +203167,16 @@ lw
 TW
 lw
 lw
-lw
+CA
 Xg
 Xg
 Xg
-cF
+Tu
 js
-js
-js
-js
-cF
+xq
+xq
+xq
+Xc
 AN
 iw
 iw
@@ -201642,8 +203399,8 @@ AN
 AN
 AN
 AN
-np
-np
+lw
+lw
 lw
 lw
 TW
@@ -201697,12 +203454,12 @@ jQ
 ER
 ER
 CO
-JH
-JH
-JH
+ia
+Kd
+fW
 CO
 ER
-ER
+sz
 Xz
 lw
 lw
@@ -201712,16 +203469,16 @@ TW
 TW
 TW
 TW
-TW
-lw
+Qw
+CA
 Xg
 Xg
-cF
+Tu
 js
 js
 js
 js
-cF
+Xc
 AN
 iw
 iw
@@ -201945,7 +203702,7 @@ AN
 AN
 AN
 AN
-np
+lw
 lw
 TW
 TW
@@ -201998,13 +203755,13 @@ TW
 is
 ER
 ER
-CO
-JH
-JH
-JH
-CO
+RL
+Kd
+Kd
+Kd
+gs
 ER
-ER
+sz
 Xz
 TW
 TW
@@ -202014,16 +203771,16 @@ lw
 lw
 TW
 TW
-TW
-TW
+Qw
+Qw
 Xg
 Xg
 Cf
 js
 js
 js
-js
-cF
+WF
+Xc
 AN
 iw
 iw
@@ -202247,17 +204004,17 @@ AN
 AN
 AN
 AN
-np
+lw
 TW
 TW
 TW
 TW
-np
-np
 TW
 TW
-np
-np
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -202301,12 +204058,12 @@ is
 ER
 ER
 CO
-JH
-JH
-JH
+uv
+Kd
+Kd
 CO
 ER
-ER
+sz
 tt
 TW
 TW
@@ -202316,16 +204073,16 @@ lw
 lw
 TW
 TW
-TW
+Qw
 Xg
-Xg
+mr
 Xg
 Cf
 js
 js
 js
-js
-cF
+WF
+Xc
 AN
 iw
 iw
@@ -202549,17 +204306,17 @@ AN
 AN
 AN
 AN
-np
+lw
 TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -202601,14 +204358,14 @@ lw
 lw
 is
 ER
-ER
+sz
 CO
-JH
-JH
-JH
+CO
+Hb
+CO
 CO
 ER
-ER
+sz
 Xz
 TW
 TW
@@ -202618,16 +204375,16 @@ lw
 lw
 lw
 TW
-TW
+Qw
+mr
+mr
 Xg
-Xg
-Xg
-cF
+Tu
 js
 js
 js
 js
-cF
+Xc
 AN
 iw
 iw
@@ -202851,19 +204608,19 @@ AN
 AN
 AN
 AN
-np
-np
+lw
+lw
 TW
 TW
-np
-np
-np
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -202902,12 +204659,12 @@ lw
 lw
 TW
 is
-ER
-ER
+sz
+sz
 CO
-JH
-JH
-JH
+Dv
+Dv
+Dv
 CO
 ER
 ER
@@ -202919,17 +204676,17 @@ lw
 lw
 lw
 lw
-lw
+PZ
+mr
+mr
 Xg
 Xg
-Xg
-Xg
-cF
+Tu
+XH
 js
 js
 js
-js
-cF
+Xc
 AN
 iw
 iw
@@ -203153,20 +204910,20 @@ AN
 AN
 AN
 AN
-np
-np
+lw
+lw
 TW
 TW
-np
-np
-np
-np
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -203198,7 +204955,7 @@ TW
 TW
 TW
 lw
-np
+lw
 TW
 TW
 TW
@@ -203207,31 +204964,31 @@ is
 ER
 ER
 CO
-JH
-JH
-JH
+js
+js
+js
 CO
-ER
+sz
 ER
 Xz
 TW
 TW
 lw
+ME
 lw
 lw
 lw
-lw
-lw
+PZ
+cY
+mr
 Xg
-Xg
-Xg
-Xg
-cF
-cF
-cF
-js
-cF
-cF
+Qc
+Xc
+Xc
+Xc
+JV
+Xc
+Xc
 AN
 iw
 iw
@@ -203455,19 +205212,8 @@ AN
 AN
 AN
 AN
-np
-np
-TW
-TW
-np
-np
-np
-np
-np
-np
-np
-np
-np
+lw
+lw
 TW
 TW
 TW
@@ -203498,22 +205244,33 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
 TW
 TW
 TW
-is
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+lw
+lw
+lw
+lw
+TW
+TW
+TW
+XE
 ER
 ER
 CO
-JH
-JH
-JH
+Xf
+js
+CQ
 CO
-ER
+sz
 ER
 Xz
 TW
@@ -203523,17 +205280,17 @@ lw
 lw
 lw
 lw
-lw
+PZ
+cY
+cY
 Xg
 Xg
-Xg
-Xg
-cF
+Xc
 js
 js
 js
 js
-cF
+Xc
 AN
 iw
 iw
@@ -203758,19 +205515,7 @@ AN
 AN
 AN
 AN
-np
-TW
-TW
-TW
-np
-np
-np
-np
-np
-np
-np
-np
-np
+lw
 TW
 TW
 TW
@@ -203800,20 +205545,32 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+lw
+lw
+lw
+lw
+lw
 TW
 TW
 is
 ER
-ER
+sz
 CO
-JH
-JH
-JH
+Jg
+js
+Po
 CO
 ER
 ER
@@ -203825,9 +205582,9 @@ lw
 lw
 lw
 lw
-TW
-Xg
-Xg
+iS
+cY
+mr
 Xg
 Xg
 Tu
@@ -204060,19 +205817,7 @@ AN
 AN
 AN
 AN
-np
-TW
-TW
-TW
-np
-np
-np
-np
-np
-np
-np
-np
-np
+lw
 TW
 TW
 TW
@@ -204100,22 +205845,34 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+lw
+lw
+lw
+lw
+lw
+lw
+lw
 TW
 TW
 is
 ER
 ER
 CO
-JH
-JH
-JH
+AJ
+js
+Gm
 CO
 ER
 ER
@@ -204127,9 +205884,9 @@ TW
 lw
 lw
 lw
-TW
-Xg
-Xg
+iS
+cY
+mr
 Xg
 Xg
 Tu
@@ -204361,19 +206118,8 @@ AN
 AN
 AN
 AN
-np
-np
-TW
-TW
-TW
-np
-np
-np
-np
-np
-np
-np
-np
+lw
+lw
 TW
 TW
 TW
@@ -204403,21 +206149,32 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+lw
+lw
+lw
+lw
+lw
+lw
 TW
 TW
 is
 ER
-ER
+sz
 CO
-JH
-JH
-JH
+Kp
+js
+LR
 CO
 ER
 ER
@@ -204428,10 +206185,10 @@ TW
 TW
 TW
 lw
-TW
-TW
-Xg
-Xg
+Yw
+iS
+cY
+mr
 Xg
 Xg
 Tu
@@ -204663,19 +206420,7 @@ AN
 AN
 AN
 AN
-np
-TW
-TW
-TW
-TW
-np
-np
-np
-np
-np
-np
-np
-np
+lw
 TW
 TW
 TW
@@ -204706,20 +206451,32 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+lw
+lw
+lw
+lw
 TW
 TW
 TW
 is
 ER
-ER
+sz
 CO
-JH
-JH
-JH
+pH
+js
+Id
 CO
 ER
 ER
@@ -204732,12 +206489,12 @@ TW
 TW
 TW
 TW
-TW
-Xg
-Xg
+Qw
+mr
+mr
 Xg
 el
-js
+Aj
 js
 SA
 yF
@@ -204965,19 +206722,9 @@ AN
 AN
 AN
 AN
-np
-np
-np
-TW
-TW
-TW
-np
-np
-np
-np
-np
-np
-np
+lw
+lw
+lw
 TW
 TW
 TW
@@ -205009,9 +206756,19 @@ TW
 TW
 TW
 TW
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+lw
+lw
+lw
 TW
 TW
 TW
@@ -205019,23 +206776,23 @@ is
 ER
 ER
 CO
-JH
-JH
-JH
+js
+js
+Yl
 CO
 ER
 ER
 Xz
 TW
 TW
-np
+lw
 TW
 TW
 TW
 TW
 TW
-TW
-Xg
+Qw
+mr
 Xg
 Xg
 Tu
@@ -205268,18 +207025,8 @@ AN
 AN
 AN
 AN
-np
-np
-TW
-TW
-TW
-np
-np
-np
-np
-np
-np
-np
+lw
+lw
 TW
 TW
 TW
@@ -205312,32 +207059,42 @@ TW
 TW
 TW
 TW
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+lw
 TW
 TW
 TW
 TW
 is
-ER
+sz
 ER
 CO
-JH
-JH
-JH
+Dv
+Dv
+Dv
 CO
 ER
 ER
 Xz
 TW
-np
-np
-np
+lw
+lw
+lw
 TW
 TW
 TW
-TW
-Xg
-Xg
+iS
+mr
+mr
 Xg
 Xg
 Tu
@@ -205571,17 +207328,17 @@ AN
 AN
 AN
 AN
-np
+lw
 TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -205620,29 +207377,29 @@ TW
 TW
 TW
 is
-ER
+sz
 ER
 CO
-JH
-JH
-JH
+CO
+Hb
+CO
 CO
 ER
 ER
 Xz
 TW
-np
-np
-np
+lw
+lw
+lw
 TW
 TW
 TW
-TW
+iS
+Xg
+mr
 Xg
 Xg
-Xg
-Xg
-cF
+Xc
 js
 js
 js
@@ -205873,16 +207630,16 @@ AN
 AN
 AN
 AN
-np
+lw
 TW
 TW
 TW
 TW
 TW
-np
-np
-np
-np
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -205925,26 +207682,26 @@ is
 ER
 ER
 CO
-JH
-JH
-JH
+Pi
+GG
+IF
 CO
 ER
 ER
 Xz
 TW
 TW
-np
-np
+lw
+lw
 TW
 TW
 TW
-TW
+iS
+Xg
+mr
 Xg
 Xg
-Xg
-Xg
-cF
+Xc
 js
 js
 js
@@ -206182,8 +207939,6 @@ TW
 TW
 TW
 TW
-np
-np
 TW
 TW
 TW
@@ -206196,8 +207951,10 @@ TW
 TW
 TW
 TW
-np
-np
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -206227,9 +207984,9 @@ is
 ER
 ER
 CO
-JH
-JH
-JH
+er
+GG
+ze
 CO
 ER
 ER
@@ -206241,17 +207998,17 @@ TW
 TW
 TW
 TW
-TW
-Xg
-Xg
-Xg
+iS
+CE
+cY
+mr
 Xg
 Tu
 js
 js
 js
 js
-cF
+Xc
 AN
 iw
 iw
@@ -206495,15 +208252,15 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -206528,11 +208285,11 @@ TW
 is
 ER
 ER
-CO
-JH
-JH
-JH
-CO
+RL
+GG
+GG
+GG
+gs
 ER
 ER
 Xz
@@ -206543,17 +208300,17 @@ TW
 TW
 TW
 TW
-TW
-Xg
-Xg
-Xg
+iS
+mr
+cY
+mr
 Xg
 Tu
 js
 js
 js
 js
-cF
+Xc
 AN
 iw
 iw
@@ -206798,15 +208555,6 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
-np
-np
-np
 TW
 TW
 TW
@@ -206826,14 +208574,23 @@ TW
 TW
 TW
 TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+TW
+Yw
 TW
 is
 ER
-ER
+Mj
 CO
-JH
-JH
-JH
+NI
+GG
+NI
 CO
 ER
 ER
@@ -206845,17 +208602,17 @@ TW
 TW
 TW
 TW
-np
-Xg
-Xg
-Xg
+lw
+cY
+cY
+mr
 Xg
 Tu
 Tu
 Tu
-cF
-cF
-cF
+Xc
+Xc
+Xc
 AN
 iw
 iw
@@ -207099,13 +208856,13 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -207133,9 +208890,9 @@ is
 ER
 ER
 CO
-JH
-JH
-JH
+sv
+GG
+Vj
 CO
 ER
 ER
@@ -207147,17 +208904,17 @@ TW
 TW
 TW
 TW
-np
-np
+lw
+lw
+cY
+mr
 Xg
-Xg
-Xg
+bi
 TW
-TW
-np
-np
-np
-np
+lw
+lw
+lw
+lw
 AN
 iw
 iw
@@ -207403,12 +209160,12 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -207435,9 +209192,9 @@ is
 ER
 ER
 CO
-JH
-JH
-JH
+jh
+GG
+jh
 CO
 ER
 ER
@@ -207448,18 +209205,18 @@ TW
 TW
 TW
 TW
-np
-np
-np
+lw
+lw
+lw
+mr
+mr
 Xg
-Xg
-Xg
+bi
 TW
 TW
-TW
-np
-np
-np
+lw
+lw
+lw
 AN
 iw
 iw
@@ -207707,11 +209464,11 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
+TW
+TW
+TW
+TW
+TW
 TW
 TW
 TW
@@ -207735,11 +209492,11 @@ TW
 TW
 is
 ER
-ER
+SA
 CO
-JH
-JH
-JH
+nN
+GG
+at
 CO
 ER
 ER
@@ -207750,17 +209507,17 @@ TW
 TW
 TW
 TW
-np
-np
-np
+lw
+lw
+lw
+mr
+mr
 Xg
-Xg
-Xg
+bi
 TW
 TW
 TW
-TW
-np
+lw
 AN
 AN
 iw
@@ -208010,11 +209767,6 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
-np
 TW
 TW
 TW
@@ -208035,13 +209787,18 @@ TW
 TW
 TW
 TW
-is
-ER
-ER
+TW
+TW
+TW
+TW
+lw
+jQ
+SA
+SA
 CO
-JH
-JH
-JH
+TN
+GG
+TN
 CO
 ER
 ER
@@ -208052,13 +209809,13 @@ TW
 TW
 TW
 TW
-np
-np
-np
+lw
+lw
+lw
+mr
+mr
 Xg
-Xg
-Xg
-TW
+bi
 TW
 TW
 TW
@@ -208313,10 +210070,6 @@ TW
 TW
 TW
 TW
-np
-np
-np
-np
 TW
 TW
 TW
@@ -208337,13 +210090,17 @@ TW
 TW
 TW
 TW
-is
-ER
-ER
-CO
-JH
-JH
-JH
+TW
+TW
+TW
+lw
+lw
+lw
+SA
+kV
+SA
+GG
+nN
 CO
 ER
 ER
@@ -208354,13 +210111,13 @@ TW
 TW
 TW
 TW
-np
-np
+lw
+PZ
+cY
+cY
+mr
 Xg
-Xg
-Xg
-Xg
-TW
+bi
 TW
 TW
 TW
@@ -208638,14 +210395,14 @@ TW
 TW
 TW
 TW
-TW
-is
-ER
-ER
-CO
-JH
-JH
-JH
+lw
+lw
+lw
+lw
+lw
+lw
+SA
+TN
 CO
 ER
 ER
@@ -208657,11 +210414,11 @@ TW
 TW
 TW
 TW
-np
-Xg
-Xg
-Xg
-TW
+PZ
+mr
+mr
+mr
+Qw
 TW
 TW
 TW
@@ -208940,13 +210697,13 @@ TW
 TW
 TW
 TW
-TW
-is
-ER
-ER
-CO
-CO
-CO
+lw
+lw
+lw
+lw
+lw
+lw
+kV
 CO
 CO
 ER
@@ -208959,11 +210716,11 @@ TW
 TW
 TW
 TW
-TW
+iS
 Xg
+mr
 Xg
-Xg
-TW
+Qw
 TW
 TW
 TW
@@ -209243,12 +211000,12 @@ TW
 TW
 TW
 TW
-is
-ER
-ER
-ER
-ER
-ER
+lw
+lw
+lw
+lw
+SA
+SA
 ER
 ER
 ER
@@ -209261,11 +211018,11 @@ TW
 TW
 TW
 TW
-TW
+iS
 Xg
-Xg
-Xg
-TW
+mr
+Qc
+Qw
 TW
 TW
 TW
@@ -209545,11 +211302,11 @@ TW
 TW
 TW
 TW
-TW
-mh
-ER
-ER
-ER
+lw
+lw
+lw
+lw
+SA
 ER
 ER
 ER
@@ -209563,12 +211320,12 @@ TW
 TW
 TW
 TW
-TW
+iS
+Xg
+mr
 Xg
 Xg
-Xg
-Xg
-TW
+bi
 TW
 TW
 TW
@@ -209848,14 +211605,14 @@ TW
 TW
 TW
 TW
-TW
+lw
+lw
 yQ
 yQ
 yQ
 yQ
 yQ
 yQ
-yQ
 TW
 TW
 TW
@@ -209865,12 +211622,12 @@ TW
 TW
 TW
 TW
-TW
-TW
+iS
 Xg
 Xg
 Xg
-TW
+Xg
+bi
 TW
 TW
 TW
@@ -210167,12 +211924,12 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
+iS
 Xg
 Xg
-TW
+Xg
+Xg
+bi
 TW
 TW
 TW
@@ -218993,7 +220750,7 @@ iw
 iw
 iw
 iw
-iw
+gc
 iw
 iw
 iw
@@ -219295,7 +221052,7 @@ iw
 iw
 iw
 iw
-iw
+gc
 iw
 iw
 iw
@@ -219597,7 +221354,7 @@ iw
 iw
 iw
 iw
-iw
+gc
 iw
 iw
 iw
@@ -224919,7 +226676,7 @@ TW
 TW
 TW
 TW
-TW
+QN
 TW
 TW
 TW
@@ -225226,6 +226983,7 @@ TW
 TW
 TW
 TW
+Yw
 TW
 TW
 TW
@@ -225233,8 +226991,7 @@ TW
 TW
 TW
 TW
-TW
-TW
+QN
 TW
 TW
 TW
@@ -225507,14 +227264,14 @@ TW
 TW
 TW
 TW
+Yw
 TW
 TW
 TW
 TW
 TW
 TW
-TW
-TW
+QN
 TW
 TW
 TW
@@ -226117,31 +227874,31 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
+qd
 TW
 TW
 TW
@@ -226413,38 +228170,38 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+qd
+qd
+qd
+qd
+qd
+Fd
+tv
+tv
+CU
+tv
+tv
+tv
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+mk
 TW
 TW
 TW
@@ -226714,42 +228471,42 @@ AN
 TW
 TW
 TW
+KU
+LS
+kf
+kf
+pG
+kf
+kf
+Sw
+tv
+xO
+vx
+tM
+tM
+tM
+Ye
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+CU
+CU
+Xz
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+Ap
 TW
 TW
 TW
@@ -227015,43 +228772,43 @@ AN
 TW
 TW
 TW
+is
+Ur
+qe
+Dm
+Dm
+tP
+Dm
+Dm
+sY
+tv
+vx
+tL
+NW
+vH
+NW
+NW
+un
+un
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+Ap
 TW
 TW
 TW
@@ -227317,43 +229074,43 @@ AN
 AN
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+is
+Ur
+qe
+Dm
+Dm
+SB
+Dm
+Dm
+Kf
+bn
+vx
+tL
+od
+NW
+NW
+NW
+NW
+FB
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+Ap
 TW
 TW
 TW
@@ -227619,43 +229376,43 @@ AN
 AN
 TW
 TW
+is
+Ur
+qe
+Dm
+Dm
+tP
+Dm
+Dm
+Oo
+tv
+vx
+tL
+NW
+NW
+pd
+NW
+un
+un
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+Ap
 TW
 TW
 TW
@@ -227922,42 +229679,42 @@ AN
 TW
 TW
 TW
+Do
+IZ
+Bu
+Bu
+aD
+Bu
+aV
+li
+CU
+tv
+vx
+tM
+tM
+tM
+Ye
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+tM
+CU
+CU
+Xz
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+Ap
 TW
 TW
 TW
@@ -228225,38 +229982,38 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+yQ
+yQ
+yQ
+yQ
+yQ
+mh
+CU
+CU
+CU
+tv
+tv
+bn
+bn
+bn
+tv
+tv
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+CU
+hw
 TW
 TW
 TW
@@ -228533,31 +230290,31 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+yQ
+tT
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
+yQ
 TW
 TW
 TW
@@ -229748,12 +231505,12 @@ TW
 TW
 TW
 TW
+Yw
 TW
 TW
 TW
 TW
-TW
-TW
+Yw
 TW
 TW
 TW
@@ -230671,7 +232428,7 @@ TW
 TW
 TW
 TW
-TW
+QN
 TW
 TW
 TW
@@ -247261,6 +249018,39 @@ TW
 TW
 TW
 TW
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
 TW
 TW
 TW
@@ -247397,40 +249187,7 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+AN
 AN
 AN
 AN
@@ -247560,45 +249317,45 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
 TW
 TW
 TW
@@ -247862,45 +249619,45 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
+CO
+CO
 TW
 TW
 TW
@@ -248164,45 +249921,45 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+It
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -248465,47 +250222,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+Ux
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
+CO
 TW
 TW
 TW
@@ -248767,47 +250524,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -249069,47 +250826,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+Ux
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -249371,47 +251128,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+WY
+mU
+WY
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -249673,47 +251430,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -249975,47 +251732,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -250277,47 +252034,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -250579,47 +252336,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+Gq
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -250881,47 +252638,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+SO
+SO
+SO
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+Ih
+Gq
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -251183,47 +252940,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+Ux
+mU
+mU
+mU
+mU
+mU
+Gq
+Gq
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -251485,47 +253242,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -251787,47 +253544,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -252089,47 +253846,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+Ux
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -252391,47 +254148,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+SO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -252693,47 +254450,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+SO
+SO
+mU
+mU
+mU
+mU
+mU
+mU
+Gq
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -252995,47 +254752,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+SO
+SO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -253297,47 +255054,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+SO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -253599,47 +255356,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+Gq
+Gq
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -253901,47 +255658,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+WY
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+Gq
+Gq
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+WY
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -254203,47 +255960,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+Gq
+Gq
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -254505,47 +256262,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+Gq
+Gq
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -254807,6 +256564,47 @@ TW
 TW
 TW
 TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+It
+mU
+mU
+mU
+mU
+Gq
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -254936,48 +256734,7 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+AN
 AN
 AN
 AN
@@ -255109,47 +256866,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -255411,47 +257168,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+SO
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -255713,47 +257470,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+SO
+SO
+mU
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -256015,47 +257772,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+SO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -256317,47 +258074,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+SO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -256619,47 +258376,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -256921,47 +258678,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+WY
+WY
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -257223,47 +258980,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+WY
+WY
+WY
+WY
+WY
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -257525,47 +259282,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+Ux
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -257827,47 +259584,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -258129,47 +259886,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -258421,6 +260178,7 @@ AN
 AN
 AN
 AN
+AN
 TW
 TW
 TW
@@ -258430,48 +260188,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -258723,6 +260480,7 @@ AN
 AN
 AN
 AN
+AN
 TW
 TW
 TW
@@ -258732,48 +260490,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -259025,6 +260782,7 @@ AN
 AN
 AN
 AN
+AN
 TW
 TW
 TW
@@ -259034,48 +260792,47 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
+CO
 TW
 TW
 TW
@@ -259327,6 +261084,7 @@ AN
 AN
 AN
 AN
+AN
 TW
 TW
 TW
@@ -259337,46 +261095,45 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
 TW
 TW
 TW
@@ -259640,45 +261397,45 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+CO
+CO
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+mU
+CO
+CO
+CO
+CO
 TW
 TW
 TW
@@ -259942,45 +261699,45 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
 TW
 TW
 TW
@@ -260247,39 +262004,39 @@ TW
 TW
 TW
 TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
-TW
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
+CO
 TW
 TW
 TW
