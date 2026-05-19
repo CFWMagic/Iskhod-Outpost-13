@@ -155,7 +155,12 @@
 /turf/simulated/floor/tiled/dark/orangecorner,
 /area/iskhod/engineering/solars_control)
 "fN" = (
-/obj/structure/bed/chair,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4";
+	dir = 1
+	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "fO" = (
@@ -242,6 +247,17 @@
 	},
 /obj/structure/cable{
 	dir = 1
+	},
+/turf/simulated/floor/carpet/oracarpet,
+/area/iskhod/engineering/solars_control)
+"hM" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
 	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
@@ -471,12 +487,6 @@
 /obj/item/stack/cable_coil,
 /obj/item/stack/cable_coil,
 /obj/item/stack/cable_coil,
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4";
-	dir = 4
-	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "sB" = (
@@ -520,6 +530,19 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/iskhod/engineering/solars)
+"uP" = (
+/obj/machinery/power/solar_control,
+/obj/structure/cable{
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4";
+	dir = 8
+	},
+/turf/simulated/floor/carpet/oracarpet,
+/area/iskhod/engineering/solars_control)
 "uY" = (
 /obj/structure/railing/grey{
 	dir = 4
@@ -597,23 +620,6 @@
 /obj/structure/table/marble,
 /obj/machinery/microwave,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/carpet/oracarpet,
-/area/iskhod/engineering/solars_control)
-"zm" = (
-/obj/machinery/power/solar_control{
-	dir = 1;
-	pixel_y = -4
-	},
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4";
-	dir = 8
-	},
 /turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "Ac" = (
@@ -1174,6 +1180,15 @@
 "XV" = (
 /obj/machinery/vending/engivend,
 /turf/simulated/floor/tiled/dark/orangecorner,
+/area/iskhod/engineering/solars_control)
+"YR" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4";
+	dir = 4
+	},
+/turf/simulated/floor/carpet/oracarpet,
 /area/iskhod/engineering/solars_control)
 "YU" = (
 /obj/structure/table/reinforced,
@@ -4600,7 +4615,7 @@ Ay
 IC
 Pc
 CD
-ux
+SF
 Id
 PO
 Ay
@@ -4702,8 +4717,8 @@ Ay
 IC
 Pc
 CD
-ux
-ux
+uP
+hM
 YU
 wz
 oj
@@ -4802,11 +4817,11 @@ oj
 hm
 Ay
 RR
-Pc
-CD
-ux
+Ht
+jz
+YR
 fN
-zm
+DG
 eV
 LN
 LN
@@ -4904,10 +4919,10 @@ oj
 oj
 Ay
 sT
-Ht
-jz
-DG
-DG
+mZ
+CD
+ux
+ux
 sv
 wz
 oj

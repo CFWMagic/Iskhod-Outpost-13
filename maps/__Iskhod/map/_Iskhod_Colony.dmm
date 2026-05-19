@@ -19151,15 +19151,6 @@
 /obj/structure/dispenser/oxygen,
 /turf/simulated/floor/industrial/navy_large_slates,
 /area/iskhod/security/sechall)
-"eFu" = (
-/obj/item/farmbot_arm_assembly{
-	created_name = "GardenBot";
-	desc = "A water tank with a robot arm permanently grafted to it. Looks like its only one set away from making all the gardenerds unemployed.";
-	name = "Replacement Gardener - water tank/robot arm assembly"
-	},
-/obj/item/device/assembly/prox_sensor,
-/turf/simulated/floor/industrial/ceramic,
-/area/iskhod/crew_quarters/hydroponics)
 "eFI" = (
 /obj/machinery/door/window/iskhod{
 	dir = 2;
@@ -36991,7 +36982,6 @@
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/device/scanner/plant,
 /obj/item/storage/makeshift_grinder,
-/obj/machinery/camera/network/colony_underground,
 /obj/item/clothing/gloves/botanic_leather,
 /turf/simulated/floor/industrial/ceramic,
 /area/iskhod/crew_quarters/hydroponics)
@@ -46731,6 +46721,11 @@
 	},
 /turf/simulated/floor/fixed/hydrotile,
 /area/turret_protected/ai)
+"lqb" = (
+/obj/machinery/portable_atmospherics/hydroponics,
+/obj/machinery/camera/network/colony_underground,
+/turf/simulated/floor/industrial/ceramic,
+/area/iskhod/crew_quarters/hydroponics)
 "lqc" = (
 /obj/structure/closet/crate/trashcart,
 /turf/simulated/floor/industrial/blue_slates_long,
@@ -119579,7 +119574,7 @@ xKe
 vVL
 wMy
 phB
-nuP
+lqb
 jJh
 mwq
 jJh
@@ -119991,7 +119986,7 @@ jJh
 uaY
 mQz
 mwq
-eFu
+jJh
 lyx
 dxR
 qlS
