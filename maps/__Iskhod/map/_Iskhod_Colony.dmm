@@ -22775,7 +22775,7 @@
 /obj/effect/floor_decal/industrial_plant/border{
 	dir = 1
 	},
-/turf/simulated/open,
+/turf/simulated/floor/plating/under,
 /area/iskhod/hallway/surface/section1)
 "fAc" = (
 /obj/structure/table/standard,
