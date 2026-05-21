@@ -23,7 +23,7 @@ var/global/clucker_count = 0
 	bones_amount = 4 //The amount of bone sheets dropped.
 	has_special_parts = TRUE //var for checking during the butcher process.
 	special_parts = list(/obj/item/animal_part/clucker_feather)
-	_friend = TRUE
+	colony_friend = TRUE
 
 /mob/living/carbon/superior/lodge/clucker/New()
 	..()
