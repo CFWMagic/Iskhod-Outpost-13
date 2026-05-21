@@ -1,7 +1,7 @@
 //Adding in robot energy powered variants of guns, to avoid the hassle of needing to reload, etc. Centralising them all here for ease of use.
 
 /obj/item/gun/energy/riot
-	name = "intergrated \"State\" riot shotgun"
+	name = "integrated \"State\" riot shotgun"
 	desc = "A Seinemetall Defense GmbH riot auto action shotgun, its uncommonly seen deployed in most police operation due to the success of the \"stolen\" \"Regulator\" design. \
 	This particular shotgun has been redesigned many times, never quite reaching a standard everyone was happy with, with some lauding it as confusing for a shotgun. \
 	This variant has been designed to flash-synthesise ammunition from an onboard cell, for Synthetic use."

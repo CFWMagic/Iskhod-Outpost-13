@@ -12,9 +12,9 @@
 #define F_SOUTH "South"
 #define F_EAST "East"
 #define F_WEST "West"
-#define FIREDOOR_TURF "1"
-#define FIREDOOR_ATMOS "2"
-#define FIREDOOR_ALERT "3"
+#define FIREDOOR_TURF 1
+#define FIREDOOR_ATMOS 2
+#define FIREDOOR_ALERT 3
 /obj/machinery/door/firedoor
 	name = "\improper Emergency Shutter"
 	desc = "Emergency air-tight shutter, capable of sealing off breached areas."
@@ -116,16 +116,16 @@
 			var/turf/simulated/redefined_turf = neighbor
 			var/turf_zone = redefined_turf.zone
 			tile_info[cardinal] = list(
-				redefined_turf,
-				FALSE,
-				FALSE
+				FIREDOOR_TURF = redefined_turf,
+				FIREDOOR_ATMOS = FALSE,
+				FIREDOOR_ALERT = FALSE
 			)
 			registered_zas_zones[cardinal] = turf_zone
 		else
 			tile_info[cardinal] =  list(
-				neighbor,
-				FALSE,
-				FALSE
+				FIREDOOR_TURF = neighbor,
+				FIREDOOR_ATMOS = FALSE,
+				FIREDOOR_ALERT = FALSE
 			)
 			registered_zas_zones[cardinal] = null
 	handle_unique_zone_register()
